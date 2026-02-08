@@ -1,0 +1,1217 @@
+{
+    "bulbasaur": {
+        "desc": "Respawn de Bulbasaur",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/bulbasaur.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/bulbasaur",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "ivysaur": {
+        "desc": "Respawn de Ivysaur",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ivysaur.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ivysaur",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "venusaur": {
+        "desc": "Respawn de Venusaur",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/venusaur.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/venusaur",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "charmander": {
+        "desc": "Respawn de Charmander",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/charmander.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/charmander",
+        "locais": [
+            { "map": "kanto", "x": 843, "y": 1556, "qtd": 30 },
+            { "map": "kanto", "x": 1377, "y": 956, "qtd": 12 }
+        ]
+    },
+    "charmeleon": {
+        "desc": "Respawn de Charmeleon",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/charmeleon.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/charmeleon",
+        "locais": [
+            { "map": "kanto", "x": 843, "y": 1556, "qtd": 30 },
+            { "map": "kanto", "x": 1377, "y": 956, "qtd": 20 }
+        ]
+    },
+    "charizard": {
+        "desc": "Respawn de Charizard",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/charizard.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/charizard",
+        "locais": [
+            { "map": "kanto", "x": 843, "y": 1556, "qtd": 30 },
+            { "map": "kanto", "x": 1377, "y": 956, "qtd": 22 },
+            { "map": "johto", "x": 3352, "y": 1434, "qtd": 20 }
+        ]
+    },
+    "squirtle": {
+        "desc": "Respawn de Squirtle",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/squirtle.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/squirtle",
+        "locais": [
+            { "map": "kanto", "x": 848, "y": 1101, "qtd": 20 }
+        ]
+    },
+    "wartortle": {
+        "desc": "Respawn de Wartortle",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/wartortle.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/wartortle",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "blastoise": {
+        "desc": "Respawn de Blastoise",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/blastoise.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/blastoise",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "caterpie": {
+        "desc": "Respawn de Caterpie",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/caterpie.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/caterpie",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "metapod": {
+        "desc": "Respawn de Metapod",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/metapod.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/metapod",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "butterfree": {
+        "desc": "Respawn de Butterfree",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/butterfree.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/butterfree",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "weedle": {
+        "desc": "Respawn de Weedle",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weedle.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weedle",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "kakuna": {
+        "desc": "Respawn de Kakuna",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kakuna.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kakuna",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "beedrill": {
+        "desc": "Respawn de Beedrill",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/beedrill.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/beedrill",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "pidgey": {
+        "desc": "Respawn de Pidgey",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pidgey.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pidgey",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "pidgeotto": {
+        "desc": "Respawn de Pidgeotto",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pidgeotto.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pidgeotto",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "pidgeot": {
+        "desc": "Respawn de Pidgeot",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pidgeot.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pidgeot",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "rattata": {
+        "desc": "Respawn de Rattata",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rattata.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rattata",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "raticate": {
+        "desc": "Respawn de Raticate",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/raticate.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/raticate",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "spearow": {
+        "desc": "Respawn de Spearow",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/spearow.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/spearow",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "fearow": {
+        "desc": "Respawn de Fearow",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/fearow.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/fearow",
+        "locais": [
+            { "map": "kanto", "x": 954, "y": 898, "qtd": 5 }
+        ]
+    },
+    "ekans": {
+        "desc": "Respawn de Ekans",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ekans.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ekans",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "arbok": {
+        "desc": "Respawn de Arbok",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/arbok.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/arbok",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "pikachu": {
+        "desc": "Respawn de Pikachu",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pikachu.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pikachu",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "raichu": {
+        "desc": "Respawn de Raichu",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/raichu.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/raichu",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "sandshrew": {
+        "desc": "Respawn de Sandshrew",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/sandshrew.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/sandshrew",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "sandslash": {
+        "desc": "Respawn de Sandslash",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/sandslash.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/sandslash",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "nidoranf": {
+        "desc": "Respawn de Nidoran F",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoranf.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoran-f",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "nidorina": {
+        "desc": "Respawn de Nidorina",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidorina.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidorina",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "nidoqueen": {
+        "desc": "Respawn de Nidoqueen",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoqueen.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoqueen",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "nidoranm": {
+        "desc": "Respawn de Nidoran M",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoranm.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoran-m",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "nidorino": {
+        "desc": "Respawn de Nidorino",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidorino.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidorino",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "nidoking": {
+        "desc": "Respawn de Nidoking",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoking.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoking",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "clefairy": {
+        "desc": "Respawn de Clefairy",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/clefairy.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/clefairy",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "clefable": {
+        "desc": "Respawn de Clefable",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/clefable.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/clefable",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "vulpix": {
+        "desc": "Respawn de Vulpix",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/vulpix.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/vulpix",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "ninetales": {
+        "desc": "Respawn de Ninetales",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ninetales.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ninetales",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "jigglypuff": {
+        "desc": "Respawn de Jigglypuff",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/jigglypuff.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/jigglypuff",
+        "locais": [
+            { "map": "kanto", "x": 1032, "y": 967, "qtd": 12 }
+        ]
+    },
+    "wigglytuff": {
+        "desc": "Respawn de Wigglytuff",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/wigglytuff.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/wigglytuff",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "zubat": {
+        "desc": "Respawn de Zubat",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/zubat.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/zubat",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "golbat": {
+        "desc": "Respawn de Golbat",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/golbat.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/golbat",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "oddish": {
+        "desc": "Respawn de Oddish",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/oddish.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/oddish",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "gloom": {
+        "desc": "Respawn de Gloom",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gloom.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gloom",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "vileplume": {
+        "desc": "Respawn de Vileplume",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/vileplume.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/vileplume",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "paras": {
+        "desc": "Respawn de Paras",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/paras.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/paras",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "parasect": {
+        "desc": "Respawn de Parasect",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/parasect.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/parasect",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "venonat": {
+        "desc": "Respawn de Venonat",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/venonat.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/venonat",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "venomoth": {
+        "desc": "Respawn de Venomoth",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/venomoth.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/venomoth",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "diglett": {
+        "desc": "Respawn de Diglett",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/diglett.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/diglett",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "dugtrio": {
+        "desc": "Respawn de Dugtrio",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dugtrio.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dugtrio",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "meowth": {
+        "desc": "Respawn de Meowth",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/meowth.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/meowth",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "persian": {
+        "desc": "Respawn de Persian",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/persian.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/persian",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "psyduck": {
+        "desc": "Respawn de Psyduck",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/psyduck.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/psyduck",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "golduck": {
+        "desc": "Respawn de Golduck",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/golduck.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/golduck",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "mankey": {
+        "desc": "Respawn de Mankey",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/mankey.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/mankey",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "primeape": {
+        "desc": "Respawn de Primeape",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/primeape.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/primeape",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "growlithe": {
+        "desc": "Respawn de Growlithe",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/growlithe.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/growlithe",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "arcanine": {
+        "desc": "Respawn de Arcanine",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/arcanine.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/arcanine",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "poliwag": {
+        "desc": "Respawn de Poliwag",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwag.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwag",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "poliwhirl": {
+        "desc": "Respawn de Poliwhirl",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwhirl.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwhirl",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "poliwrath": {
+        "desc": "Respawn de Poliwrath",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwrath.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwrath",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "abra": {
+        "desc": "Respawn de Abra",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/abra.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/abra",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "kadabra": {
+        "desc": "Respawn de Kadabra",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kadabra.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kadabra",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "alakazam": {
+        "desc": "Respawn de Alakazam",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/alakazam.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/alakazam",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "machop": {
+        "desc": "Respawn de Machop",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/machop.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/machop",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "machoke": {
+        "desc": "Respawn de Machoke",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/machoke.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/machoke",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "machamp": {
+        "desc": "Respawn de Machamp",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/machamp.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/machamp",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "bellsprout": {
+        "desc": "Respawn de Bellsprout",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/bellsprout.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/bellsprout",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "weepinbell": {
+        "desc": "Respawn de Weepinbell",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weepinbell.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weepinbell",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "victreebel": {
+        "desc": "Respawn de Victreebel",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/victreebel.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/victreebel",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "tentacool": {
+        "desc": "Respawn de Tentacool",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tentacool.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tentacool",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "tentacruel": {
+        "desc": "Respawn de Tentacruel",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tentacruel.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tentacruel",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "geodude": {
+        "desc": "Respawn de Geodude",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/geodude.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/geodude",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "graveler": {
+        "desc": "Respawn de Graveler",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/graveler.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/graveler",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "golem": {
+        "desc": "Respawn de Golem",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/golem.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/golem",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "ponyta": {
+        "desc": "Respawn de Ponyta",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ponyta.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ponyta",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "rapidash": {
+        "desc": "Respawn de Rapidash",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rapidash.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rapidash",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "slowpoke": {
+        "desc": "Respawn de Slowpoke",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/slowpoke.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slowpoke",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "slowbro": {
+        "desc": "Respawn de Slowbro",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/slowbro.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slowbro",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "magnemite": {
+        "desc": "Respawn de Magnemite",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magnemite.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magnemite",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "magneton": {
+        "desc": "Respawn de Magneton",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magneton.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magneton",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "farfetchd": {
+        "desc": "Respawn de Farfetch'd",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/farfetchd.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/Farfetch%E2%80%99d",
+        "locais": [
+            { "map": "kanto", "x": 1032, "y": 967, "qtd": 20 }
+        ]
+    },
+    "doduo": {
+        "desc": "Respawn de Doduo",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/doduo.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/doduo",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "dodrio": {
+        "desc": "Respawn de Dodrio",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dodrio.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dodrio",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "seel": {
+        "desc": "Respawn de Seel",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/seel.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/seel",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "dewgong": {
+        "desc": "Respawn de Dewgong",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dewgong.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dewgong",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "grimer": {
+        "desc": "Respawn de Grimer",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/grimer.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/grimer",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "muk": {
+        "desc": "Respawn de Muk",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/muk.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/muk",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "shellder": {
+        "desc": "Respawn de Shellder",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/shellder.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/shellder",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "cloyster": {
+        "desc": "Respawn de Cloyster",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/cloyster.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/cloyster",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "gastly": {
+        "desc": "Respawn de Gastly",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gastly.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gastly",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "haunter": {
+        "desc": "Respawn de Haunter",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/haunter.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/haunter",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "gengar": {
+        "desc": "Respawn de Gengar",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gengar.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gengar",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "onix": {
+        "desc": "Respawn de Onix",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/onix.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/onix",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "drowzee": {
+        "desc": "Respawn de Drowzee",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/drowzee.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/drowzee",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "hypno": {
+        "desc": "Respawn de Hypno",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hypno.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/hypno",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "krabby": {
+        "desc": "Respawn de Krabby",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/krabby.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/krabby",
+        "locais": [
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 12 }
+        ]
+    },
+    "kingler": {
+        "desc": "Respawn de Kingler",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kingler.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kingler",
+        "locais": [
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 5 }
+        ]
+    },
+    "voltorb": {
+        "desc": "Respawn de Voltorb",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/voltorb.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/voltorb",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "electrode": {
+        "desc": "Respawn de Electrode",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/electrode.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/electrode",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "exeggcute": {
+        "desc": "Respawn de Exeggcute",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/exeggcute.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/exeggcute",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "exeggutor": {
+        "desc": "Respawn de Exeggutor",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/exeggutor.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/exeggutor",
+        "locais": [
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 1 }
+        ]
+    },
+    "cubone": {
+        "desc": "Respawn de Cubone",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/cubone.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/cubone",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "marowak": {
+        "desc": "Respawn de Marowak",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/marowak.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/marowak",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "hitmonlee": {
+        "desc": "Respawn de Hitmonlee",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hitmonlee.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/hitmonlee",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "hitmonchan": {
+        "desc": "Respawn de Hitmonchan",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hitmonchan.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/hitmonchan",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "lickitung": {
+        "desc": "Respawn de Lickitung",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/lickitung.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/lickitung",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "koffing": {
+        "desc": "Respawn de Koffing",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/koffing.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/koffing",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "weezing": {
+        "desc": "Respawn de Weezing",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weezing.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weezing",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "rhyhorn": {
+        "desc": "Respawn de Rhyhorn",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rhyhorn.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rhyhorn",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "rhydon": {
+        "desc": "Respawn de Rhydon",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rhydon.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rhydon",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "chansey": {
+        "desc": "Respawn de Chansey",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/chansey.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/chansey",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "tangela": {
+        "desc": "Respawn de Tangela",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tangela.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tangela",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "kangaskhan": {
+        "desc": "Respawn de Kangaskhan",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kangaskhan.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kangaskhan",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "horsea": {
+        "desc": "Respawn de Horsea",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/horsea.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/horsea",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "seadra": {
+        "desc": "Respawn de Seadra",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/seadra.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/seadra",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "goldeen": {
+        "desc": "Respawn de Goldeen",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/goldeen.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/goldeen",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "seaking": {
+        "desc": "Respawn de Seaking",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/seaking.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/seaking",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "staryu": {
+        "desc": "Respawn de Staryu",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/staryu.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/staryu",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "starmie": {
+        "desc": "Respawn de Starmie",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/starmie.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/starmie",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "mrmime": {
+        "desc": "Respawn de Mr. Mime",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/mr-mime.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/mr-mime",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "scyther": {
+        "desc": "Respawn de Scyther",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/scyther.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/scyther",
+        "locais": [
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 12 }
+        ]
+    },
+    "jynx": {
+        "desc": "Respawn de Jynx",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/jynx.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/jynx",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "electabuzz": {
+        "desc": "Respawn de Electabuzz",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/electabuzz.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/electabuzz",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "magmar": {
+        "desc": "Respawn de Magmar",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magmar.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magmar",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "pinsir": {
+        "desc": "Respawn de Pinsir",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pinsir.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pinsir",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "tauros": {
+        "desc": "Respawn de Tauros",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tauros.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tauros",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "magikarp": {
+        "desc": "Respawn de Magikarp",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magikarp.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magikarp",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "gyarados": {
+        "desc": "Respawn de Gyarados",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gyarados.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gyarados",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "lapras": {
+        "desc": "Respawn de Lapras",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/lapras.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/lapras",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "ditto": {
+        "desc": "Respawn de Ditto",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ditto.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ditto",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "eevee": {
+        "desc": "Respawn de Eevee",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/eevee.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/eevee",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "vaporeon": {
+        "desc": "Respawn de Vaporeon",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/vaporeon.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/vaporeon",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "jolteon": {
+        "desc": "Respawn de Jolteon",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/jolteon.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/jolteon",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "flareon": {
+        "desc": "Respawn de Flareon",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/flareon.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/flareon",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "porygon": {
+        "desc": "Respawn de Porygon",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/porygon.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/porygon",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "omanyte": {
+        "desc": "Respawn de Omanyte",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/omanyte.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/omanyte",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "omastar": {
+        "desc": "Respawn de Omastar",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/omastar.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/omastar",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "kabuto": {
+        "desc": "Respawn de Kabuto",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kabuto.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kabuto",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "kabutops": {
+        "desc": "Respawn de Kabutops",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kabutops.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kabutops",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "aerodactyl": {
+        "desc": "Respawn de Aerodactyl",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/aerodactyl.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/aerodactyl",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "snorlax": {
+        "desc": "Respawn de Snorlax",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/snorlax.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/snorlax",
+        "locais": [
+            { "map": "kanto", "x": 1032, "y": 967, "qtd": 20 },
+            { "map": "kanto", "x": 954, "y": 898, "qtd": 6 },
+            { "map": "aldia", "x": 348, "y": 2047, "qtd": 5 },
+            { "map": "hoenn", "x": 2360, "y": 2532, "qtd": 32 }
+        ]
+    },
+    "articuno": {
+        "desc": "Respawn de Articuno",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/articuno.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/articuno",
+        "locais": [
+            { "map": "kanto", "x": 966, "y": 705, "qtd": 1 }
+        ]
+    },
+    "zapdos": {
+        "desc": "Respawn de Zapdos",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/zapdos.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/zapdos",
+        "locais": [
+            { "map": "kanto", "x": 1043, "y": 1241, "qtd": 1 }
+        ]
+    },
+    "moltres": {
+        "desc": "Respawn de Moltres",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/moltres.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/moltres",
+        "locais": [
+            { "map": "kanto", "x": 1206, "y": 738, "qtd": 3 }
+        ]
+    },
+    "dratini": {
+        "desc": "Respawn de Dratini",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dratini.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dratini",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "dragonair": {
+        "desc": "Respawn de Dragonair",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dragonair.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dragonair",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "dragonite": {
+        "desc": "Respawn de Dragonite",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dragonite.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dragonite",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+        ]
+    },
+    "mewtwo": {
+        "desc": "Respawn de Mewtwo",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/mewtwo.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/mewtwo",
+        "locais": [
+            { "map": "johto", "x": 2939, "y": 1696, "qtd": 1 }
+        ]
+    },
+    "mew": {
+        "desc": "Respawn de Mew",
+        "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/mew.gif",
+        "wiki": "https://pokecroc.fandom.com/pt-br/wiki/mew",
+        "locais": [
+            { "map": "kanto", "x": 1275, "y": 1216, "qtd": 1 }
+        ]
+    }
+}
