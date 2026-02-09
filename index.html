@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa Pokecroc - Multi Region</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ================= ESTILOS GERAIS ================= */
+        :root {
+            --bg-dark: #050b0c;          
+            --panel-bg: #091819;         
+            --neon-green: #00ff9d;       
+            --border-color: #1f4a42;     
+            --btn-top: #6b8e23;          
+            --btn-bottom: #4b6b1a;       
+            --btn-border: #2f4510;       
+            --text-white: #ffffff;
+        }
+
+        body { margin: 0; display: flex; font-family: 'Roboto', sans-serif; background-color: var(--bg-dark); overflow: hidden; }
+        
+        #sidebar {
+            width: 320px; background: linear-gradient(to bottom, #081415, #050b0c); color: var(--text-white);
+            padding: 20px; height: 100vh; overflow-y: auto; box-shadow: 4px 0 15px rgba(0,0,0,0.8);
+            z-index: 1000; border-right: 1px solid var(--border-color); box-sizing: border-box; 
+        }
+
+        #map { height: 100vh; flex-grow: 1; background: #0d1b2a; }
+        .leaflet-image-layer { image-rendering: pixelated; }
+
+        /* TIPOGRAFIA */
+        h2 { font-family: 'Montserrat', sans-serif; color: var(--neon-green); text-align: center; font-size: 1.4rem; border-bottom: 2px solid var(--border-color); padding-bottom: 10px; margin-bottom: 20px; }
+        h3 { font-family: 'Montserrat', sans-serif; color: var(--neon-green); font-size: 0.95rem; margin-top: 0; border-bottom: 1px solid rgba(0, 255, 157, 0.2); padding-bottom: 5px; }
+
+        /* CONTROLES */
+        .control-group { margin-bottom: 20px; background: var(--panel-bg); padding: 15px; border: 1px solid var(--neon-green); border-radius: 12px; }
+        
+        select, input { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; outline: none; box-sizing: border-box; }
+        select { background: #0f2b2d; color: var(--neon-green); border: 1px solid var(--neon-green); font-weight: bold; cursor: pointer; }
+        input { background: #ffffff; border: 2px solid transparent; color: #333; font-weight: 500; }
+        input:focus { border-color: var(--neon-green); }
+
+        .coord-inputs { display: flex; gap: 10px; margin-bottom: 5px; }
+        
+        button { 
+            width: 100%; padding: 12px; cursor: pointer; background: linear-gradient(to bottom, var(--btn-top), var(--btn-bottom));
+            color: white; border: 2px solid var(--btn-border); border-radius: 8px; font-family: 'Montserrat', sans-serif; 
+            font-weight: 800; text-transform: uppercase; text-shadow: 1px 1px 2px black; transition: all 0.1s; margin-top: 5px;
+        }
+        button:hover { filter: brightness(1.1); }
+        button:active { transform: translateY(2px); }
+
+        /* CORREÇÃO DO ALINHAMENTO DOS FILTROS (Flexbox) */
+        .layer-item {
+            display: flex;
+            align-items: center; /* Alinha verticalmente */
+            margin-bottom: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .layer-item input[type="checkbox"] {
+            width: auto; /* Reseta largura de 100% dos inputs normais */
+            margin: 0 10px 0 0; /* Espaço entre caixa e texto */
+            accent-color: var(--neon-green);
+            cursor: pointer;
+        }
+
+        /* ÍCONES */
+        .city-label-icon { background: transparent; border: none; white-space: nowrap; }
+        .city-label-text {
+            color: #f1c40f; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 13px;
+            text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 0 0 5px #0000ff, 0 0 10px #0000ff;
+            text-align: center; display: block; pointer-events: none;
+        }
+        .custom-pin { border-radius: 50%; border: 2px solid #000; box-shadow: 0 0 4px rgba(0,0,0,0.8); }
+        .pin-white { background-color: #ffffff; } 
+        .pin-blue { background-color: #0000ff; }
+        .pin-red {background-color: crimson;} /* Se precisar criar uma cor de Pin siga esse exemplo
+        
+        /* Sprite para Lendários */
+        .legendary-icon { background: transparent; border: none; }
+        .legendary-img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 0 5px #ff00ff); } /* Brilho Roxo */
+
+        .poke-icon { background: transparent; border: none; }
+        .poke-img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 0 5px rgba(255,255,255,0.7)); }
+        
+        .wiki-link { display: block; margin-top: 8px; padding: 5px; background: #2c3e50; color: #fff; text-decoration: none; border-radius: 4px; font-size: 11px; text-align: center; }
+        .map-jump-btn { background: #d35400; border: 1px solid #e67e22; color: white; font-size: 11px; padding: 6px; margin-top: 5px; }
+
+    </style>
+</head>
+<body>
+
+    <div id="login-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #050b0c url('mapa_kanto.jpg') center/cover no-repeat; z-index: 99999; display: flex; justify-content: center; align-items: center;">
+        <div style="background: rgba(9, 24, 25, 0.95); padding: 40px; border-radius: 15px; border: 2px solid #00ff9d; text-align: center; max-width: 400px; width: 90%; box-shadow: 0 0 20px rgba(0,255,157,0.3);">
+            <h2 style="color: #00ff9d; font-family: sans-serif; margin-top: 0;">🔒 ACESSO RESTRITO</h2>
+            <p style="color: #ccc; font-family: sans-serif;">Digite a senha do dia (pegue no Discord !senha)</p>
+            <input type="text" id="sitePassword" placeholder="Senha..." style="width: 100%; padding: 15px; margin: 15px 0; background: #0f2b2d; border: 1px solid #1f4a42; color: #00ff9d; font-size: 1.2rem; text-align: center; border-radius: 8px; box-sizing: border-box;">
+            <button onclick="tentarLogin()" id="btnLogin" style="width: 100%; padding: 15px; background: linear-gradient(to bottom, #6b8e23, #4b6b1a); border: none; color: white; font-weight: bold; cursor: pointer; border-radius: 8px;">LIBERAR ACESSO</button>
+            <p id="loginMsg" style="color: #ff5555; margin-top: 10px; min-height: 20px;"></p>
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <h2>🗺️ Pokecroc Maps</h2>
+
+        <div class="control-group">
+            <h3>🌎 Selecionar Região</h3>
+            <select id="mapSelector" onchange="changeMap(this.value)">
+                <option value="kanto">Kanto</option>
+                <option value="johto">Johto</option>
+                <option value="hoenn">Hoenn</option>
+                <option value="aldia">Aldia</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <h3>🔍 Procurar Pokémon</h3>
+            <input type="text" id="inputPoke" placeholder="Ex: Charmander..." onkeypress="handleEnter(event)">
+            <button onclick="buscarPokemon()">Localizar Pokémon</button>
+            <p id="msg-poke" style="color: #aaa; font-size: 12px; margin-top: 5px;"></p>
+        </div>
+
+        <div class="control-group">
+            <h3>📍 Ir para Coordenada</h3>
+            <div class="coord-inputs">
+                <input type="number" id="inputX" placeholder="X">
+                <input type="number" id="inputY" placeholder="Y">
+            </div>
+            <button onclick="buscarCoordenada()">Buscar Local</button>
+            <p id="msg-busca" style="color: #aaa; font-size: 12px; margin-top: 5px;"></p>
+        </div>
+
+        <div class="control-group">
+            <h3>Filtros (Mapa Atual)</h3>
+            <div id="layer-controls"></div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // =========================================================
+        // 1. CONFIGURAÇÃO FÁCIL DE CAMADAS (FILTROS)
+        // =========================================================
+        // Adicione aqui novos tipos de pins se precisar.
+        const layerConfig = {
+            'cidades': { 
+                label: "Cidades", 
+                type: "text",   // 'text' cria o nome neon
+                color: "#f1c40f" 
+            },
+            'rocket': { 
+                label: "Balão Rocket", 
+                type: "pin",    // 'pin' cria a bolinha colorida
+                cssClass: "pin-white" 
+            },
+            'lendarios': { 
+                label: "Lendários", 
+                type: "sprite", // 'sprite' usa a imagem do pokemon definida no banco de dados que peguei no github do pokemon showdown kkkkkk
+                size: [50, 50]  // Tamanho do sprite
+            },
+            'carnaval': { 
+                label: "Carnaval", 
+                type: "pin", 
+                cssClass: "pin-red"
+            },
+
+            
+            // EXEMPLO: Se quisesemos adicionar o pin questx no futuro, era só descomentar a linha abaixo:
+            // 'questx': { label: "Quest x", type: "pin", cssClass: "pin-blue" }
+        };
+
+        // =========================================================
+        // 2. CONFIGURAÇÃO DOS MAPAS
+        // =========================================================
+        const mapsConfig = {
+            'kanto': {
+                name: 'Kanto', image: 'mapa_kanto.jpg', 
+                width: 4858, height: 5221, 
+                minX: 322, maxX: 1536, minY: 568, maxY: 1873
+            },
+            'johto': {
+                name: 'Johto', image: 'mapa_johto.png',
+                width: 1639, height: 1388,
+                minX: 1871, maxX: 3510, minY: 687, maxY: 2075   
+            },
+            'hoenn': {
+                name: 'Hoenn', image: 'mapa_hoenn.png',
+                width: 1275, height: 977,
+                minX: 1701, maxX: 2975, minY: 2198, maxY: 3174  
+            },
+            'aldia': {
+                name: 'Aldia', image: 'mapa_aldia.png',
+                width: 1294, height: 1064,
+                minX: 225, maxX: 1516, minY: 1633, maxY: 2696 
+            }
+        };
+
+        // =========================================================
+        // 3. BANCO DE DADOS DE LOCAIS (USANDO AS CHAVES DA CONFIG)
+        // =========================================================
+        const mapFeatures = {
+            'kanto': {
+                cidades: [
+                    { name: "Pallet", x: 658, y: 1195 },
+                    { name: "Viridian", x: 705, y: 1089 },
+                    { name: "Pewter", x: 720, y: 849 },
+                    { name: "Cerulean", x: 1060, y: 903 },
+                    { name: "Saffron", x: 1056, y: 1049 },
+                    { name: "Vermilion", x: 1074, y: 1236 },
+                    { name: "Lavender", x: 1205, y: 1048 },
+                    { name: "Celadon", x: 862, y: 1098 },
+                    { name: "Fuchsia", x: 1212, y: 1324 },
+                    { name: "Cinnabar", x: 850, y: 1400 },
+                    { name: "Trade Center", x: 415, y: 1427 },
+                    { name: "Saffari", x: 1492, y: 944 },
+                    { name: "Vila dos Pescadores", x: 511, y: 1135 }
+                ],
+                rocket: [
+                    { name: "Balão Rocket (Ilha Arcanine)", x: 552, y: 1557 },
+                    { name: "Balão Rocket (Ilha de Fogo)", x: 845, y: 1519 },
+                    { name: "Balão Rocket (Ilha Omastar)", x: 959, y: 1376 },
+                    { name: "Balão Rocket (Ilha Blastoise)", x: 944, y: 1322 },
+                    { name: "Balão Rocket (Eletricos Vermilion)", x: 1034, y: 1320 },
+                    { name: "Balão Rocket (Ilha Venomoth)", x: 860, y: 1284 },
+                    { name: "Balão Rocket (Ilha Poliwag)", x: 741, y: 1260 },
+                    { name: "Balão Rocket (Docas Pallet)", x: 656, y: 1239 },
+                    { name: "Balão Rocket (Zapdos)", x: 1043, y: 1243 },
+                    { name: "Balão Rocket (Praia do Hitmon)", x: 1285, y: 1425 },
+                    { name: "Balão Rocket (Barco Jotho)", x: 1324, y: 1284 },
+                    { name: "Balão Rocket (Ilha Arceus)", x: 1441, y: 1211 },
+                    { name: "Balão Rocket (Escada Lavander Sul)", x: 1209, y: 1071 },
+                    { name: "Balão Rocket (Esquerda de Lavnader)", x: 1166, y: 1061 },
+                    { name: "Balão Rocket (Norte de Lavander)", x: 1191, y: 979 },
+                    { name: "Balão Rocket (Saffron)", x: 1014, y: 1041 },
+                    { name: "Balão Rocket (Ilha Assombrada)", x: 1342, y: 779 },
+                    { name: "Balão Rocket (Viridian Esquerda)", x: 614, y: 1112 },
+                    { name: "Balão Rocket (Viridian)", x: 685, y: 1107 },
+                    { name: "Balão Rocket (Omanite)", x: 816, y: 1162 },
+                    { name: "Balão Rocket (Victribel)", x: 920, y: 1020 },
+                    { name: "Balão Rocket (Torre Gengar)", x: 852, y: 951 },
+                    { name: "Balão Rocket (Gravelers)", x: 804, y: 969 },
+                    { name: "Balão Rocket (Koffing)", x: 731, y: 988 },
+                    { name: "Balão Rocket (Pewter)", x: 724, y: 819 },
+                    { name: "Balão Rocket (Golduck)", x: 952, y: 806 },
+                    { name: "Balão Rocket (Ilha Scyther)", x: 624, y: 717 },
+                    { name: "Balão Rocket (Krampus)", x: 936, y: 587 },
+                    { name: "Balão Rocket (Ilha X)", x: 1012, y: 1150 }
+                ],
+                lendarios: [
+                    //Exemplo dos Lendários de kanto
+                    { name: "Mew (Templo do Mew)", x: 1275, y: 1216, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/mew.gif" },
+                    { name: "Moltres (Ilha de Fogo)", x: 1206, y: 738, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/moltres.gif" },
+                    { name: "Articuno (Covil dos Dragões)", x: 966, y: 705, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/articuno.gif" },
+                    { name: "Zapdos (Monte do Trovão)", x: 1043, y: 1241, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/zapdos.gif" }
+                ],
+                carnaval: [
+                    { name: "Toten Carnaval (744, 1126)", x: 744, y: 1126 },
+                    { name: "Toten Carnaval (717, 1127)", x: 717, y: 1127 },
+                    { name: "Toten Carnaval (1017, 1042)", x: 1017, y: 1042 },
+                    { name: "Toten Carnaval (683, 1101)", x: 683, y: 1101 },
+                    { name: "Toten Carnaval (726, 1086)", x: 726, y: 1086 },
+                    { name: "Toten Carnaval (729, 1036)", x: 729, y: 1036 },
+                    { name: "Toten Carnaval (721, 991)", x: 721, y: 991 },
+                    { name: "Toten Carnaval (711, 869)", x: 711, y: 869 },
+                    { name: "Toten Carnaval (727, 808)", x: 727, y: 808 },
+                    { name: "Toten Carnaval (767, 855)", x: 767, y: 855 },
+                    { name: "Toten Carnaval (845, 915)", x: 845, y: 915 },
+                    { name: "Toten Carnaval (999, 869)", x: 999, y: 869 },
+                    { name: "Toten Carnaval (1057, 861)", x: 1057, y: 861 },
+                    { name: "Toten Carnaval (1070, 951)", x: 1070, y: 951 },
+                    { name: "Toten Carnaval (1115, 915)", x: 1115, y: 915 },
+                    { name: "Toten Carnaval (1072, 1009)", x: 1072, y: 1009 },
+                    { name: "Toten Carnaval (1150, 1059)", x: 1150, y: 1059 },
+                    { name: "Toten Carnaval (1204, 1033)", x: 1204, y: 1033 },
+                    { name: "Toten Carnaval (1232, 1071)", x: 1232, y: 1071 },
+                    { name: "Toten Carnaval (1207, 1074)", x: 1207, y: 1074 },
+                    { name: "Toten Carnaval (1033, 1070)", x: 1033, y: 1070 },
+                    { name: "Toten Carnaval (780, 1083)", x: 780, y: 1083 },
+                    { name: "Toten Carnaval (847, 1093)", x: 847, y: 1093 },
+                    { name: "Toten Carnaval (854, 1089)", x: 854, y: 1089 },
+                    { name: "Toten Carnaval (944, 1113)", x: 944, y: 1113 },
+                    { name: "Toten Carnaval (1046, 1123)", x: 1046, y: 1123 },
+                    { name: "Toten Carnaval (1051, 1148)", x: 1051, y: 1148 },
+                    { name: "Toten Carnaval (1067, 1208)", x: 1067, y: 1208 },
+                    { name: "Toten Carnaval (1033, 1218)", x: 1033, y: 1218 },
+                    { name: "Toten Carnaval (1057, 1245)", x: 1057, y: 1245 },
+                    { name: "Toten Carnaval (1061, 1293)", x: 1061, y: 1293 },
+                    { name: "Toten Carnaval (1101, 1269)", x: 1101, y: 1269 },
+                    { name: "Toten Carnaval (1183, 1305)", x: 1183, y: 1305 },
+                    { name: "Toten Carnaval (1211, 1348)", x: 1211, y: 1348 },
+                    { name: "Toten Carnaval (1315, 1288)", x: 1315, y: 1288 },
+                    { name: "Toten Carnaval (869, 1400)", x: 869, y: 1400 },
+                    { name: "Toten Carnaval (834, 1352)", x: 834, y: 1352 },
+                    { name: "Toten Carnaval (796, 1397)", x: 796, y: 1397 },
+                    { name: "Toten Carnaval (795, 1369)", x: 795, y: 1369 },
+                    { name: "Toten Carnaval (1213, 1351)", x: 1213, y: 1351 },
+                    { name: "Toten Carnaval (1170, 1355)", x: 1170, y: 1355 },
+                    { name: "Toten Carnaval (760, 1026)", x: 760, y: 1026 },
+                    { name: "Toten Carnaval (1131, 1429)", x: 1131, y: 1429 },
+                    { name: "Toten Carnaval (836, 1449)", x: 836, y: 1449 },
+                    { name: "Toten Carnaval (672, 1251)", x: 672, y: 1251 },
+                    { name: "Toten Carnaval (502, 1157)", x: 502, y: 1157 },
+                    { name: "Toten Carnaval (512, 1081)", x: 512, y: 1081 },
+                    { name: "Toten Carnaval (578, 1099)", x: 578, y: 1099 },
+                    { name: "Toten Carnaval (897, 1143)", x: 897, y: 1143 },
+                    { name: "Toten Carnaval (711, 1149)", x: 711, y: 1149 }
+                ]
+            },
+            'johto': {
+                cidades: [
+                    { name: "Cianwood", x: 2107, y: 1008 },
+                    { name: "Olivine", x: 2342, y: 1143 },
+                    { name: "Goldenrod", x: 2424, y: 1209 },
+                    { name: "Azalea", x: 2581, y: 1448 },
+                    { name: "Cherrygrove", x: 2969, y: 1301 },
+                    { name: "Violet", x: 2815, y: 1170 },
+                    { name: "Ecruteak", x: 2735, y: 1017 },
+                    { name: "Mahogany", x: 2766, y: 842 },
+                    { name: "Blackthorn", x: 3168, y: 954 }
+                ],
+                lendarios: [
+                    // Exemplo para Johto
+                    // { name: "Celebi", x: 2000, y: 1500, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/celebi.gif" }
+                    { name: "Celebi", x: 2648, y: 1583, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/celebi.gif" },
+                    { name: "Suicune", x: 2858, y: 718, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/suicune.gif" },
+                    { name: "Raikou", x: 1934, y: 1200, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/raikou.gif" },
+                    { name: "Kyogre", x: 2038, y: 1355, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/kyogre.gif" },
+                    { name: "Groudon", x: 3227, y: 1347, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/groudon.gif" },
+                    { name: "Lugia", x: 3473, y: 1345, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/lugia.gif" },
+                    { name: "Mewtwo", x: 2939, y: 1696, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/mewtwo.gif" },
+                    { name: "Jirachi", x: 2545, y: 2044, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/jirachi.gif" },
+                    { name: "Entei", x: 3357, y: 1381, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/entei.gif" },
+                    { name: "Latios", x: 3430, y: 815, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/latios.gif" },
+                    { name: "Latias", x: 3428, y: 815, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/latias.gif" },
+                    { name: "Ho-oh", x: 2844, y: 1287, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/hooh.gif" },
+                    { name: "Rayquaza", x: 3222, y: 1213, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/rayquaza.gif" }
+                ],
+                carnaval: [
+                    {name: "Toten Carnaval (2109, 1018)", x: 2109, y: 1018},
+                    {name: "Toten Carnaval (2113, 1038)", x: 2113, y: 1038},
+                    {name: "Toten Carnaval (2343, 1185)", x: 2343, y: 1185},
+                    {name: "Toten Carnaval (2306, 1117)", x: 2306, y: 1117},
+                    {name: "Toten Carnaval (2330, 1115)", x: 2330, y: 1115},
+                    {name: "Toten Carnaval (2442, 1213)", x: 2442, y: 1213},
+                    {name: "Toten Carnaval (2422, 1263)", x: 2422, y: 1263},
+                    {name: "Toten Carnaval (2508, 1228)", x: 2508, y: 1228},
+                    {name: "Toten Carnaval (2598, 1387)", x: 2598, y: 1387},
+                    {name: "Toten Carnaval (2580, 1461)", x: 2580, y: 1461},
+                    {name: "Toten Carnaval (2982, 1317)", x: 2982, y: 1317},
+                    {name: "Toten Carnaval (2994, 1337)", x: 2994, y: 1337},
+                    {name: "Toten Carnaval (2987, 1378)", x: 2987, y: 1378},
+                    {name: "Toten Carnaval (2823, 1145)", x: 2823, y: 1145},
+                    {name: "Toten Carnaval (2854, 1176)", x: 2854, y: 1176},
+                    {name: "Toten Carnaval (2812, 1208)", x: 2812, y: 1208},
+                    {name: "Toten Carnaval (2711, 978)", x: 2711, y: 978},
+                    {name: "Toten Carnaval (2774, 1022)", x: 2774, y: 1022},
+                    {name: "Toten Carnaval (2751, 1052)", x: 2751, y: 1052},
+                    {name: "Toten Carnaval (2812, 861)", x: 2812, y: 861},
+                    {name: "Toten Carnaval (2801, 793)", x: 2801, y: 793},
+                    {name: "Toten Carnaval (2767, 851)", x: 2767, y: 851},
+                    {name: "Toten Carnaval (3204, 948)", x: 3204, y: 948},
+                    {name: "Toten Carnaval (3164, 982)", x: 3164, y: 982},
+                    {name: "Toten Carnaval (3121, 934)", x: 3121, y: 934.},
+                    {name: "Toten Carnaval (2598, 1475)", x: 2598, y: 1475}
+                ],
+            },
+            'hoenn': {
+                cidades: [
+                    { name: "Rustboro", x: 1833, y: 2511 },
+                    { name: "Dewford", x: 2176, y: 2993 },
+                    { name: "Petalburg", x: 2515, y: 2655 },
+                    { name: "Mauville", x: 2633, y: 2917 },
+                    { name: "Lavaridge", x: 2926, y: 3111 },
+                    { name: "Fortree", x: 2649, y: 2765 },
+                    { name: "Mossdeep", x: 1986, y: 2979 },
+                    { name: "Sootopolis", x: 2932, y: 2358 },
+                    { name: "Lilycove", x: 2079, y: 2416 },
+                    { name: "Slateport", x: 2280, y: 2593 }
+                ],
+                lendarios: [
+                    { name: "Genesect", x: 2022, y: 3141, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/genesect.gif" },
+                    { name: "Heatran", x: 1868, y: 3154, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/heatran.gif" },
+                    { name: "Virizion", x: 2209, y: 3062, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/virizion.gif" },
+                    { name: "Cresselia", x: 2188, y: 3117, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/cresselia.gif" },
+                    { name: "Thundurus", x: 1887, y: 2837, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/thundurus.gif" },
+                    { name: "Tornadus", x: 1899, y: 2834, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/tornadus.gif" },
+                    { name: "Landorus", x: 1894, y: 2821, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/landorus.gif" },
+                    { name: "Keldeo", x: 2552, y: 3108, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/keldeo.gif" },
+                    { name: "Meloetta", x: 1997, y: 2635, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/meloetta.gif" },
+                    { name: "Manaphy", x: 1930, y: 2403, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/manaphy.gif" },
+                    { name: "Phione", x: 1932, y: 2403, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/phione.gif" },
+                    { name: "Darkrai", x: 1886, y: 2269, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/darkrai.gif" },
+                    { name: "Terrakion", x: 1860, y: 2548, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/terrakion.gif" },
+                    { name: "Cobalion", x: 2298, y: 2500, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/cobalion.gif" },
+                    { name: "Kyurem", x: 2871, y: 2221, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/kyurem.gif" },
+                    { name: "Giratina", x: 2739, y: 2261, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/giratina.gif" },
+                    { name: "Victini", x: 2603, y: 2239, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/victini.gif" },
+                    { name: "Shaymin", x: 2461, y: 2382, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/shaymin.gif" },
+                    { name: "Mesprit", x: 2923, y: 2722, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/mesprit.gif" },
+                    { name: "Uxie", x: 2921, y: 2722, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/uxie.gif" },
+                    { name: "Azelf", x: 2922, y: 2720, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/azelf.gif" },
+                    { name: "Palkia", x: 2597, y: 2978, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/palkia.gif" },
+                    { name: "Dialga", x: 2597, y: 2976, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/dialga.gif" }
+                ]
+            },
+            'aldia': {
+                cidades: [
+                    { name: "Allegany", x: 1282, y: 2184 },
+                    { name: "Fayette", x: 599, y: 2428 },
+                    { name: "Kanawha", x: 608, y: 2023 }
+                ],
+                lendarios: [
+                    { name: "Regice", x: 1247, y: 1685, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/regice.gif" },
+                    { name: "Regirock", x: 479, y: 1957, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/regirock.gif" },
+                    { name: "Registeel", x: 558, y: 2667, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/registeel.gif" },
+                    { name: "Deoxys", x: 1061, y: 2531, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/deoxys.gif" },
+                    { name: "Regigigas", x: 1259, y: 2196, sprite: "https://play.pokemonshowdown.com/sprites/gen5ani/regigigas.gif" }
+                ],
+                carnaval: [
+                    {name: "Toten Carnaval (594, 2014)", x: 594, y: 2014},
+                    {name: "Toten Carnaval (628, 2033)", x: 628, y: 2033},
+                    {name: "Toten Carnaval (603, 2033)", x: 603, y: 2033},
+                    {name: "Toten Carnaval (526, 1916)", x: 526, y: 1916},
+                    {name: "Toten Carnaval (583, 2441)", x: 583, y: 2441},
+                    {name: "Toten Carnaval (546, 2434)", x: 546, y: 2434},
+                    {name: "Toten Carnaval (510, 2409)", x: 510, y: 2409},
+                    {name: "Toten Carnaval (1306, 2216)", x: 1306, y: 2216},
+                    {name: "Toten Carnaval (1271, 2211)", x: 1271, y: 2211},
+                    {name: "Toten Carnaval (1249, 2201)", x: 1249, y: 2201},
+                    {name: "Toten Carnaval (568, 2055)", x: 568, y: 2055},
+                    {name: "Toten Carnaval (1211, 2266)", x: 1211, y: 2266},
+                    {name: "Toten Carnaval (1331, 2092)", x: 1331, y: 2092},
+                    {name: "Toten Carnaval (651, 2313)", x: 651, y: 2313},
+                    {name: "Toten Carnaval (635, 2349)", x: 635, y: 2349},
+                    {name: "Toten Carnaval (641, 2601)", x: 641, y: 2601}
+                ]
+            }
+        };
+
+// =========================================================
+        // 4. BANCO DE DADOS POKEMON (VIA JSON EXTERNO)
+        // =========================================================
+        
+        // Inicializa a variável vazia para não quebrar o código enquanto carrega
+        let pokemonDB = {};
+
+        // COLOQUE O SEU LINK RAW DO GITHUB AQUI EMBAIXO:
+        const DATABASE_URL = "https://raw.githubusercontent.com/leandrozampoli/Atualiza-o-mapa-interativo-pokecroc/refs/heads/main/pokemon_db.json";
+
+        // Função auto-executável para puxar os dados
+        (function carregarDatabase() {
+            fetch(DATABASE_URL)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro HTTP: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    pokemonDB = data;
+                    console.log("Database carregada: " + Object.keys(data).length + " Pokémons.");
+                    
+                    // Opcional: Atualiza mensagem visual avisando que carregou
+                    const msgDiv = document.getElementById('msg-poke');
+                    if(msgDiv) msgDiv.innerHTML = "<span style='color:#00ff9d'>Banco de dados sincronizado.</span>";
+                })
+                .catch(err => {
+                    console.error("Erro ao carregar JSON:", err);
+                    const msgDiv = document.getElementById('msg-poke');
+                    if(msgDiv) msgDiv.innerHTML = "<span style='color:red'>Erro ao carregar dados.</span>";
+                });
+        })();
+
+        // =========================================================
+        // LÓGICA DO SISTEMA
+        // =========================================================
+        let currentMapId = 'kanto'; 
+        let mapInstance = L.map('map', { crs: L.CRS.Simple, minZoom: -3, maxZoom: 5, zoomControl: false });
+        L.control.zoom({ position: 'topright' }).addTo(mapInstance);
+        
+        let currentImageOverlay = null;
+        let activePokeMarkers = [];
+        let searchMarker = null;
+        const layerGroups = {}; 
+
+        function gameToMap(gameX, gameY, mapId = currentMapId) {
+            const cfg = mapsConfig[mapId];
+            let pctX = (gameX - cfg.minX) / (cfg.maxX - cfg.minX);
+            let pctY = (gameY - cfg.minY) / (cfg.maxY - cfg.minY);
+            return [(1 - pctY) * cfg.height, pctX * cfg.width];
+        }
+
+        function mapToGame(lat, lng) {
+            const cfg = mapsConfig[currentMapId];
+            let pctX = lng / cfg.width;
+            let pctY = 1 - (lat / cfg.height);
+            return { 
+                x: Math.round((pctX * (cfg.maxX - cfg.minX)) + cfg.minX), 
+                y: Math.round((pctY * (cfg.maxY - cfg.minY)) + cfg.minY) 
+            };
+        }
+
+        function loadMap(mapId) {
+            const cfg = mapsConfig[mapId];
+            if (currentImageOverlay) mapInstance.removeLayer(currentImageOverlay);
+            const bounds = [[0, 0], [cfg.height, cfg.width]];
+            currentImageOverlay = L.imageOverlay(cfg.image, bounds).addTo(mapInstance);
+            mapInstance.fitBounds(bounds);
+            
+            currentMapId = mapId;
+            document.getElementById('mapSelector').value = mapId;
+            activePokeMarkers.forEach(m => mapInstance.removeLayer(m));
+            activePokeMarkers = [];
+            if(searchMarker) mapInstance.removeLayer(searchMarker);
+            setupStaticLayers(mapId);
+        }
+
+        function changeMap(mapId) { loadMap(mapId); }
+
+        function buscarPokemon() {
+            let name = document.getElementById('inputPoke').value.toLowerCase().trim();
+            let msg = document.getElementById('msg-poke');
+            msg.innerHTML = "";
+            activePokeMarkers.forEach(m => mapInstance.removeLayer(m));
+            activePokeMarkers = [];
+
+            if (pokemonDB[name]) {
+                let data = pokemonDB[name];
+                let countCurrentMap = 0;
+                let otherMaps = new Set();
+                let wikiUrl = data.wiki || `https://pokecroc.fandom.com/pt-br/wiki/${name}`;
+
+                data.locais.forEach((local) => {
+                    if (local.map === currentMapId) {
+                        countCurrentMap++;
+                        let latlng = gameToMap(local.x, local.y, local.map);
+                        let iconPoke = L.divIcon({
+                            className: 'poke-icon',
+                            html: `<img src="${data.sprite}" class="poke-img" style="width:60px; height:60px;" onerror="this.src='https://img.pokemondb.net/sprites/items/poke-ball.png'">`,
+                            iconSize: [60, 60], iconAnchor: [30, 30], popupAnchor: [0, -30]
+                        });
+                        let popupContent = `<div style="text-align:center; min-width: 120px;"><b>${name.toUpperCase()}</b><br><span style="font-size:11px; color:#666;">${data.desc}</span><br>X: ${local.x}, Y: ${local.y}<br><span style="color:#d35400;">Qtd: ${local.qtd || '?'}</span><a href="${wikiUrl}" target="_blank" class="wiki-link">📖 Ver na Wiki</a></div>`;
+                        let marker = L.marker(latlng, {icon: iconPoke}).addTo(mapInstance).bindPopup(popupContent);
+                        activePokeMarkers.push(marker);
+                        if (countCurrentMap === 1) { mapInstance.setView(latlng, 2); marker.openPopup(); }
+                    } else { otherMaps.add(local.map); }
+                });
+
+                let htmlMsg = countCurrentMap > 0 ? `<span style="color:#00ff9d">Encontrado ${countCurrentMap} locais.</span><br>` : `<span style="color:#e74c3c">Não encontrado neste mapa.</span><br>`;
+                if (otherMaps.size > 0) {
+                    htmlMsg += `<span style="color:#f1c40f;">Ver em:</span><br>`;
+                    otherMaps.forEach(m => { htmlMsg += `<button class="map-jump-btn" onclick="goToMapAndSearch('${m}')">${mapsConfig[m].name}</button> `; });
+                }
+                msg.innerHTML = htmlMsg;
+            } else { msg.innerText = "Pokémon não cadastrado."; msg.style.color = "#ff5555"; }
+        }
+
+        function goToMapAndSearch(mapId) { changeMap(mapId); setTimeout(buscarPokemon, 300); }
+        function handleEnter(e) { if(e.keyCode === 13) buscarPokemon(); }
+
+        function buscarCoordenada() {
+            let x = parseInt(document.getElementById('inputX').value);
+            let y = parseInt(document.getElementById('inputY').value);
+            let msg = document.getElementById('msg-busca');
+            if (isNaN(x) || isNaN(y)) { msg.innerText = "Inválido"; msg.style.color="red"; return; }
+            let latlng = gameToMap(x, y, currentMapId);
+            if (searchMarker) mapInstance.removeLayer(searchMarker);
+            searchMarker = L.marker(latlng).addTo(mapInstance).bindPopup(`<b>Local</b><br>X: ${x}, Y: ${y}`).openPopup();
+            mapInstance.setView(latlng, 3);
+            msg.innerText = "Localizado!"; msg.style.color = "#00ff9d";
+        }
+
+        // =========================================================
+        // GERAÇÃO DINÂMICA DE FILTROS E ÍCONES
+        // =========================================================
+        function createDynamicIcon(item, config) {
+            // TIPO TEXTO (Para Cidades)
+            if (config.type === 'text') {
+                return L.divIcon({
+                    className: 'city-label-icon',
+                    html: `<span class="city-label-text" style="color:${config.color}">${item.name}</span>`,
+                    iconSize: [100, 20], iconAnchor: [50, 10]
+                });
+            }
+            // TIPO SPRITE (Para Lendários)
+            else if (config.type === 'sprite') {
+                let size = config.size || [40, 40];
+                return L.divIcon({
+                    className: 'legendary-icon',
+                    html: `<img src="${item.sprite || 'https://img.pokemondb.net/sprites/items/poke-ball.png'}" class="legendary-img">`,
+                    iconSize: size, iconAnchor: [size[0]/2, size[1]/2], popupAnchor: [0, -size[1]/2]
+                });
+            }
+            // TIPO PIN (Padrão para Rocket e outros etc)
+            else {
+                return L.divIcon({ 
+                    className: `custom-pin ${config.cssClass || 'pin-white'}`, 
+                    iconSize: [12, 12], iconAnchor: [6, 6], popupAnchor: [0, -10] 
+                });
+            }
+        }
+
+        function setupStaticLayers(mapId) {
+            const controlsDiv = document.getElementById('layer-controls');
+            controlsDiv.innerHTML = '';
+            
+            // Limpa layers existentes
+            for (let key in layerGroups) {
+                if (mapInstance.hasLayer(layerGroups[key])) mapInstance.removeLayer(layerGroups[key]);
+            }
+
+            const features = mapFeatures[mapId];
+            if (!features) return;
+
+            // Loop através da CONFIGURAÇÃO (layerConfig)
+            // Isso garante que a ordem e os nomes sejam os que definimos no topo
+            for (let layerKey in layerConfig) {
+                const config = layerConfig[layerKey];
+                const items = features[layerKey];
+
+                if (items && items.length > 0) {
+                    const layer = L.layerGroup(items.map(item => 
+                        L.marker(gameToMap(item.x, item.y, mapId), { 
+                            icon: createDynamicIcon(item, config),
+                            zIndexOffset: (config.type === 'text' ? 1000 : 0) // Texto sempre por cima
+                        }).bindPopup(`<b>${item.name}</b><br>X:${item.x}, Y:${item.y}`)
+                    ));
+
+                    layerGroups[layerKey] = layer;
+                    
+                    // Adiciona Cidades por padrão
+                    if (layerKey === 'cidades') mapInstance.addLayer(layer);
+                    
+                    createCheckbox(config.label, layerKey, (layerKey === 'cidades'));
+                }
+            }
+
+            if(controlsDiv.innerHTML === '') controlsDiv.innerHTML = '<span style="font-size:12px; color:#666;">Vazio.</span>';
+        }
+
+        function createCheckbox(label, layerKey, isChecked) {
+            const div = document.getElementById('layer-controls');
+            const labelEl = document.createElement('label');
+            labelEl.className = 'layer-item'; // Classe para alinhar flexbox
+            
+            // Cor do texto baseada na config
+            let color = '#fff';
+            if (layerKey === 'cidades') color = '#f1c40f';
+            if (layerKey === 'lendarios') color = '#ff00ff';
+            
+            labelEl.style.color = color;
+            labelEl.innerHTML = `<input type="checkbox" onchange="toggleLayer('${layerKey}')" ${isChecked ? 'checked' : ''}> ${label}`;
+            div.appendChild(labelEl);
+        }
+
+        function toggleLayer(name) {
+            if (mapInstance.hasLayer(layerGroups[name])) { mapInstance.removeLayer(layerGroups[name]); } 
+            else { mapInstance.addLayer(layerGroups[name]); }
+        }
+
+        // Debug
+        mapInstance.on('click', function(e){
+            let g = mapToGame(e.latlng.lat, e.latlng.lng);
+            console.log(`[${currentMapId}] X: ${g.x}, Y: ${g.y}`);
+            L.popup().setLatLng(e.latlng).setContent(`X: ${g.x}, Y: ${g.y}`).openOn(mapInstance);
+        });
+
+        loadMap('kanto'); 
+
+    </script>
+    <script>
+    // --- LÓGICA DE SEGURANÇA (CLIENT-SIDE) ---
+    const overlay = document.getElementById('login-overlay');
+    
+    // 1. Ao carregar, verifica se já tem token salvo
+    async function verificarAcesso() {
+        const tokenSalvo = localStorage.getItem('pokecroc_token');
+        
+        if (tokenSalvo) {
+            try {
+                // Pergunta pro servidor se o token ainda vale (se não virou o dia)
+                const req = await fetch('/api/verify', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ token: tokenSalvo })
+                });
+                const res = await req.json();
+                
+                if (res.valid) {
+                    // Token válido! Remove a cortina.
+                    overlay.style.display = 'none';
+                    return;
+                }
+            } catch (e) {
+                console.log("Erro ao verificar token");
+            }
+        }
+        // Se chegou aqui, não tem acesso. A cortina continua lá.
+    }
+
+    // 2. Função do Botão de Login
+    async function tentarLogin() {
+        const pass = document.getElementById('sitePassword').value;
+        const btn = document.getElementById('btnLogin');
+        const msg = document.getElementById('loginMsg');
+        
+        btn.disabled = true;
+        btn.innerText = "Verificando...";
+        msg.innerText = "";
+
+        try {
+            const req = await fetch('/api/login', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({ password: pass })
+            });
+            const res = await req.json();
+
+            if (res.success) {
+                // SUCESSO! Salva o token e some com a cortina
+                localStorage.setItem('pokecroc_token', res.token);
+                overlay.style.display = 'none';
+            } else {
+                msg.innerText = "Senha incorreta!";
+                btn.disabled = false;
+                btn.innerText = "LIBERAR ACESSO";
+            }
+        } catch (e) {
+            msg.innerText = "Erro de conexão.";
+            btn.disabled = false;
+            btn.innerText = "LIBERAR ACESSO";
+        }
+    }
+
+    // Roda a verificação assim que abre
+    verificarAcesso();
+</script>
+</body>
+</html>
