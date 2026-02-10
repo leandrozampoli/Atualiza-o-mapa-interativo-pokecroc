@@ -432,7 +432,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/psyduck.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/psyduck",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 959, "y": 815, "qtd": 9 }
         ]
     },
     "golduck": {
@@ -440,7 +440,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/golduck.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/golduck",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 959, "y": 815, "qtd": 28 }
         ]
     },
     "mankey": {
@@ -784,7 +784,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/krabby.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/krabby",
         "locais": [
-            { "map": "kanto", "x": 635, "y": 721, "qtd": 12 }
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 12 },
+            { "map": "kanto", "x": 958, "y": 819, "qtd": 8 }
         ]
     },
     "kingler": {
@@ -928,7 +929,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/horsea.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/horsea",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 991, "y": 842, "qtd": 8 } 
         ]
     },
     "seadra": {
@@ -936,7 +937,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/seadra.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/seadra",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 991, "y": 842, "qtd": 6 } 
         ]
     },
     "goldeen": {
@@ -1008,7 +1009,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magmar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magmar",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 835, "y": 1561, "qtd": 88 }
         ]
     },
     "pinsir": {
