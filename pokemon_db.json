@@ -3693,7 +3693,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weavile.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weavile",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "hoenn", "x": 2481, "y": 2440, "qtd": 70 }
         ]
     },
     "magnezone": {
