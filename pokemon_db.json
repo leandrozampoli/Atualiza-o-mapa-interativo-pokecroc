@@ -144,6 +144,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pidgeot.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pidgeot",
         "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 },
             { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
         ]
     },
