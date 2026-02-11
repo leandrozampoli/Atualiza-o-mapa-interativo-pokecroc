@@ -3445,7 +3445,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/honchkrow.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/honchkrow",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "hoenn", "x": 2096, "y": 2616, "qtd": 55 }
         ]
     },
     "glameow": {
