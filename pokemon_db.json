@@ -924,7 +924,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kangaskhan.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kangaskhan",
         "locais": [
-            { "map": "kanto", "x": 1162, "y": 2065, "qtd": 31 }
+            { "map": "aldia", "x": 1162, "y": 2065, "qtd": 31 }
         ]
     },
     "horsea": {
@@ -1100,7 +1100,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/porygon.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/porygon",
         "locais": [
-            { "map": "kanto", "x": 1162, "y": 2065, "qtd": 8 }
+            { "map": "aldia", "x": 1162, "y": 2065, "qtd": 8 }
         ]
     },
     "omanyte": {
