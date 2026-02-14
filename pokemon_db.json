@@ -852,7 +852,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hitmonlee.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/hitmonlee",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 14 }
         ]
     },
     "hitmonchan": {
@@ -860,7 +860,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hitmonchan.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/hitmonchan",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 19 }
         ]
     },
     "lickitung": {
