@@ -120,7 +120,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/beedrill.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/beedrill",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 25 }
         ]
     },
     "pidgey": {
@@ -177,7 +177,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/fearow.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/fearow",
         "locais": [
-            { "map": "kanto", "x": 954, "y": 898, "qtd": 5 }
+            { "map": "kanto", "x": 954, "y": 898, "qtd": 5 },
+            { "map": "kanto", "x": 1020, "y": 110, "qtd": 3 }
         ]
     },
     "ekans": {
@@ -441,7 +442,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/golduck.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/golduck",
         "locais": [
-            { "map": "kanto", "x": 959, "y": 815, "qtd": 28 }
+            { "map": "kanto", "x": 959, "y": 815, "qtd": 28 },
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 24 }
         ]
     },
     "mankey": {
@@ -834,7 +836,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/cubone.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/cubone",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1020, "y": 110, "qtd": 11 }
         ]
     },
     "marowak": {
@@ -922,7 +924,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kangaskhan.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kangaskhan",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1162, "y": 2065, "qtd": 31 }
         ]
     },
     "horsea": {
@@ -1018,7 +1020,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pinsir.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pinsir",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 19 }
         ]
     },
     "tauros": {
@@ -1098,7 +1100,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/porygon.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/porygon",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1162, "y": 2065, "qtd": 8 }
         ]
     },
     "omanyte": {
@@ -1149,7 +1151,8 @@
             { "map": "kanto", "x": 1032, "y": 967, "qtd": 20 },
             { "map": "kanto", "x": 954, "y": 898, "qtd": 6 },
             { "map": "aldia", "x": 348, "y": 2047, "qtd": 5 },
-            { "map": "hoenn", "x": 2360, "y": 2532, "qtd": 32 }
+            { "map": "hoenn", "x": 2360, "y": 2532, "qtd": 32 },
+            { "map": "aldia", "x": 1162, "y": 2065, "qtd": 7 }
         ]
     },
     "articuno": {
