@@ -72,7 +72,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/blastoise.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/blastoise",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1184, "y": 1189, "qtd": 14 }
         ]
     },
     "caterpie": {
@@ -595,7 +595,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/geodude.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/geodude",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1190, "y": 1076, "qtd": 3 }
         ]
     },
     "graveler": {
@@ -763,7 +763,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/onix.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/onix",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1190, "y": 1076, "qtd": 3 }
         ]
     },
     "drowzee": {
@@ -972,7 +972,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/starmie.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/starmie",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1209, "y": 1076, "qtd": 4 }
         ]
     },
     "mrmime": {
