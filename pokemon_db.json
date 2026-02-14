@@ -178,7 +178,7 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/fearow",
         "locais": [
             { "map": "kanto", "x": 954, "y": 898, "qtd": 5 },
-            { "map": "kanto", "x": 1020, "y": 110, "qtd": 3 }
+            { "map": "kanto", "x": 1020, "y": 1103, "qtd": 3 }
         ]
     },
     "ekans": {
@@ -836,7 +836,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/cubone.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/cubone",
         "locais": [
-            { "map": "kanto", "x": 1020, "y": 110, "qtd": 11 }
+            { "map": "kanto", "x": 1020, "y": 1103, "qtd": 11 }
         ]
     },
     "marowak": {
