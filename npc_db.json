@@ -36,7 +36,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
         "locais": [
-            { "map": "kanto", "x": 1206, "y": 1046, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 1206, "y": 1046, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 656, "y": 1191, "requisito": "Nenhum" }
         ]
     },
     "Nurse Chansey": {
@@ -44,7 +45,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
         "locais": [
-            { "map": "kanto", "x": 1204, "y": 1046, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 1204, "y": 1046, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 659, "y": 1191, "requisito": "Nenhum" }
         ]
     }    
 }
