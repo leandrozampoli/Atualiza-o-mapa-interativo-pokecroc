@@ -763,7 +763,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/onix.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/onix",
         "locais": [
-            { "map": "kanto", "x": 1190, "y": 1076, "qtd": 3 }
+            { "map": "kanto", "x": 1190, "y": 1076, "qtd": 3 },
+            { "map": "kanto", "x": 882, "y": 921, "qtd": 17 }
         ]
     },
     "drowzee": {
@@ -836,7 +837,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/cubone.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/cubone",
         "locais": [
-            { "map": "kanto", "x": 1020, "y": 1103, "qtd": 11 }
+            { "map": "kanto", "x": 1020, "y": 1103, "qtd": 11 },
+            { "map": "kanto", "x": 551, "y": 890, "qtd": 82 }
         ]
     },
     "marowak": {
@@ -844,7 +846,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/marowak.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/marowak",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1021, "y": 1100, "qtd": 20 },
+            { "map": "kanto", "x": 551, "y": 890, "qtd": 38 }
         ]
     },
     "hitmonlee": {
@@ -876,7 +879,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/koffing.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/koffing",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 737, "y": 988, "qtd": 15 }
         ]
     },
     "weezing": {
@@ -884,7 +887,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weezing.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weezing",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 737, "y": 988, "qtd": 5 }
         ]
     },
     "rhyhorn": {
@@ -900,7 +903,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rhydon.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rhydon",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 882, "y": 921, "qtd": 2 }
         ]
     },
     "chansey": {
@@ -924,7 +927,9 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kangaskhan.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kangaskhan",
         "locais": [
-            { "map": "aldia", "x": 1162, "y": 2065, "qtd": 31 }
+            { "map": "aldia", "x": 1162, "y": 2065, "qtd": 31 },
+            { "map": "kanto", "x": 1021, "y": 1100, "qtd": 18 },
+            { "map": "kanto", "x": 551, "y": 890, "qtd": 15 }
         ]
     },
     "horsea": {
@@ -1140,7 +1145,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/aerodactyl.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/aerodactyl",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 882, "y": 921, "qtd": 36 }
         ]
     },
     "snorlax": {
@@ -1192,7 +1197,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dragonair.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dragonair",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1275, "y": 1216, "qtd": 13 },
+            { "map": "kanto", "x": 1315, "y": 864, "qtd": 23 }
         ]
     },
     "dragonite": {
@@ -1200,7 +1206,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dragonite.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dragonite",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1275, "y": 1216, "qtd": 15 },
+            { "map": "kanto", "x": 1315, "y": 864, "qtd": 13 }
         ]
     },
     "mewtwo": {
