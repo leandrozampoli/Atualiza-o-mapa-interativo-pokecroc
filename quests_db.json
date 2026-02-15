@@ -1,0 +1,18 @@
+{
+    "kanto": [
+        { "name": "Moltres", "link": "https://pokecrocmapads.discloud.app/Quests/Mew" },
+        { "name": "First Stone", "link": "https://pokecrocmapads.discloud.app/Quests/EarthStone" },
+        { "name": "Zapdos", "link": "#" }
+    ],
+    "johto": [
+        { "name": "Labirinto de Celebi", "link": "#" },
+        { "name": "Cães Lendários", "link": "#" }
+    ],
+    "hoenn": [
+        { "name": "Leak Guardians", "link": "#" },
+        { "name": "Rocket Quest", "link": "#" }
+    ],
+    "aldia": [
+        { "name": "Monstros da Montanha - Mega Stone", "link": "#" }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "Dark Joe": {
+        "desc": "Localização de Dark Joe",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
+        "locais": [
+            { "map": "kanto", "x": 1000, "y": 1000, "requisito": "Dig" }
+        ]
+    }
+}
