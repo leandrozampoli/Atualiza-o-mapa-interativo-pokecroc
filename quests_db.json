@@ -1,18 +1,18 @@
 {
     "kanto": [
-        { "name": "Moltres", "link": "https://pokecrocmapads.discloud.app/Quests/Mew" },
-        { "name": "First Stone", "link": "https://pokecrocmapads.discloud.app/Quests/EarthStone" },
+        { "name": "Moltres", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
+        { "name": "First Stone", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
         { "name": "Zapdos", "link": "#" }
     ],
     "johto": [
-        { "name": "Labirinto de Celebi", "link": "#" },
-        { "name": "Cães Lendários", "link": "#" }
+        { "name": "Labirinto de Celebi", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
+        { "name": "Cães Lendários", "link": "https://pokecrocmapads.discloud.app/manutencao.html" }
     ],
     "hoenn": [
-        { "name": "Leak Guardians", "link": "#" },
-        { "name": "Rocket Quest", "link": "#" }
+        { "name": "Leak Guardians", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
+        { "name": "Rocket Quest", "link": "https://pokecrocmapads.discloud.app/manutencao.html" }
     ],
     "aldia": [
-        { "name": "Monstros da Montanha - Mega Stone", "link": "#" }
+        { "name": "Monstros da Montanha - Mega Stone", "link": "https://pokecrocmapads.discloud.app/manutencao.html" }
     ]
 }
