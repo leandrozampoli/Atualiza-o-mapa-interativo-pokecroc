@@ -2,7 +2,7 @@
     "Dark Joe": {
         "desc": "Localização de Dark Joe",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
-        "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1221, "y": 1041, "requisito": "Nenhum" }
         ]
@@ -10,7 +10,7 @@
     "The Undertaker": {
         "desc": "Localização de The Undertaker",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
-        "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1232, "y": 1077, "requisito": "Nenhum" }
         ]
@@ -18,7 +18,7 @@
     "Bray Wyatt": {
         "desc": "Localização de Bray Wyatt",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
-        "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1194, "y": 1033, "requisito": "Nenhum" }
         ]
@@ -26,7 +26,7 @@
     "Judith": {
         "desc": "Localização de Judith",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
-        "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1193, "y": 1029, "requisito": "Nenhum" }
         ]
@@ -34,7 +34,7 @@
     "Nurse": {
         "desc": "Localização de Nurse",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
-        "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1206, "y": 1046, "requisito": "Nenhum" },
             { "map": "kanto", "x": 656, "y": 1191, "requisito": "Nenhum" }
@@ -43,10 +43,18 @@
     "Nurse Chansey": {
         "desc": "Localização de Nurse Chansey",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
-        "quest": "https://pokecrocmapads.discloud.app/Quests/DarkJoeQuest",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1204, "y": 1046, "requisito": "Nenhum" },
             { "map": "kanto", "x": 659, "y": 1191, "requisito": "Nenhum" }
         ]
-    }    
+    },
+    "Thorn Bjornsson": {
+        "desc": "Localização de Thorn Bjornsson",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "hoenn", "x": 2837, "y": 2339, "requisito": "Escada" }
+        ]
+    } 
 }
