@@ -1050,7 +1050,7 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gyarados",
         "locais": [
             { "map": "kanto", "x": 726, "y": 661, "qtd": 34 },
-            { "map": "kanto", "x": 1034, "y": 781, "qtd": 44 }
+            { "map": "kanto", "x": 1034, "y": 781, "qtd": 44 },
             { "map": "kanto", "x": 967, "y": 704, "qtd": 32 }
         ]
     },
