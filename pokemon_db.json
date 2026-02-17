@@ -515,7 +515,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kadabra.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kadabra",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1051, "y": 1148, "qtd": 2 }
         ]
     },
     "alakazam": {
@@ -523,7 +523,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/alakazam.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/alakazam",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1051, "y": 1148, "qtd": 2 }
         ]
     },
     "machop": {
