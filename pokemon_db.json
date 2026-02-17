@@ -675,7 +675,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/doduo.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/doduo",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 657, "y": 1037, "qtd": 6 },
+            { "map": "kanto", "x": 655, "y": 963, "qtd": 10 }
         ]
     },
     "dodrio": {
@@ -683,7 +684,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dodrio.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dodrio",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 657, "y": 1037, "qtd": 1 },
+            { "map": "kanto", "x": 655, "y": 963, "qtd": 5 }
         ]
     },
     "seel": {
@@ -739,7 +741,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gastly.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gastly",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 852, "y": 949, "qtd": 9 }
         ]
     },
     "haunter": {
@@ -747,7 +749,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/haunter.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/haunter",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 852, "y": 949, "qtd": 5 }
         ]
     },
     "gengar": {
@@ -755,7 +757,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gengar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gengar",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 852, "y": 949, "qtd": 5 }
         ]
     },
     "onix": {
@@ -838,7 +840,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/cubone",
         "locais": [
             { "map": "kanto", "x": 1020, "y": 1103, "qtd": 11 },
-            { "map": "kanto", "x": 551, "y": 890, "qtd": 82 }
+            { "map": "kanto", "x": 551, "y": 890, "qtd": 82 },
+            { "map": "kanto", "x": 852, "y": 949, "qtd": 3 }
         ]
     },
     "marowak": {
