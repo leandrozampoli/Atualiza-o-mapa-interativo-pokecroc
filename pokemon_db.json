@@ -1038,7 +1038,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tauros.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tauros",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 712, "y": 1209, "qtd": 4 }
         ]
     },
     "magikarp": {
