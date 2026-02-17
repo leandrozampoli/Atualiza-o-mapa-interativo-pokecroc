@@ -676,7 +676,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/doduo",
         "locais": [
             { "map": "kanto", "x": 657, "y": 1037, "qtd": 6 },
-            { "map": "kanto", "x": 655, "y": 963, "qtd": 10 }
+            { "map": "kanto", "x": 655, "y": 963, "qtd": 10 },
+            { "map": "kanto", "x": 969, "y": 1111, "qtd": 4 }
         ]
     },
     "dodrio": {
@@ -685,7 +686,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dodrio",
         "locais": [
             { "map": "kanto", "x": 657, "y": 1037, "qtd": 1 },
-            { "map": "kanto", "x": 655, "y": 963, "qtd": 5 }
+            { "map": "kanto", "x": 655, "y": 963, "qtd": 5 },
+            { "map": "kanto", "x": 969, "y": 1111, "qtd": 4 }
         ]
     },
     "seel": {
