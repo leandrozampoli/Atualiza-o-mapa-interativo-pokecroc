@@ -3649,7 +3649,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/toxicroak.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/toxicroak",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "hoenn", "x": 1965, "y": 2453, "qtd": 75 }
         ]
     },
     "carnivine": {
@@ -4569,7 +4569,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/garbodor.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/garbodor",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "hoenn", "x": 1965, "y": 2453, "qtd": 33 }
         ]
     },
     "zorua": {
