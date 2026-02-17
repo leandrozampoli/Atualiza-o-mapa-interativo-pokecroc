@@ -136,7 +136,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pidgeotto.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pidgeotto",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1012, "y": 1148, "qtd": 10 }
         ]
     },
     "pidgeot": {
@@ -144,8 +144,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pidgeot.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pidgeot",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 },
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1012, "y": 1148, "qtd": 7 }            
         ]
     },
     "rattata": {
@@ -178,7 +177,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/fearow",
         "locais": [
             { "map": "kanto", "x": 954, "y": 898, "qtd": 5 },
-            { "map": "kanto", "x": 1020, "y": 1103, "qtd": 3 }
+            { "map": "kanto", "x": 1020, "y": 1103, "qtd": 3 },
+            { "map": "kanto", "x": 1012, "y": 1148, "qtd": 5 }
         ]
     },
     "ekans": {
