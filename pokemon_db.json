@@ -1049,7 +1049,9 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gyarados.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gyarados",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 726, "y": 661, "qtd": 34 },
+            { "map": "kanto", "x": 1034, "y": 781, "qtd": 44 }
+            { "map": "kanto", "x": 967, "y": 704, "qtd": 32 }
         ]
     },
     "lapras": {
