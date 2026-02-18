@@ -447,7 +447,8 @@
         "locais": [
             { "map": "kanto", "x": 959, "y": 815, "qtd": 28 },
             { "map": "kanto", "x": 1277, "y": 1416, "qtd": 24 },
-            { "map": "kanto", "x": 634, "y": 1318, "qtd": 1 }
+            { "map": "kanto", "x": 634, "y": 1318, "qtd": 1 },
+            { "map": "kanto", "x": 675, "y": 1346, "qtd": 1 }
         ]
     },
     "mankey": {
@@ -504,6 +505,7 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwrath",
         "locais": [
             { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 }
+            { "map": "kanto", "x": 675, "y": 1346, "qtd": 3 }
         ]
     },
     "abra": {
@@ -987,7 +989,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/starmie",
         "locais": [
             { "map": "kanto", "x": 1209, "y": 1076, "qtd": 4 },
-            { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 }
+            { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 },
+            { "map": "kanto", "x": 675, "y": 1346, "qtd": 3 }
         ]
     },
     "mrmime": {
