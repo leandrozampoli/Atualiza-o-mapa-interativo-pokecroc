@@ -37,7 +37,16 @@
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1206, "y": 1046, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 656, "y": 1191, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 656, "y": 1191, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 704, "y": 1085, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 720, "y": 845, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1061, "y": 900, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1057, "y": 1045, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 860, "y": 1094, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1073, "y": 1233, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1213, "y": 1321, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 851, "y": 1396, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 509, "y": 1132, "requisito": "Nenhum" }
         ]
     },
     "Nurse Chansey": {
@@ -46,7 +55,16 @@
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1204, "y": 1046, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 659, "y": 1191, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 659, "y": 1191, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 706, "y": 1085, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 718, "y": 845, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1059, "y": 900, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1059, "y": 1045, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 858, "y": 1094, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1075, "y": 1233, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1211, "y": 1321, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 849, "y": 1396, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 510, "y": 1132, "requisito": "Nenhum" }
         ]
     },
     "Thorn Bjornsson": {
