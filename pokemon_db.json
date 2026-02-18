@@ -504,7 +504,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwrath.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwrath",
         "locais": [
-            { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 }
+            { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 },
             { "map": "kanto", "x": 675, "y": 1346, "qtd": 3 }
         ]
     },
