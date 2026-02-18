@@ -120,7 +120,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/beedrill.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/beedrill",
         "locais": [
-            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 25 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 25 },
+            { "map": "kanto", "x": 747, "y": 1159, "qtd": 4 }
         ]
     },
     "pidgey": {
@@ -371,7 +372,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/paras.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/paras",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 747, "y": 1159, "qtd": 11 }
         ]
     },
     "parasect": {
@@ -379,7 +380,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/parasect.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/parasect",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 747, "y": 1159, "qtd": 4 }
         ]
     },
     "venonat": {
@@ -1031,7 +1032,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pinsir.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pinsir",
         "locais": [
-            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 19 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 19 },
+            { "map": "kanto", "x": 747, "y": 1159, "qtd": 4 }
         ]
     },
     "tauros": {
