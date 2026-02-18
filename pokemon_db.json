@@ -316,7 +316,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/jigglypuff.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/jigglypuff",
         "locais": [
-            { "map": "kanto", "x": 1032, "y": 967, "qtd": 12 }
+            { "map": "kanto", "x": 1032, "y": 967, "qtd": 12 },
+            { "map": "kanto", "x": 707, "y": 1224, "qtd": 5 }
         ]
     },
     "wigglytuff": {
