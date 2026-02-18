@@ -56,5 +56,53 @@
         "locais": [
             { "map": "hoenn", "x": 2837, "y": 2339, "requisito": "Escada" }
         ]
+    },
+    "Buck": {
+        "desc": "Localização de Buck",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/buck.png",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
+        "locais": [
+            { "map": "Aldia", "x": 1336, "y": 2088, "requisito": "Nenhum" }
+        ]
+    },
+    "Trapper": {
+        "desc": "Localização de Trapper",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/trapper.png",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
+        "locais": [
+            { "map": "Aldia", "x": 1250, "y": 2203, "requisito": "Nenhum" }
+        ]
+    },
+    "Huckleberry": {
+        "desc": "Localização de Huckleberry",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/huckleberry.png",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
+        "locais": [
+            { "map": "Aldia", "x": 734, "y": 2573, "requisito": "Nenhum" }
+        ]
+    },
+    "Jeff": {
+        "desc": "Localização de Jeff",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/jeff.png",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
+        "locais": [
+            { "map": "Aldia", "x": 588, "y": 2021, "requisito": "Nenhum" }
+        ]
+    },
+    "Wild Bill": {
+        "desc": "Localização de Wild Bill",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/wildbill.png",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
+        "locais": [
+            { "map": "Aldia", "x": 540, "y": 2516, "requisito": "Nenhum" }
+        ]
+    },
+    "Willy": {
+        "desc": "Localização de Willy",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/willy.png",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
+        "locais": [
+            { "map": "Aldia", "x": 497, "y": 2497, "requisito": "Nenhum" }
+        ]
     } 
 }
