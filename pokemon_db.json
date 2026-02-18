@@ -421,7 +421,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/meowth.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/meowth",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 2 }
         ]
     },
     "persian": {
@@ -429,7 +429,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/persian.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/persian",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 10 }
         ]
     },
     "psyduck": {
@@ -1763,7 +1763,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ursaring.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ursaring",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 12 }
         ]
     },
     "slugma": {
@@ -2707,7 +2707,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/zangoose.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/zangoose",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 15 }
         ]
     },
     "seviper": {
