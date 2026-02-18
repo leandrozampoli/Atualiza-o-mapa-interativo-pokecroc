@@ -325,7 +325,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/wigglytuff.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/wigglytuff",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1193, "y": 2087, "qtd": 28 }
         ]
     },
     "zubat": {
@@ -919,7 +919,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/chansey.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/chansey",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1193, "y": 2087, "qtd": 14 }
         ]
     },
     "tangela": {
@@ -1076,7 +1076,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ditto.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ditto",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1185, "y": 2085, "qtd": 1 }
         ]
     },
     "eevee": {
@@ -1339,7 +1339,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/noctowl.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/noctowl",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1201, "y": 2084, "qtd": 1 }
         ]
     },
     "ledyba": {
@@ -1963,7 +1963,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/blissey.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/blissey",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1193, "y": 2087, "qtd": 41 }
         ]
     },
     "raikou": {
@@ -4275,7 +4275,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/audino.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/audino",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 1194, "y": 2095, "qtd": 1 }
         ]
     },
     "timburr": {
