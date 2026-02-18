@@ -155,6 +155,54 @@
             { "map": "kanto", "x": 645, "y": 1245, "requisito": "Nenhum" }
         ]
     },
+    "Tedd": {
+        "desc": "Localização de Tedd",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 745, "y": 1184, "requisito": "Nenhum" }
+        ]
+    },
+    "Guide Kanto": {
+        "desc": "Localização de Guide Kanto",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 721, "y": 1172, "requisito": "Nenhum" }
+        ]
+    },
+    "Rafa": {
+        "desc": "Localização de Rafa",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 712, "y": 1157, "requisito": "Nenhum" }
+        ]
+    },
+    "Gillette": {
+        "desc": "Localização de Gillette",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 689, "y": 1155, "requisito": "Nenhum" }
+        ]
+    },
+    "Axel": {
+        "desc": "Localização de Axel",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 666, "y": 1147, "requisito": "Nenhum" }
+        ]
+    },
+    "Alonso": {
+        "desc": "Localização de Alonso",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 657, "y": 1114, "requisito": "Nenhum" }
+        ]
+    },
     "Thorn Bjornsson": {
         "desc": "Localização de Thorn Bjornsson",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
