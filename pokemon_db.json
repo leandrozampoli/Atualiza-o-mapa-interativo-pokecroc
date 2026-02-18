@@ -646,7 +646,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/slowbro.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slowbro",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 659, "y": 1269, "qtd": 12 }
         ]
     },
     "magnemite": {
