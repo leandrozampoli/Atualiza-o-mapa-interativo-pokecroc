@@ -446,7 +446,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/golduck",
         "locais": [
             { "map": "kanto", "x": 959, "y": 815, "qtd": 28 },
-            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 24 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 24 },
+            { "map": "kanto", "x": 634, "y": 1318, "qtd": 1 }
         ]
     },
     "mankey": {
@@ -502,7 +503,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwrath.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwrath",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 }
         ]
     },
     "abra": {
@@ -985,7 +986,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/starmie.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/starmie",
         "locais": [
-            { "map": "kanto", "x": 1209, "y": 1076, "qtd": 4 }
+            { "map": "kanto", "x": 1209, "y": 1076, "qtd": 4 },
+            { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 }
         ]
     },
     "mrmime": {
