@@ -33,7 +33,7 @@
     },
     "Nurse": {
         "desc": "Localização de Nurse",
-        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/nurse.png",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/nurse.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1206, "y": 1046, "requisito": "Nenhum" },
