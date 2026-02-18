@@ -33,7 +33,7 @@
     },
     "Nurse": {
         "desc": "Localização de Nurse",
-        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/nurse.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1206, "y": 1046, "requisito": "Nenhum" },
@@ -51,7 +51,7 @@
     },
     "Nurse Chansey": {
         "desc": "Localização de Nurse Chansey",
-        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/nursechansey.png",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1204, "y": 1046, "requisito": "Nenhum" },
@@ -80,7 +80,7 @@
         "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/buck.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
         "locais": [
-            { "map": "Aldia", "x": 1336, "y": 2088, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 1336, "y": 2088, "requisito": "Nenhum" }
         ]
     },
     "Trapper": {
@@ -88,7 +88,7 @@
         "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/trapper.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
         "locais": [
-            { "map": "Aldia", "x": 1250, "y": 2203, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 1250, "y": 2203, "requisito": "Nenhum" }
         ]
     },
     "Huckleberry": {
@@ -96,7 +96,7 @@
         "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/huckleberry.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
         "locais": [
-            { "map": "Aldia", "x": 734, "y": 2573, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 734, "y": 2573, "requisito": "Nenhum" }
         ]
     },
     "Jeff": {
@@ -104,7 +104,7 @@
         "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/jeff.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
         "locais": [
-            { "map": "Aldia", "x": 588, "y": 2021, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 588, "y": 2021, "requisito": "Nenhum" }
         ]
     },
     "Wild Bill": {
@@ -112,7 +112,7 @@
         "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/wildbill.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
         "locais": [
-            { "map": "Aldia", "x": 540, "y": 2516, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 540, "y": 2516, "requisito": "Nenhum" }
         ]
     },
     "Willy": {
@@ -120,7 +120,7 @@
         "sprite": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/willy.png",
         "quest": "https://pokecrocmapads.discloud.app/Quests/monstrosdamontanha.html",
         "locais": [
-            { "map": "Aldia", "x": 497, "y": 2497, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 497, "y": 2497, "requisito": "Nenhum" }
         ]
     } 
 }
