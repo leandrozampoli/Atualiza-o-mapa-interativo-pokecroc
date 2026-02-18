@@ -147,6 +147,14 @@
             { "map": "kanto", "x": 693, "y": 1220, "requisito": "Nenhum" }
         ]
     },
+    "Hubner": {
+        "desc": "Localização de Hubner",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 645, "y": 1245, "requisito": "Nenhum" }
+        ]
+    },
     "Thorn Bjornsson": {
         "desc": "Localização de Thorn Bjornsson",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
