@@ -1168,7 +1168,8 @@
             { "map": "kanto", "x": 954, "y": 898, "qtd": 6 },
             { "map": "aldia", "x": 348, "y": 2047, "qtd": 5 },
             { "map": "hoenn", "x": 2360, "y": 2532, "qtd": 32 },
-            { "map": "aldia", "x": 1162, "y": 2065, "qtd": 7 }
+            { "map": "aldia", "x": 1162, "y": 2065, "qtd": 7 },
+            { "map": "aldia", "x": 1262, "y": 2357, "qtd": 24 }
         ]
     },
     "articuno": {
