@@ -65,7 +65,7 @@
         .menu-btn {
             width: 160px; height: 60px; font-size: 0.8rem; display: flex; 
             align-items: center; justify-content: center; text-align: center;
-            line-height: 1.2;
+            line-height: 1.2; text-decoration: none;
         }
         .menu-btn.disabled { filter: grayscale(1); opacity: 0.5; cursor: not-allowed; }
 
@@ -175,7 +175,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // =========================================================
-        // CONFIGURAÇÕES GERAIS
+        // CONFIGURAÇÕES GERAIS E CARREGAMENTO
         // =========================================================
         const layerConfig = {
             'cidades': { label: "Cidades", type: "text", color: "#f1c40f" },
@@ -191,10 +191,6 @@
             'aldia': { name: 'Aldia', image: 'mapa_aldia.png', width: 1294, height: 1064, minX: 225, maxX: 1516, minY: 1633, maxY: 2696 }
         };
 
-        // =========================================================
-        // CARREGAMENTO DE DADOS (JSONs Externos)
-        // =========================================================
-        // !!! SUBSTITUA PELOS SEUS LINKS RAW !!!
         const POKEMON_DB_URL = "https://raw.githubusercontent.com/leandrozampoli/Atualiza-o-mapa-interativo-pokecroc/refs/heads/main/pokemon_db.json";
         const MAP_FEATURES_URL = "https://raw.githubusercontent.com/leandrozampoli/Atualiza-o-mapa-interativo-pokecroc/refs/heads/main/map_features.json"; 
         const NPC_DB_URL = "https://raw.githubusercontent.com/leandrozampoli/Atualiza-o-mapa-interativo-pokecroc/refs/heads/main/npc_db.json";
@@ -203,13 +199,15 @@
         let npcDB = {};
         let mapFeatures = {};
 
+        // Força atualização ao carregar arquivos JSON
         function loadJSON(url, callback, errorMsgId) {
-            fetch(url).then(r => {
+            const freshUrl = `${url}?t=${new Date().getTime()}`;
+            fetch(freshUrl).then(r => {
                 if(!r.ok) throw new Error(r.status);
                 return r.json();
             }).then(data => {
                 callback(data);
-                console.log(`Carregado: ${url}`);
+                console.log(`Carregado (Fresh): ${freshUrl}`);
             }).catch(e => {
                 console.error(`Erro ao carregar ${url}:`, e);
                 const msg = document.getElementById(errorMsgId);
@@ -217,7 +215,6 @@
             });
         }
 
-        // Inicializa Cargas
         loadJSON(POKEMON_DB_URL, (data) => { 
             pokemonDB = data; 
             document.getElementById('msg-poke').innerHTML = "<span style='color:#00ff9d'>DB Poke OK.</span>";
@@ -228,12 +225,10 @@
             document.getElementById('msg-npc').innerHTML = "<span style='color:#00ff9d'>DB NPC OK.</span>";
         }, 'msg-npc');
 
-        // Carrega Map Features e inicia o mapa visualmente
         loadJSON(MAP_FEATURES_URL, (data) => {
             mapFeatures = data;
-            loadMap('kanto'); // Carrega o mapa só depois de ter os dados
+            loadMap('kanto');
         }, 'layer-controls');
-
 
         // =========================================================
         // LÓGICA DO MAPA
@@ -243,9 +238,21 @@
         L.control.zoom({ position: 'topright' }).addTo(mapInstance);
         
         let currentImageOverlay = null;
-        let activeMarkers = []; // Unificado para Pokes e NPCs
+        let activeMarkers = []; 
         let searchMarker = null;
         const layerGroups = {}; 
+
+        // Listener de Clique para coordenadas (Pop-up + preenchimento de input)
+        mapInstance.on('click', function(e) {
+            const coords = mapToGame(e.latlng.lat, e.latlng.lng);
+            L.popup()
+                .setLatLng(e.latlng)
+                .setContent(`<b>Coordenadas:</b><br>X: ${coords.x}<br>Y: ${coords.y}`)
+                .openOn(mapInstance);
+            
+            document.getElementById('inputX').value = coords.x;
+            document.getElementById('inputY').value = coords.y;
+        });
 
         function gameToMap(gameX, gameY, mapId = currentMapId) {
             const cfg = mapsConfig[mapId];
@@ -271,7 +278,6 @@
             currentMapId = mapId;
             document.getElementById('mapSelector').value = mapId;
             
-            // Limpa marcadores de busca
             activeMarkers.forEach(m => mapInstance.removeLayer(m));
             activeMarkers = [];
             if(searchMarker) mapInstance.removeLayer(searchMarker);
@@ -281,20 +287,17 @@
 
         function changeMap(mapId) { loadMap(mapId); }
 
-        // --- BUSCA DE POKEMON ---
         function buscarPokemon() {
             let nameInput = document.getElementById('inputPoke').value.toLowerCase().trim();
             let msg = document.getElementById('msg-poke');
             msg.innerHTML = "";
             activeMarkers.forEach(m => mapInstance.removeLayer(m));
             activeMarkers = [];
-
             if (pokemonDB[nameInput]) {
                 let data = pokemonDB[nameInput];
                 let countCurrentMap = 0;
                 let otherMaps = new Set();
                 let wikiUrl = data.wiki || `https://pokecroc.fandom.com/pt-br/wiki/${nameInput}`;
-
                 data.locais.forEach((local) => {
                     if (local.map === currentMapId) {
                         countCurrentMap++;
@@ -310,48 +313,37 @@
                         if (countCurrentMap === 1) { mapInstance.setView(latlng, 2); marker.openPopup(); }
                     } else { otherMaps.add(local.map); }
                 });
-
                 updateSearchMsg(msg, countCurrentMap, otherMaps, 'buscarPokemon');
             } else { msg.innerText = "Pokémon não cadastrado."; msg.style.color = "#ff5555"; }
         }
 
-        // --- BUSCA DE NPC (NOVO) ---
         function buscarNPC() {
             let input = document.getElementById('inputNPC').value.toLowerCase().trim();
             let msg = document.getElementById('msg-npc');
             msg.innerHTML = "";
             activeMarkers.forEach(m => mapInstance.removeLayer(m));
             activeMarkers = [];
-
             if (input === "") return;
-
-            // Busca parcial (Parte do nome)
             let foundKey = Object.keys(npcDB).find(key => key.toLowerCase().includes(input));
-
             if (foundKey) {
                 let data = npcDB[foundKey];
                 let countCurrentMap = 0;
                 let otherMaps = new Set();
-
                 data.locais.forEach(local => {
                     if (local.map === currentMapId) {
                         countCurrentMap++;
                         let latlng = gameToMap(local.x, local.y, local.map);
-                        // Usa sprite se tiver, senão um pin azul
                         let icon = data.sprite ? L.divIcon({
                             className: 'legendary-icon',
                             html: `<img src="${data.sprite}" class="legendary-img" style="width:50px; height:50px;">`,
                             iconSize: [50, 50], iconAnchor: [25, 25], popupAnchor: [0, -25]
                         }) : L.divIcon({ className: 'custom-pin pin-blue', iconSize: [12,12] });
-
                         let popup = `<div style="text-align:center;"><b>${foundKey}</b><br><span style="font-size:11px;">${data.desc}</span><br>X: ${local.x}, Y: ${local.y}<br>Req: <span style="color:#f1c40f">${local.requisito || 'Nenhum'}</span><br><a href="${data.quest}" target="_blank" class="wiki-link">📜 Ver Quest</a></div>`;
-                        
                         let marker = L.marker(latlng, {icon: icon}).addTo(mapInstance).bindPopup(popup);
                         activeMarkers.push(marker);
                         if (countCurrentMap === 1) { mapInstance.setView(latlng, 2); marker.openPopup(); }
                     } else { otherMaps.add(local.map); }
                 });
-
                 updateSearchMsg(msg, countCurrentMap, otherMaps, 'buscarNPC', foundKey);
             } else {
                 msg.innerText = "NPC não encontrado."; msg.style.color = "#ff5555";
@@ -372,7 +364,6 @@
         function goToMapAndSearch(mapId) { changeMap(mapId); setTimeout(buscarPokemon, 300); }
         function goToMapAndSearchNPC(mapId, key) { 
             changeMap(mapId); 
-            // Pequeno hack para preencher o input com o nome correto caso a busca tenha sido parcial
             if(key) document.getElementById('inputNPC').value = key; 
             setTimeout(buscarNPC, 300); 
         }
@@ -392,9 +383,6 @@
             msg.innerText = "Localizado!"; msg.style.color = "#00ff9d";
         }
 
-        // =========================================================
-        // LAYERS ESTÁTICOS (FEATURES)
-        // =========================================================
         function createDynamicIcon(item, config) {
             if (config.type === 'text') {
                 return L.divIcon({
@@ -420,19 +408,14 @@
         function setupStaticLayers(mapId) {
             const controlsDiv = document.getElementById('layer-controls');
             controlsDiv.innerHTML = '';
-            
             for (let key in layerGroups) {
                 if (mapInstance.hasLayer(layerGroups[key])) mapInstance.removeLayer(layerGroups[key]);
             }
-
-            // AGORA LÊ DE mapFeatures (carregado via JSON)
             if (!mapFeatures || !mapFeatures[mapId]) return;
             const features = mapFeatures[mapId];
-
             for (let layerKey in layerConfig) {
                 const config = layerConfig[layerKey];
                 const items = features[layerKey];
-
                 if (items && items.length > 0) {
                     const layer = L.layerGroup(items.map(item => 
                         L.marker(gameToMap(item.x, item.y, mapId), { 
@@ -440,13 +423,11 @@
                             zIndexOffset: (config.type === 'text' ? 1000 : 0)
                         }).bindPopup(`<b>${item.name}</b><br>X:${item.x}, Y:${item.y}`)
                     ));
-
                     layerGroups[layerKey] = layer;
                     if (layerKey === 'cidades') mapInstance.addLayer(layer);
                     createCheckbox(config.label, layerKey, (layerKey === 'cidades'));
                 }
             }
-            if(controlsDiv.innerHTML === '') controlsDiv.innerHTML = '<span style="font-size:12px; color:#666;">Vazio.</span>';
         }
 
         function createCheckbox(label, layerKey, isChecked) {
@@ -466,13 +447,9 @@
             else { mapInstance.addLayer(layerGroups[name]); }
         }
 
-        // =========================================================
-        // MENU SUPERIOR LOGIC
-        // =========================================================
         function toggleTopMenu() {
             const panel = document.getElementById('top-menu-panel');
             const trigger = document.getElementById('top-menu-trigger');
-            
             if (panel.classList.contains('open')) {
                 panel.classList.remove('open');
                 trigger.classList.remove('open');
@@ -484,9 +461,6 @@
             }
         }
 
-        // =========================================================
-        // SEGURANÇA (Mantido do original)
-        // =========================================================
         const overlay = document.getElementById('login-overlay');
         async function verificarAcesso() {
             const tokenSalvo = localStorage.getItem('pokecroc_token');
@@ -511,7 +485,6 @@
             } catch (e) { msg.innerText = "Erro de conexão."; btn.disabled = false; btn.innerText = "LIBERAR ACESSO"; }
         }
         verificarAcesso();
-
     </script>
 </body>
 </html>
