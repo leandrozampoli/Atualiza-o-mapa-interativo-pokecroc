@@ -67,6 +67,86 @@
             { "map": "kanto", "x": 510, "y": 1132, "requisito": "Nenhum" }
         ]
     },
+    "Mochileiro": {
+        "desc": "Localização de Mochileiro",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 660, "y": 1228, "requisito": "Nenhum" }
+        ]
+    },
+    "Delia Ketchum": {
+        "desc": "Localização de Delia Ketchum",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 702, "y": 1214, "requisito": "Nenhum" }
+        ]
+    },
+    "Professor Oak": {
+        "desc": "Localização de Professor Oak",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 732, "y": 1194, "requisito": "Nenhum" }
+        ]
+    },
+    "Julie": {
+        "desc": "Localização de Julie",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 708, "y": 1199, "requisito": "Nenhum" }
+        ]
+    },
+    "Glauber": {
+        "desc": "Localização de Glauber",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 711, "y": 1195, "requisito": "Nenhum" }
+        ]
+    },
+    "John Trader": {
+        "desc": "Localização de John Trader",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 691, "y": 1210, "requisito": "Nenhum" }
+        ]
+    },
+    "Mr. Health": {
+        "desc": "Localização de Mr. Health",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" }
+        ]
+    },
+    "Gary": {
+        "desc": "Localização de Gary",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 689, "y": 1220, "requisito": "Nenhum" }
+        ]
+    },
+    "Craftswoman": {
+        "desc": "Localização de Craftswoman",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" }
+        ]
+    },
+    "Ms Money": {
+        "desc": "Localização de Ms Money",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 693, "y": 1220, "requisito": "Nenhum" }
+        ]
+    },
     "Thorn Bjornsson": {
         "desc": "Localização de Thorn Bjornsson",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
@@ -122,5 +202,5 @@
         "locais": [
             { "map": "aldia", "x": 497, "y": 2497, "requisito": "Nenhum" }
         ]
-    } 
+    }     
 }
