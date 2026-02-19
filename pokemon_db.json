@@ -2331,7 +2331,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/slakoth.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slakoth",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 2415, "y": 1722, "qtd": 9 }
         ]
     },
     "vigoroth": {
@@ -2339,7 +2339,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/vigoroth.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/vigoroth",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2415, "y": 1722, "qtd": 8 }
         ]
     },
     "slaking": {
@@ -2347,7 +2347,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/slaking.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slaking",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2415, "y": 1722, "qtd": 18 }
         ]
     },
     "nincada": {
