@@ -2827,7 +2827,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/feebas.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/feebas",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2432, "y": 1976, "qtd": 25 }
         ]
     },
     "milotic": {
