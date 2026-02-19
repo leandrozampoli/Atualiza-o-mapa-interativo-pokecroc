@@ -1435,7 +1435,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/togepi.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/togepi",
         "locais": [
-            { "map": "kanto", "x": 2473, "y": 1700, "qtd": 17 }
+            { "map": "johto", "x": 2473, "y": 1700, "qtd": 17 }
         ]
     },
     "togetic": {
