@@ -2489,7 +2489,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/aggron.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/aggron",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2434, "y": 1740, "qtd": 44 }
         ]
     },
     "meditite": {
@@ -2825,7 +2825,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/armaldo.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/armaldo",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2434, "y": 1740, "qtd": 40 }
         ]
     },
     "feebas": {
