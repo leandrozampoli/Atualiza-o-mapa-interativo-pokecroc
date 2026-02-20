@@ -449,7 +449,8 @@
             { "map": "kanto", "x": 1277, "y": 1416, "qtd": 24 },
             { "map": "kanto", "x": 634, "y": 1318, "qtd": 1 },
             { "map": "kanto", "x": 675, "y": 1346, "qtd": 1 },
-            { "map": "kanto", "x": 700, "y": 1307, "qtd": 1 }
+            { "map": "kanto", "x": 700, "y": 1307, "qtd": 1 },
+            { "map": "kanto", "x": 745, "y": 1267, "qtd": 2 }
         ]
     },
     "mankey": {
@@ -507,7 +508,8 @@
         "locais": [
             { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 },
             { "map": "kanto", "x": 675, "y": 1346, "qtd": 3 },
-            { "map": "kanto", "x": 700, "y": 1307, "qtd": 3 }
+            { "map": "kanto", "x": 700, "y": 1307, "qtd": 3 },
+            { "map": "kanto", "x": 745, "y": 1267, "qtd": 3 }
         ]
     },
     "abra": {
