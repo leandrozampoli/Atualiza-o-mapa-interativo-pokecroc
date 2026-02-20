@@ -46,7 +46,8 @@
             { "map": "kanto", "x": 1073, "y": 1233, "requisito": "Nenhum" },
             { "map": "kanto", "x": 1213, "y": 1321, "requisito": "Nenhum" },
             { "map": "kanto", "x": 851, "y": 1396, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 509, "y": 1132, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 509, "y": 1132, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 414, "y": 1422, "requisito": "Nenhum" }
         ]
     },
     "Nurse Chansey": {
@@ -64,7 +65,8 @@
             { "map": "kanto", "x": 1075, "y": 1233, "requisito": "Nenhum" },
             { "map": "kanto", "x": 1211, "y": 1321, "requisito": "Nenhum" },
             { "map": "kanto", "x": 849, "y": 1396, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 510, "y": 1132, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 510, "y": 1132, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 417, "y": 1422, "requisito": "Nenhum" }
         ]
     },
     "Mochileiro": {
@@ -96,7 +98,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 708, "y": 1199, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 708, "y": 1199, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 375, "y": 1464, "requisito": "Nenhum" }
         ]
     },
     "Glauber": {
@@ -330,5 +333,45 @@
         "locais": [
             { "map": "kanto", "x": 429, "y": 1464, "requisito": "Nenhum" }
         ]
-    }      
+    },
+    "Tigrinho": {
+        "desc": "Localização de Tigrinho",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 368, "y": 1496, "requisito": "Nenhum" }
+        ]
+    },
+    "Egg Incubator": {
+        "desc": "Localização de Egg Incubator",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 404, "y": 1487, "requisito": "Nenhum" }
+        ]
+    },
+    "Manager": {
+        "desc": "Localização de Manager",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 404, "y": 1440, "requisito": "Nenhum" }
+        ]
+    },
+    "Luis, gerente do Saffari": {
+        "desc": "Localização de Luis, gerente do Saffari",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 374, "y": 1443, "requisito": "Nenhum" }
+        ]
+    },
+    "Khalyta": {
+        "desc": "Khalyta",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 368, "y": 1444, "requisito": "Nenhum" }
+        ]
+    }     
 }
