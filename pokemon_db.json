@@ -490,7 +490,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwag.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwag",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 740, "y": 1281, "qtd": 6 }
         ]
     },
     "poliwhirl": {
@@ -803,7 +803,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/krabby",
         "locais": [
             { "map": "kanto", "x": 635, "y": 721, "qtd": 12 },
-            { "map": "kanto", "x": 958, "y": 819, "qtd": 8 }
+            { "map": "kanto", "x": 958, "y": 819, "qtd": 8 },
+            { "map": "kanto", "x": 740, "y": 1281, "qtd": 8 }
         ]
     },
     "kingler": {
@@ -1060,7 +1061,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magikarp.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magikarp",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 740, "y": 1281, "qtd": 10 }
         ]
     },
     "gyarados": {
