@@ -2332,7 +2332,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slakoth",
         "locais": [
             { "map": "johto", "x": 2415, "y": 1722, "qtd": 9 },
-            { "map": "johto", "x": 2456, "y": 1721, "qtd": 7 }
+            { "map": "johto", "x": 2456, "y": 1721, "qtd": 7 },
+            { "map": "johto", "x": 2431, "y": 1764, "qtd": 13 }
         ]
     },
     "vigoroth": {
@@ -2341,7 +2342,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/vigoroth",
         "locais": [
             { "map": "johto", "x": 2415, "y": 1722, "qtd": 8 },
-            { "map": "johto", "x": 2456, "y": 1721, "qtd": 5 }
+            { "map": "johto", "x": 2456, "y": 1721, "qtd": 5 },
+            { "map": "johto", "x": 2431, "y": 1764, "qtd": 22 }
         ]
     },
     "slaking": {
@@ -2350,7 +2352,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slaking",
         "locais": [
             { "map": "johto", "x": 2415, "y": 1722, "qtd": 18 },
-            { "map": "johto", "x": 2456, "y": 1721, "qtd": 12 }
+            { "map": "johto", "x": 2456, "y": 1721, "qtd": 12 },
+            { "map": "johto", "x": 2431, "y": 1764, "qtd": 36 }
         ]
     },
     "nincada": {
