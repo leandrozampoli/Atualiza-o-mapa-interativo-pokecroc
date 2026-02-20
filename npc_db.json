@@ -266,5 +266,69 @@
         "locais": [
             { "map": "aldia", "x": 497, "y": 2497, "requisito": "Nenhum" }
         ]
-    }     
+    },
+    "Beatriz": {
+        "desc": "Localização de Beatriz",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 723, "y": 1151, "requisito": "Nenhum" }
+        ]
+    },
+    "Rocket Member 1": {
+        "desc": "Localização de Rocket Member 1",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 685, "y": 1093, "requisito": "Nenhum" }
+        ]
+    },
+    "Rocket Member 2": {
+        "desc": "Localização de Rocket Member 2",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 764, "y": 1108, "requisito": "Nenhum" }
+        ]
+    },
+    "Rocket Member 3": {
+        "desc": "Localização de Rocket Member 3",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 747, "y": 1074, "requisito": "Nenhum" }
+        ]
+    },
+    "Equipe Rocket": {
+        "desc": "Localização de Equipe Rocket",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "johto", "x": 2518, "y": 1264, "requisito": "Nenhum" }
+        ]
+    },
+    "Rocket Member 4": {
+        "desc": "Localização de Rocket Member 4",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "johto", "x": 2587, "y": 1094, "requisito": "Nenhum" }
+        ]
+    },
+    "Professor Otkins": {
+        "desc": "Localização de Professor Otkins",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "johto", "x": 2739, "y": 808, "requisito": "Nenhum" }
+        ]
+    },
+    "Rocket Master": {
+        "desc": "Localização de Rocket Master",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 429, "y": 1464, "requisito": "Nenhum" }
+        ]
+    }      
 }
