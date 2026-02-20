@@ -74,7 +74,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 660, "y": 1228, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 660, "y": 1228, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 425, "y": 1474, "requisito": "Nenhum" }
         ]
     },
     "Delia Ketchum": {
@@ -115,7 +116,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 691, "y": 1210, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 691, "y": 1210, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 404, "y": 1474, "requisito": "Nenhum" }
         ]
     },
     "Mr. Health": {
@@ -123,7 +125,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 398, "y": 1474, "requisito": "Nenhum" }
         ]
     },
     "Gary": {
@@ -131,7 +134,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 689, "y": 1220, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 689, "y": 1220, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 419, "y": 1474, "requisito": "Nenhum" }
         ]
     },
     "Craftswoman": {
@@ -139,7 +143,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 410, "y": 1474, "requisito": "Nenhum" }
         ]
     },
     "Ms Money": {
@@ -147,7 +152,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 693, "y": 1220, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 693, "y": 1220, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 431, "y": 1474, "requisito": "Nenhum" }
         ]
     },
     "Hubner": {
@@ -367,11 +373,107 @@
         ]
     },
     "Khalyta": {
-        "desc": "Khalyta",
+        "desc": "Localização de Khalyta",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 368, "y": 1444, "requisito": "Nenhum" }
+        ]
+    },
+    "Pedro Karsudo": {
+        "desc": "Localização de Pedro Karsudo",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 453, "y": 1417, "requisito": "Nenhum" }
+        ]
+    },
+    "Job Manager": {
+        "desc": "Localização de Job Manager",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 474, "y": 1439, "requisito": "Nenhum" }
+        ]
+    },
+    "Token Collector": {
+        "desc": "Localização de Token Collector",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 457, "y": 1450, "requisito": "Nenhum" }
+        ]
+    },
+    "Ghost Potato": {
+        "desc": "Localização de Ghost Potato",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 432, "y": 1444, "requisito": "Nenhum" }
+        ]
+    },
+    "Task Master": {
+        "desc": "Localização de Task Master",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 392, "y": 1401, "requisito": "Nenhum" }
+        ]
+    },
+    "Dusky": {
+        "desc": "Localização de Dusky",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 393, "y": 1400, "requisito": "Nenhum" }
+        ]
+    },
+    "Ash": {
+        "desc": "Localização de Ash",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 384, "y": 1421, "requisito": "Nenhum" }
+        ]
+    },
+    "Red Phantom": {
+        "desc": "Localização de Red Phantom",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 351, "y": 1412, "requisito": "Nenhum" }
+        ]
+    },
+    "Phantom's Red Gengar": {
+        "desc": "Localização de Phantom's Red Gengar",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 351, "y": 1411, "requisito": "Nenhum" }
+        ]
+    },
+    "The Strongest Rock": {
+        "desc": "Localização de The Strongest Rock",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 339, "y": 1437, "requisito": "Nenhum" }
+        ]
+    },
+    "Strongest Crystal Steelix": {
+        "desc": "Localização de Strongest Crystal Steelix",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 338, "y": 1437, "requisito": "Nenhum" }
+        ]
+    },
+    "Token Converter": {
+        "desc": "Localização de Token Converter",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 398, "y": 1487, "requisito": "Nenhum" }
         ]
     }     
 }
