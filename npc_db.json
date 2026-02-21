@@ -61,7 +61,16 @@
             { "map": "johto", "x": 2765, "y": 839, "requisito": "Nenhum" },
             { "map": "johto", "x": 3168, "y": 951, "requisito": "Nenhum" },
             { "map": "johto", "x": 2351, "y": 1740, "requisito": "Nenhum" },
-            { "map": "hoenn", "x": 1835, "y": 2507, "requisito": "Nenhum" }
+            { "map": "hoenn", "x": 1835, "y": 2507, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2172, "y": 2987, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2514, "y": 2653, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2633, "y": 2913, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2927, "y": 3103, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2646, "y": 2764, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 1986, "y": 2973, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2931, "y": 2355, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2078, "y": 2410, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2286, "y": 2593, "requisito": "Nenhum" }
         ]
     },
     "Nurse Chansey": {
@@ -94,7 +103,14 @@
             { "map": "johto", "x": 2767, "y": 839, "requisito": "Nenhum" },
             { "map": "johto", "x": 3170, "y": 951, "requisito": "Nenhum" },
             { "map": "johto", "x": 2351, "y": 1741, "requisito": "Nenhum" },
-            { "map": "hoenn", "x": 1837, "y": 2507, "requisito": "Nenhum" }
+            { "map": "hoenn", "x": 1837, "y": 2507, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2173, "y": 2987, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2634, "y": 2913, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2928, "y": 3103, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 1987, "y": 2973, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2932, "y": 2355, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2080, "y": 2410, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 2287, "y": 2593, "requisito": "Nenhum" }          
         ]
     },
     "Mochileiro": {
