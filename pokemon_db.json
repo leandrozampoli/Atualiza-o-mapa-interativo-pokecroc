@@ -1095,7 +1095,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/eevee.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/eevee",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 687, "y": 1085, "qtd": 12 }
         ]
     },
     "vaporeon": {
