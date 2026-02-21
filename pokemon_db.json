@@ -423,7 +423,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/meowth.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/meowth",
         "locais": [
-            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 2 }
+            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 2 },
+            { "map": "kanto", "x": 864, "y": 1014, "qtd": 2 }
         ]
     },
     "persian": {
@@ -683,7 +684,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/farfetchd.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/Farfetch%E2%80%99d",
         "locais": [
-            { "map": "kanto", "x": 1032, "y": 967, "qtd": 20 }
+            { "map": "kanto", "x": 1032, "y": 967, "qtd": 20 },
+            { "map": "kanto", "x": 864, "y": 1014, "qtd": 2 }
         ]
     },
     "doduo": {
