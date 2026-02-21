@@ -748,7 +748,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/shellder.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/shellder",
         "locais": [
-            { "map": "kanto", "x": 848, "y": 1098, "qtd": 1 }
+            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
         ]
     },
     "cloyster": {
