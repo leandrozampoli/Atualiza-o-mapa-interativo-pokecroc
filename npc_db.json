@@ -50,7 +50,17 @@
             { "map": "kanto", "x": 414, "y": 1422, "requisito": "Nenhum" },
             { "map": "aldia", "x": 1282, "y": 2177, "requisito": "Nenhum" },
             { "map": "aldia", "x": 608, "y": 2018, "requisito": "Nenhum" },
-            { "map": "aldia", "x": 600, "y": 2425, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 600, "y": 2425, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2106, "y": 1005, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2341, "y": 1140, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2424, "y": 1203, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2580, "y": 1445, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2968, "y": 1298, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2814, "y": 1167, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2736, "y": 1014, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2765, "y": 839, "requisito": "Nenhum" },
+            { "map": "johto", "x": 3168, "y": 951, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2351, "y": 1740, "requisito": "Nenhum" }
         ]
     },
     "Nurse Chansey": {
@@ -72,7 +82,17 @@
             { "map": "kanto", "x": 417, "y": 1422, "requisito": "Nenhum" },
             { "map": "aldia", "x": 1281, "y": 2177, "requisito": "Nenhum" },
             { "map": "aldia", "x": 609, "y": 2018, "requisito": "Nenhum" },
-            { "map": "aldia", "x": 601, "y": 2425, "requisito": "Nenhum" }
+            { "map": "aldia", "x": 601, "y": 2425, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2108, "y": 1005, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2343, "y": 1140, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2423, "y": 1203, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2582, "y": 1445, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2970, "y": 1298, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2816, "y": 1167, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2738, "y": 1014, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2767, "y": 839, "requisito": "Nenhum" },
+            { "map": "johto", "x": 3170, "y": 951, "requisito": "Nenhum" },
+            { "map": "johto", "x": 2351, "y": 1741, "requisito": "Nenhum" }
         ]
     },
     "Mochileiro": {
