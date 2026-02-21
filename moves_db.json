@@ -6,7 +6,7 @@
     "recarga": "7.5 s",
     "area": "2q",
     "efeito": "Nenhum",
-    "tipo": "Fisico",
+    "ataque": "Fisico",
     "custo": "100",
     "gif": "https://link-do-gif.gif"
   },
@@ -17,7 +17,7 @@
     "recarga": "8.0 s",
     "area": "Linha Reta",
     "efeito": "Queimadura",
-    "tipo": "Especial",
+    "ataque": "Especial",
     "custo": "100",
     "gif": "https://link-do-gif.gif"
   }
