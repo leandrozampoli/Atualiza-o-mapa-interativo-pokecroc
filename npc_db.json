@@ -60,7 +60,8 @@
             { "map": "johto", "x": 2736, "y": 1014, "requisito": "Nenhum" },
             { "map": "johto", "x": 2765, "y": 839, "requisito": "Nenhum" },
             { "map": "johto", "x": 3168, "y": 951, "requisito": "Nenhum" },
-            { "map": "johto", "x": 2351, "y": 1740, "requisito": "Nenhum" }
+            { "map": "johto", "x": 2351, "y": 1740, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 1835, "y": 2507, "requisito": "Nenhum" }
         ]
     },
     "Nurse Chansey": {
@@ -92,7 +93,8 @@
             { "map": "johto", "x": 2738, "y": 1014, "requisito": "Nenhum" },
             { "map": "johto", "x": 2767, "y": 839, "requisito": "Nenhum" },
             { "map": "johto", "x": 3170, "y": 951, "requisito": "Nenhum" },
-            { "map": "johto", "x": 2351, "y": 1741, "requisito": "Nenhum" }
+            { "map": "johto", "x": 2351, "y": 1741, "requisito": "Nenhum" },
+            { "map": "hoenn", "x": 1837, "y": 2507, "requisito": "Nenhum" }
         ]
     },
     "Mochileiro": {
