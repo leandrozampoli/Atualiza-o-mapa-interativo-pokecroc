@@ -553,5 +553,45 @@
         "locais": [
             { "map": "johto", "x": 2949, "y": 870, "requisito": "Nenhum" }
         ]
+    },
+    "Captain Jones": {
+        "desc": "Localização de Captain Jones",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1324, "y": 1287, "requisito": "Nenhum" }
+        ]
+    },
+    "Oficial Olivia": {
+        "desc": "Localização de Oficial Olivia",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1327, "y": 1288, "requisito": "Nenhum" }
+        ]
+    },
+    "Lider de Conves Otto": {
+        "desc": "Localização de Lider de Conves Otto",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1325, "y": 1275, "requisito": "Nenhum" }
+        ]
+    },
+    "Marinheiro Tom": {
+        "desc": "Localização de Marinheiro Tom",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1327, "y": 1278, "requisito": "Nenhum" }
+        ]
+    },
+    "Marujo Ze": {
+        "desc": "Localização de Marujo Ze",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1324, "y": 1288, "requisito": "Nenhum" }
+        ]
     }     
 }
