@@ -349,7 +349,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/oddish.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/oddish",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 601, "y": 1148, "qtd": 19 },
+            { "map": "kanto", "x": 621, "y": 1133, "qtd": 7 }
         ]
     },
     "gloom": {
@@ -357,7 +358,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gloom.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gloom",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 601, "y": 1148, "qtd": 15 }
         ]
     },
     "vileplume": {
