@@ -143,7 +143,8 @@
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 691, "y": 1210, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 404, "y": 1474, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 404, "y": 1474, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 2339, "y": 1748, "requisito": "Nenhum" }
         ]
     },
     "Mr. Health": {
@@ -152,7 +153,8 @@
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 398, "y": 1474, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 398, "y": 1474, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 2339, "y": 1735, "requisito": "Nenhum" }
         ]
     },
     "Gary": {
@@ -179,7 +181,8 @@
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 693, "y": 1220, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 431, "y": 1474, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 431, "y": 1474, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 2357, "y": 1747, "requisito": "Nenhum" }
         ]
     },
     "Hubner": {
@@ -612,6 +615,14 @@
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1324, "y": 1288, "requisito": "Nenhum" }
+        ]
+    },
+    "Jardineira": {
+        "desc": "Localização de Jardineira",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 2353, "y": 1732, "requisito": "Nenhum" }
         ]
     }     
 }
