@@ -439,7 +439,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/psyduck.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/psyduck",
         "locais": [
-            { "map": "kanto", "x": 959, "y": 815, "qtd": 9 }
+            { "map": "kanto", "x": 959, "y": 815, "qtd": 9 },
+            { "map": "kanto", "x": 887, "y": 1149, "qtd": 9 }
         ]
     },
     "golduck": {
@@ -648,7 +649,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/slowpoke.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slowpoke",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 887, "y": 1149, "qtd": 8 }
         ]
     },
     "slowbro": {
@@ -957,7 +958,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/horsea.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/horsea",
         "locais": [
-            { "map": "kanto", "x": 991, "y": 842, "qtd": 8 } 
+            { "map": "kanto", "x": 991, "y": 842, "qtd": 8 },
+            { "map": "kanto", "x": 887, "y": 1149, "qtd": 4 }
         ]
     },
     "seadra": {
