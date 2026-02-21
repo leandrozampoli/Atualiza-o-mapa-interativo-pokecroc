@@ -576,7 +576,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weepinbell.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weepinbell",
         "locais": [
-            { "map": "kanto", "x": 849, "y": 1062, "qtd": 9 }
+            { "map": "kanto", "x": 849, "y": 1062, "qtd": 9 },
+            { "map": "kanto", "x": 844, "y": 1035, "qtd": 8 }
         ]
     },
     "victreebel": {
@@ -584,7 +585,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/victreebel.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/victreebel",
         "locais": [
-            { "map": "kanto", "x": 816, "y": 1161, "qtd": 5 }
+            { "map": "kanto", "x": 816, "y": 1161, "qtd": 5 },
+            { "map": "kanto", "x": 844, "y": 1035, "qtd": 9 }
         ]
     },
     "tentacool": {
