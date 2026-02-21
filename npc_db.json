@@ -47,7 +47,10 @@
             { "map": "kanto", "x": 1213, "y": 1321, "requisito": "Nenhum" },
             { "map": "kanto", "x": 851, "y": 1396, "requisito": "Nenhum" },
             { "map": "kanto", "x": 509, "y": 1132, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 414, "y": 1422, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 414, "y": 1422, "requisito": "Nenhum" },
+            { "map": "aldia", "x": 1282, "y": 2177, "requisito": "Nenhum" },
+            { "map": "aldia", "x": 608, "y": 2018, "requisito": "Nenhum" },
+            { "map": "aldia", "x": 600, "y": 2425, "requisito": "Nenhum" }
         ]
     },
     "Nurse Chansey": {
@@ -66,7 +69,10 @@
             { "map": "kanto", "x": 1211, "y": 1321, "requisito": "Nenhum" },
             { "map": "kanto", "x": 849, "y": 1396, "requisito": "Nenhum" },
             { "map": "kanto", "x": 510, "y": 1132, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 417, "y": 1422, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 417, "y": 1422, "requisito": "Nenhum" },
+            { "map": "aldia", "x": 1281, "y": 2177, "requisito": "Nenhum" },
+            { "map": "aldia", "x": 609, "y": 2018, "requisito": "Nenhum" },
+            { "map": "aldia", "x": 601, "y": 2425, "requisito": "Nenhum" }
         ]
     },
     "Mochileiro": {
@@ -506,6 +512,22 @@
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "hoenn", "x": 2821, "y": 2842, "requisito": "Nenhum" }
+        ]
+    },
+    "Eren": {
+        "desc": "Localização de Eren",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "johto", "x": 3109, "y": 1031, "requisito": "Nenhum" }
+        ]
+    },
+    "Fia": {
+        "desc": "Localização de Fia",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "johto", "x": 3244, "y": 1006, "requisito": "Nenhum" }
         ]
     }     
 }
