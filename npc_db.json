@@ -181,7 +181,15 @@
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 689, "y": 1220, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 419, "y": 1474, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 419, "y": 1474, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 713, "y": 1091, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 718, "y": 853, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1064, "y": 909, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1053, "y": 1044, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 861, "y": 1102, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1069, "y": 1242, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1211, "y": 1333, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 852, "y": 1403, "requisito": "Nenhum" }
         ]
     },
     "Craftswoman": {
