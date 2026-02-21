@@ -605,7 +605,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/geodude.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/geodude",
         "locais": [
-            { "map": "kanto", "x": 1190, "y": 1076, "qtd": 3 }
+            { "map": "kanto", "x": 1190, "y": 1076, "qtd": 3 },
+            { "map": "kanto", "x": 685, "y": 1105, "qtd": 3 }
         ]
     },
     "graveler": {
@@ -911,7 +912,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rhyhorn.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rhyhorn",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 685, "y": 1105, "qtd": 12 }
         ]
     },
     "rhydon": {
@@ -919,7 +920,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rhydon.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rhydon",
         "locais": [
-            { "map": "kanto", "x": 882, "y": 921, "qtd": 2 }
+            { "map": "kanto", "x": 882, "y": 921, "qtd": 2 },
+            { "map": "kanto", "x": 685, "y": 1105, "qtd": 10 }
         ]
     },
     "chansey": {
