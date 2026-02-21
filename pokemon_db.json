@@ -97,7 +97,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/butterfree.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/butterfree",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 960, "y": 938, "qtd": 8 }
         ]
     },
     "weedle": {
@@ -399,7 +399,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/venomoth.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/venomoth",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 960, "y": 938, "qtd": 7 }
         ]
     },
     "diglett": {
