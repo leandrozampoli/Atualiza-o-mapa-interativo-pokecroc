@@ -121,7 +121,8 @@
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 660, "y": 1228, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 425, "y": 1474, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 425, "y": 1474, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1000, "y": 1073, "requisito": "Nenhum" }
         ]
     },
     "Delia Ketchum": {
@@ -741,5 +742,45 @@
         "locais": [
             { "map": "kanto", "x": 790, "y": 1371, "requisito": "Nenhum" }
         ]
-    }     
+    },
+    "Erika": {
+        "desc": "Localização de Erika",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 849, "y": 1116, "requisito": "Nenhum" }
+        ]
+    },
+    "Chelsea": {
+        "desc": "Localização de Chelsea",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 920, "y": 1149, "requisito": "Nenhum" }
+        ]
+    },
+    "Bryce": {
+        "desc": "Localização de Bryce",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1155, "y": 1122, "requisito": "Nenhum" }
+        ]
+    },
+    "Jeremy Wade": {
+        "desc": "Localização de Jeremy Wade",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1026, "y": 1072, "requisito": "Nenhum" }
+        ]
+    },
+    "Apollo": {
+        "desc": "Localização de Apollo",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1117, "y": 941, "requisito": "Nenhum" }
+        ]
+    }
 }
