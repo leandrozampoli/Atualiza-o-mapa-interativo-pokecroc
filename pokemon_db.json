@@ -1089,7 +1089,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ditto.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ditto",
         "locais": [
-            { "map": "aldia", "x": 1185, "y": 2085, "qtd": 1 }
+            { "map": "aldia", "x": 1185, "y": 2085, "qtd": 1 },
+            { "map": "johto", "x": 2439, "y": 2066, "qtd": 1 }
         ]
     },
     "eevee": {
@@ -1296,7 +1297,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/typhlosion.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/typhlosion",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 2431, "y": 2044, "qtd": 34 }
         ]
     },
     "totodile": {
@@ -2638,7 +2639,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/torkoal.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/torkoal",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 2431, "y": 2044, "qtd": 31 }
         ]
     },
     "spoink": {
