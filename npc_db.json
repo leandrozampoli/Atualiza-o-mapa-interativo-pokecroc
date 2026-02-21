@@ -529,5 +529,21 @@
         "locais": [
             { "map": "johto", "x": 3244, "y": 1006, "requisito": "Nenhum" }
         ]
+    },
+    "Holandes Voador": {
+        "desc": "Localização de Holandes Voador",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "johto", "x": 2852, "y": 1177, "requisito": "Nenhum" }
+        ]
+    },
+    "Alexander": {
+        "desc": "Localização de Alexander",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "johto", "x": 2465, "y": 1216, "requisito": "Nenhum" }
+        ]
     }     
 }
