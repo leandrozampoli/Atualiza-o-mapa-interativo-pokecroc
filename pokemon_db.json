@@ -567,7 +567,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/bellsprout.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/bellsprout",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 849, "y": 1062, "qtd": 9 }
         ]
     },
     "weepinbell": {
@@ -575,7 +575,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weepinbell.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weepinbell",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 849, "y": 1062, "qtd": 9 }
         ]
     },
     "victreebel": {
