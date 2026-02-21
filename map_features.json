@@ -119,7 +119,8 @@
       { "name": "Violet", "x": 2815, "y": 1170 },
       { "name": "Ecruteak", "x": 2735, "y": 1017 },
       { "name": "Mahogany", "x": 2766, "y": 842 },
-      { "name": "Blackthorn", "x": 3168, "y": 954 }
+      { "name": "Blackthorn", "x": 3168, "y": 954 },
+      { "name": "Saffari", "x": 2347, "y": 1742 }
     ],
     "lendarios": [
       { "name": "Celebi", "x": 2648, "y": 1583, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/celebi.gif" },
