@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Air Slash",
+    "tipo": "Voador",
+    "dano": "86k ~ 133k",
+    "recarga": "7.5 s",
+    "area": "2q",
+    "efeito": "Nenhum",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Flamethrower",
+    "tipo": "Fogo",
+    "dano": "90k ~ 140k",
+    "recarga": "8.0 s",
+    "area": "Linha Reta",
+    "efeito": "Queimadura",
+    "gif": "https://link-do-gif.gif"
+  }
+]
