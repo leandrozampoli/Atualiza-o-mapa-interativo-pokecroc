@@ -164,7 +164,8 @@
         "locais": [
             { "map": "kanto", "x": 691, "y": 1210, "requisito": "Nenhum" },
             { "map": "kanto", "x": 404, "y": 1474, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 2339, "y": 1748, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 2339, "y": 1748, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 948, "y": 1488, "requisito": "Nenhum" }
         ]
     },
     "Mr. Health": {
@@ -174,7 +175,8 @@
         "locais": [
             { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" },
             { "map": "kanto", "x": 398, "y": 1474, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 2339, "y": 1735, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 2339, "y": 1735, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 939, "y": 1495, "requisito": "Nenhum" }
         ]
     },
     "Gary": {
@@ -210,7 +212,8 @@
         "locais": [
             { "map": "kanto", "x": 693, "y": 1220, "requisito": "Nenhum" },
             { "map": "kanto", "x": 431, "y": 1474, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 2357, "y": 1747, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 2357, "y": 1747, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 948, "y": 1495, "requisito": "Nenhum" }
         ]
     },
     "Hubner": {
@@ -691,7 +694,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 2353, "y": 1732, "requisito": "Nenhum" }
+            { "map": "johto", "x": 2353, "y": 1732, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1480, "y": 946, "requisito": "Nenhum" }
         ]
     }     
 }
