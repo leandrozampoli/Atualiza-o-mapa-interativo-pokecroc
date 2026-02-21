@@ -366,7 +366,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/vileplume.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/vileplume",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 816, "y": 1161, "qtd": 4 }
         ]
     },
     "paras": {
@@ -582,7 +582,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/victreebel.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/victreebel",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 816, "y": 1161, "qtd": 5 }
         ]
     },
     "tentacool": {
@@ -1139,7 +1139,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/omanyte.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/omanyte",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 816, "y": 1161, "qtd": 10 }
         ]
     },
     "omastar": {
@@ -1147,7 +1147,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/omastar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/omastar",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 816, "y": 1161, "qtd": 9 }
         ]
     },
     "kabuto": {
