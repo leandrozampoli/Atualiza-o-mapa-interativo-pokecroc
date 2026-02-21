@@ -588,7 +588,9 @@
         "locais": [
             { "map": "kanto", "x": 816, "y": 1161, "qtd": 5 },
             { "map": "kanto", "x": 844, "y": 1035, "qtd": 9 },
-            { "map": "kanto", "x": 892, "y": 986, "qtd": 15 }
+            { "map": "kanto", "x": 892, "y": 986, "qtd": 15 },
+            { "map": "kanto", "x": 939, "y": 993, "qtd": 15 },
+            { "map": "kanto", "x": 903, "y": 1025, "qtd": 21 }
         ]
     },
     "tentacool": {
