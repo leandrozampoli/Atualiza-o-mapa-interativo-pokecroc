@@ -587,7 +587,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/victreebel",
         "locais": [
             { "map": "kanto", "x": 816, "y": 1161, "qtd": 5 },
-            { "map": "kanto", "x": 844, "y": 1035, "qtd": 9 }
+            { "map": "kanto", "x": 844, "y": 1035, "qtd": 9 },
+            { "map": "kanto", "x": 892, "y": 986, "qtd": 15 }
         ]
     },
     "tentacool": {
