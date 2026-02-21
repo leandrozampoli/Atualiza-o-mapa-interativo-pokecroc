@@ -165,7 +165,8 @@
             { "map": "kanto", "x": 691, "y": 1210, "requisito": "Nenhum" },
             { "map": "kanto", "x": 404, "y": 1474, "requisito": "Nenhum" },
             { "map": "kanto", "x": 2339, "y": 1748, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 948, "y": 1488, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 948, "y": 1488, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 867, "y": 1435, "requisito": "Nenhum" }
         ]
     },
     "Mr. Health": {
@@ -176,7 +177,8 @@
             { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" },
             { "map": "kanto", "x": 398, "y": 1474, "requisito": "Nenhum" },
             { "map": "kanto", "x": 2339, "y": 1735, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 939, "y": 1495, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 939, "y": 1495, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 870, "y": 1399, "requisito": "Nenhum" }
         ]
     },
     "Gary": {
@@ -202,7 +204,8 @@
         "quest": "https://pokecrocmapads.discloud.app/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 692, "y": 1210, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 410, "y": 1474, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 410, "y": 1474, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 863, "y": 1440, "requisito": "Nenhum" }
         ]
     },
     "Ms Money": {
@@ -213,7 +216,8 @@
             { "map": "kanto", "x": 693, "y": 1220, "requisito": "Nenhum" },
             { "map": "kanto", "x": 431, "y": 1474, "requisito": "Nenhum" },
             { "map": "kanto", "x": 2357, "y": 1747, "requisito": "Nenhum" },
-            { "map": "kanto", "x": 948, "y": 1495, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 948, "y": 1495, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 872, "y": 1404, "requisito": "Nenhum" }
         ]
     },
     "Hubner": {
@@ -696,6 +700,46 @@
         "locais": [
             { "map": "johto", "x": 2353, "y": 1732, "requisito": "Nenhum" },
             { "map": "kanto", "x": 1480, "y": 946, "requisito": "Nenhum" }
+        ]
+    },
+    "Putfire's Peter": {
+        "desc": "Localização de Putfire's Peter",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 836, "y": 1355, "requisito": "Nenhum" }
+        ]
+    },
+    "Erick Loconoco": {
+        "desc": "Localização de Erick Loconoco",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 798, "y": 1369, "requisito": "Nenhum" }
+        ]
+    },
+    "Bruna": {
+        "desc": "Localização de Bruna",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 789, "y": 1370, "requisito": "Nenhum" }
+        ]
+    },
+    "Torch Man": {
+        "desc": "Localização de Torch Man",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 871, "y": 1399, "requisito": "Nenhum" }
+        ]
+    },
+    "Blaine": {
+        "desc": "Localização de Blaine",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 790, "y": 1371, "requisito": "Nenhum" }
         ]
     }     
 }
