@@ -507,6 +507,14 @@
             { "map": "kanto", "x": 398, "y": 1487, "requisito": "Nenhum" }
         ]
     },
+    "Policial Jenny": {
+        "desc": "Localização de Policial Jenny",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 419, "y": 1445, "requisito": "Nenhum" }
+        ]
+    },
     "Uma": {
         "desc": "Localização de Uma",
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
