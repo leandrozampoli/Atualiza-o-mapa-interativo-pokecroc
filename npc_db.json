@@ -592,7 +592,8 @@
         "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
-            { "map": "kanto", "x": 1324, "y": 1287, "requisito": "Nenhum" }
+            { "map": "kanto", "x": 1324, "y": 1287, "requisito": "Nenhum" },
+            { "map": "kanto", "x": 1521, "y": 1568, "requisito": "Nenhum" }
         ]
     },
     "Oficial Olivia": {
@@ -625,6 +626,38 @@
         "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
         "locais": [
             { "map": "kanto", "x": 1324, "y": 1288, "requisito": "Nenhum" }
+        ]
+    },
+    "Bruno": {
+        "desc": "Localização de Bruno",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1479, "y": 1552, "requisito": "Nenhum" }
+        ]
+    },
+    "Lorelei": {
+        "desc": "Localização de Lorelei",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1466, "y": 1551, "requisito": "Nenhum" }
+        ]
+    },
+    "Agatha": {
+        "desc": "Localização de Agatha",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1456, "y": 1565, "requisito": "Nenhum" }
+        ]
+    },
+    "Lance": {
+        "desc": "Localização de Lance",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "kanto", "x": 1462, "y": 1589, "requisito": "Nenhum" }
         ]
     },
     "Jardineira": {
