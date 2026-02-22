@@ -197,7 +197,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/arbok.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/arbok",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 941, "y": 871, "qtd": 25 }
         ]
     },
     "pikachu": {
@@ -914,7 +914,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/weezing.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/weezing",
         "locais": [
-            { "map": "kanto", "x": 737, "y": 988, "qtd": 5 }
+            { "map": "kanto", "x": 737, "y": 988, "qtd": 5 },
+            { "map": "kanto", "x": 941, "y": 871, "qtd": 21 }
         ]
     },
     "rhyhorn": {
