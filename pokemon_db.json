@@ -2486,7 +2486,9 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/mawile.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/mawile",
         "locais": [
-            { "map": "johto", "x": 2376, "y": 919, "qtd": 33 }
+            { "map": "johto", "x": 2376, "y": 919, "qtd": 33 },
+            { "map": "johto", "x": 2414, "y": 1069, "qtd": 10 },
+            { "map": "johto", "x": 2399, "y": 1118, "qtd": 10 }
         ]
     },
     "aron": {
