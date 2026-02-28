@@ -2754,7 +2754,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/seviper.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/seviper",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 3018, "y": 960, "qtd": 46 }
         ]
     },
     "lunatone": {
