@@ -1026,7 +1026,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/scyther.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/scyther",
         "locais": [
-            { "map": "kanto", "x": 635, "y": 721, "qtd": 12 }
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 12 },
+            { "map": "johto", "x": 2293, "y": 1052, "qtd": 8 }
         ]
     },
     "jynx": {
@@ -1751,7 +1752,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/scizor.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/scizor",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2293, "y": 1052, "qtd": 6 }
         ]
     },
     "shuckle": {
