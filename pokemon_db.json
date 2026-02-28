@@ -1709,7 +1709,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gligar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gligar",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2553, "y": 1218, "qtd": 12 }
         ]
     },
     "steelix": {
@@ -1717,7 +1717,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/steelix.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/steelix",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2553, "y": 1218, "qtd": 9 }
         ]
     },
     "snubbull": {
@@ -1909,7 +1909,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/donphan.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/donphan",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2553, "y": 1218, "qtd": 11 }
         ]
     },
     "porygon2": {
