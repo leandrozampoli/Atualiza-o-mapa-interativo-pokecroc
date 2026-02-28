@@ -1333,7 +1333,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/feraligatr.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/feraligatr",
         "locais": [
-            { "map": "johto", "x": 2513, "y": 1558, "qtd": 8 }
+            { "map": "johto", "x": 2513, "y": 1558, "qtd": 8 },
+            { "map": "johto", "x": 2530, "y": 1077, "qtd": 48 }
         ]
     },
     "sentret": {
@@ -2133,7 +2134,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/swampert.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/swampert",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2530, "y": 1077, "qtd": 37 }
         ]
     },
     "poochyena": {
