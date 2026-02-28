@@ -2512,7 +2512,8 @@
         "locais": [
             { "map": "johto", "x": 2434, "y": 1740, "qtd": 44 },
             { "map": "johto", "x": 2325, "y": 886, "qtd": 95 },
-            { "map": "aldia", "x": 660, "y": 2583, "qtd": 27 }
+            { "map": "aldia", "x": 660, "y": 2583, "qtd": 27 },
+            { "map": "johto", "x": 2395, "y": 1095, "qtd": 52 }
         ]
     },
     "meditite": {
