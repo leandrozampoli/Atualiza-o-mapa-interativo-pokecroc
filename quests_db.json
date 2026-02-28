@@ -2,7 +2,7 @@
     "kanto": [
         { "name": "Moltres", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
         { "name": "First Stone", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
-        { "name": "Zapdos", "link": "#" }
+        { "name": "Zapdos", "link": "https://pokecrocmapads.discloud.app/manutencao.html" }
     ],
     "johto": [
         { "name": "O Holandês Voador", "link": "https://pokecrocmapads.discloud.app/Quests/holandesvoador.html" },
@@ -10,7 +10,7 @@
         { "name": "Cães Lendários", "link": "https://pokecrocmapads.discloud.app/manutencao.html" }
     ],
     "hoenn": [
-        { "name": "Leak Guardians", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
+        { "name": "Lake Guardians", "link": "https://pokecrocmapads.discloud.app/manutencao.html" },
         { "name": "Rocket Quest", "link": "https://pokecrocmapads.discloud.app/manutencao.html" }
     ],
     "aldia": [
