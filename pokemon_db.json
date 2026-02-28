@@ -2748,7 +2748,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/zangoose.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/zangoose",
         "locais": [
-            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 15 }
+            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 15 },
+            { "map": "johto", "x": 2414, "y": 1069, "qtd": 11 }
         ]
     },
     "seviper": {
