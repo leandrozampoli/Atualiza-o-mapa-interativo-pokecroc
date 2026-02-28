@@ -1317,7 +1317,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/totodile.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/totodile",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2702, "y": 1467, "qtd": 44 }
         ]
     },
     "croconaw": {
@@ -1325,7 +1325,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/croconaw.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/croconaw",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2702, "y": 1467, "qtd": 10 }
         ]
     },
     "feraligatr": {
@@ -1334,7 +1334,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/feraligatr",
         "locais": [
             { "map": "johto", "x": 2513, "y": 1558, "qtd": 8 },
-            { "map": "johto", "x": 2530, "y": 1077, "qtd": 48 }
+            { "map": "johto", "x": 2530, "y": 1077, "qtd": 48 },
+            { "map": "johto", "x": 2707, "y": 1442, "qtd": 15 }
         ]
     },
     "sentret": {
@@ -2230,7 +2231,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ludicolo.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ludicolo",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2707, "y": 1442, "qtd": 37 }
         ]
     },
     "seedot": {
