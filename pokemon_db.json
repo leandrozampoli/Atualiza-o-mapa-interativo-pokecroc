@@ -2509,7 +2509,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/aggron.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/aggron",
         "locais": [
-            { "map": "johto", "x": 2434, "y": 1740, "qtd": 44 }
+            { "map": "johto", "x": 2434, "y": 1740, "qtd": 44 },
+            { "map": "johto", "x": 2325, "y": 886, "qtd": 95 }
         ]
     },
     "meditite": {
