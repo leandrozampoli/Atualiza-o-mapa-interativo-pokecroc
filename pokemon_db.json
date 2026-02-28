@@ -1415,7 +1415,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/chinchou.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/chinchou",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2364, "y": 1054, "qtd": 10 }
         ]
     },
     "lanturn": {
@@ -1423,7 +1423,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/lanturn.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/lanturn",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2364, "y": 1054, "qtd": 13 }
         ]
     },
     "pichu": {
@@ -1831,7 +1831,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/corsola.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/corsola",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2364, "y": 1054, "qtd": 18 }
         ]
     },
     "remoraid": {
