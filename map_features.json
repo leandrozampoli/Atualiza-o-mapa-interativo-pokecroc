@@ -135,7 +135,10 @@
       { "name": "Latios", "x": 3430, "y": 815, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/latios.gif" },
       { "name": "Latias", "x": 3428, "y": 815, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/latias.gif" },
       { "name": "Ho-oh", "x": 2844, "y": 1287, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hooh.gif" },
-      { "name": "Rayquaza", "x": 3222, "y": 1213, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rayquaza.gif" }
+      { "name": "Rayquaza", "x": 3222, "y": 1213, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/rayquaza.gif" },
+      { "name": "Mew", "x": 2339, "y": 1798, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/mew.gif" },
+      { "name": "Articuno", "x": 2336, "y": 1947, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/articuno.gif" },
+      { "name": "Zapdos", "x": 2439, "y": 1837, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/zapdos.gif" }
     ],
     "carnaval": [
       { "name": "Toten Carnaval (2109, 1018)", "x": 2109, "y": 1018 },
