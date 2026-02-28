@@ -2021,7 +2021,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/larvitar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/larvitar",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2570, "y": 1350, "qtd": 12 }
         ]
     },
     "pupitar": {
@@ -2029,7 +2029,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pupitar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pupitar",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2570, "y": 1350, "qtd": 7 }
         ]
     },
     "tyranitar": {
@@ -2037,7 +2037,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tyranitar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tyranitar",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2570, "y": 1350, "qtd": 19 }
         ]
     },
     "lugia": {
