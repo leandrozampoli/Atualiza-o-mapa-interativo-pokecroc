@@ -2135,7 +2135,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/swampert.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/swampert",
         "locais": [
-            { "map": "johto", "x": 2530, "y": 1077, "qtd": 37 }
+            { "map": "johto", "x": 2530, "y": 1077, "qtd": 37 },
+            { "map": "johto", "x": 2318, "y": 1699, "qtd": 72 }
         ]
     },
     "poochyena": {
