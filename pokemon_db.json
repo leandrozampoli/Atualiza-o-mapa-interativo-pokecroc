@@ -1511,7 +1511,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/bellossom.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/bellossom",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2337, "y": 1044, "qtd": 9 }
         ]
     },
     "marill": {
