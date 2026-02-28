@@ -2701,7 +2701,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/flygon.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/flygon",
         "locais": [
-            { "map": "aldia", "x": 497, "y": 2329, "qtd": 48 }
+            { "map": "aldia", "x": 497, "y": 2329, "qtd": 48 },
+            { "map": "johto", "x": 3018, "y": 960, "qtd": 45 }
         ]
     },
     "cacnea": {
