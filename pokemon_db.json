@@ -1285,7 +1285,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/meganium.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/meganium",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 3074, "y": 1249, "qtd": 86 }
         ]
     },
     "cyndaquil": {
