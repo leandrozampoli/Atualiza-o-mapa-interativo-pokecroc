@@ -1333,7 +1333,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/feraligatr.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/feraligatr",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2513, "y": 1558, "qtd": 8 }
         ]
     },
     "sentret": {
@@ -2085,7 +2085,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/sceptile.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/sceptile",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2551, "y": 1553, "qtd": 10 }
         ]
     },
     "torchic": {
@@ -2755,7 +2755,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/lunatone.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/lunatone",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2533, "y": 1579, "qtd": 9 }
         ]
     },
     "solrock": {
@@ -2763,7 +2763,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/solrock.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/solrock",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2487, "y": 1551, "qtd": 8 }
         ]
     },
     "barboach": {
@@ -2915,7 +2915,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tropius.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tropius",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "johto", "x": 2493, "y": 1579, "qtd": 6 }
         ]
     },
     "chimecho": {
