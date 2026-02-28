@@ -2699,7 +2699,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/flygon.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/flygon",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "aldia", "x": 497, "y": 2329, "qtd": 48 }
         ]
     },
     "cacnea": {
