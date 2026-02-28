@@ -2216,7 +2216,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/lotad.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/lotad",
         "locais": [
-            { "map": "kanto", "x": 2702, "y": 1467, "qtd": 14 }
+            { "map": "johto", "x": 2702, "y": 1467, "qtd": 14 }
         ]
     },
     "lombre": {
