@@ -888,7 +888,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/exeggutor.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/exeggutor",
         "locais": [
-            { "map": "kanto", "x": 635, "y": 721, "qtd": 1 }
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 1 },
+            { "map": "kanto", "x": 1316, "y": 1329, "qtd": 8 }
         ]
     },
     "cubone": {
@@ -965,7 +966,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/rhydon",
         "locais": [
             { "map": "kanto", "x": 882, "y": 921, "qtd": 2 },
-            { "map": "kanto", "x": 685, "y": 1105, "qtd": 10 }
+            { "map": "kanto", "x": 685, "y": 1105, "qtd": 10 },
+            { "map": "kanto", "x": 1276, "y": 1307, "qtd": 6 }
         ]
     },
     "chansey": {
