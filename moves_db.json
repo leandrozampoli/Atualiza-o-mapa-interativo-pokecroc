@@ -2,18 +2,18 @@
   {
     "nome": "Air Slash",
     "tipo": "Voador",
-    "dano": "86k ~ 133k",
+    "dano": "--",
     "recarga": "7.5 s",
     "area": "2q",
     "efeito": "Nenhum",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/AirSlash.gif"
   },
   {
     "nome": "Flamethrower",
     "tipo": "Fogo",
-    "dano": "90k ~ 140k",
+    "dano": "--",
     "recarga": "8.0 s",
     "area": "Linha Reta",
     "efeito": "Queimadura",
@@ -199,6 +199,7 @@
   }
 
 ]
+
 
 
 
