@@ -378,7 +378,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/paras.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/paras",
         "locais": [
-            { "map": "kanto", "x": 747, "y": 1159, "qtd": 11 }
+            { "map": "kanto", "x": 747, "y": 1159, "qtd": 11 },
+            { "map": "kanto", "x": 1139, "y": 1417, "qtd": 26 }
         ]
     },
     "parasect": {
@@ -386,7 +387,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/parasect.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/parasect",
         "locais": [
-            { "map": "kanto", "x": 747, "y": 1159, "qtd": 4 }
+            { "map": "kanto", "x": 747, "y": 1159, "qtd": 4 },
+            { "map": "kanto", "x": 1139, "y": 1417, "qtd": 11 }
         ]
     },
     "venonat": {
