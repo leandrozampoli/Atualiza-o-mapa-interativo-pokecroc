@@ -240,7 +240,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoranf.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoran-f",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 2 }
         ]
     },
     "nidorina": {
@@ -248,7 +248,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidorina.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidorina",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 26 }
         ]
     },
     "nidoqueen": {
@@ -256,7 +256,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoqueen.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoqueen",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 28 }
         ]
     },
     "nidoranm": {
@@ -264,7 +264,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoranm.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoran-m",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 2 }
         ]
     },
     "nidorino": {
@@ -272,7 +272,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidorino.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidorino",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 26 }
         ]
     },
     "nidoking": {
@@ -280,7 +280,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoking.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoking",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 26 }
         ]
     },
     "clefairy": {
