@@ -66,7 +66,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/wartortle",
         "locais": [
             { "map": "kanto", "x": 1022, "y": 783, "qtd": 2 },
-            { "map": "kanto", "x": 1054, "y": 801, "qtd": 8 }
+            { "map": "kanto", "x": 1054, "y": 801, "qtd": 8 },
+            { "map": "kanto", "x": 1021, "y": 804, "qtd": 7 }
         ]
     },
     "blastoise": {
@@ -829,7 +830,8 @@
         "locais": [
             { "map": "kanto", "x": 635, "y": 721, "qtd": 5 },
             { "map": "kanto", "x": 1022, "y": 783, "qtd": 1 },
-            { "map": "kanto", "x": 1054, "y": 801, "qtd": 5 }
+            { "map": "kanto", "x": 1054, "y": 801, "qtd": 5 },
+            { "map": "kanto", "x": 1021, "y": 804, "qtd": 5 }
         ]
     },
     "voltorb": {
