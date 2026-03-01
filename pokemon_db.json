@@ -603,7 +603,11 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tentacool.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tentacool",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1094, "y": 780, "qtd": 5 },
+            { "map": "kanto", "x": 1088, "y": 760, "qtd": 1 },
+            { "map": "kanto", "x": 1077, "y": 812, "qtd": 1 },
+            { "map": "kanto", "x": 1096, "y": 806, "qtd": 1 },
+            { "map": "kanto", "x": 1110, "y": 793, "qtd": 2 }
         ]
     },
     "tentacruel": {
@@ -611,7 +615,16 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tentacruel.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tentacruel",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1094, "y": 780, "qtd": 5 },
+            { "map": "kanto", "x": 1088, "y": 760, "qtd": 1 },
+            { "map": "kanto", "x": 1059, "y": 763, "qtd": 1 },
+            { "map": "kanto", "x": 1062, "y": 777, "qtd": 1 },
+            { "map": "kanto", "x": 1071, "y": 792, "qtd": 1 },
+            { "map": "kanto", "x": 1075, "y": 802, "qtd": 1 },
+            { "map": "kanto", "x": 1077, "y": 812, "qtd": 1 },
+            { "map": "kanto", "x": 1071, "y": 820, "qtd": 1 },
+            { "map": "kanto", "x": 1096, "y": 806, "qtd": 1 },
+            { "map": "kanto", "x": 1110, "y": 793, "qtd": 1 }
         ]
     },
     "geodude": {
@@ -668,7 +681,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/slowbro.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/slowbro",
         "locais": [
-            { "map": "kanto", "x": 659, "y": 1269, "qtd": 12 }
+            { "map": "kanto", "x": 659, "y": 1269, "qtd": 12 },
+            { "map": "kanto", "x": 1077, "y": 772, "qtd": 4 }
         ]
     },
     "magnemite": {
