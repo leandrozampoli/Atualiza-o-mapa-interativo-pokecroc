@@ -494,7 +494,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwag.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwag",
         "locais": [
-            { "map": "kanto", "x": 740, "y": 1281, "qtd": 6 }
+            { "map": "kanto", "x": 740, "y": 1281, "qtd": 6 },
+            { "map": "kanto", "x": 1032, "y": 865, "qtd": 8 }
         ]
     },
     "poliwhirl": {
@@ -502,7 +503,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/poliwhirl.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/poliwhirl",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1032, "y": 865, "qtd": 16 }
         ]
     },
     "poliwrath": {
@@ -513,7 +514,8 @@
             { "map": "kanto", "x": 634, "y": 1318, "qtd": 3 },
             { "map": "kanto", "x": 675, "y": 1346, "qtd": 3 },
             { "map": "kanto", "x": 700, "y": 1307, "qtd": 3 },
-            { "map": "kanto", "x": 745, "y": 1267, "qtd": 3 }
+            { "map": "kanto", "x": 745, "y": 1267, "qtd": 3 },
+            { "map": "kanto", "x": 1032, "y": 865, "qtd": 5 }
         ]
     },
     "abra": {
@@ -985,7 +987,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/goldeen",
         "locais": [
             { "map": "kanto", "x": 848, "y": 1098, "qtd": 5 },
-            { "map": "kanto", "x": 1083, "y": 865, "qtd": 1 }
+            { "map": "kanto", "x": 1083, "y": 865, "qtd": 1 },
+            { "map": "kanto", "x": 1032, "y": 865, "qtd": 3 }
         ]
     },
     "seaking": {
@@ -1079,7 +1082,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magikarp",
         "locais": [
             { "map": "kanto", "x": 740, "y": 1281, "qtd": 10 },
-            { "map": "kanto", "x": 1083, "y": 865, "qtd": 12 }
+            { "map": "kanto", "x": 1083, "y": 865, "qtd": 12 },
+            { "map": "kanto", "x": 1032, "y": 865, "qtd": 9 }
         ]
     },
     "gyarados": {
