@@ -20,5 +20,182 @@
     "ataque": "Especial",
     "custo": "100",
     "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Oblivion Wing",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "7.5 s",
+    "area": "2q",
+    "efeito": "Cura",
+    "ataque": "Especial",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Bleakwind Storm",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "7.5 s",
+    "area": "2q",
+    "efeito": "--",
+    "ataque": "Especial",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Hurricane",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "20 s",
+    "area": "3q",
+    "efeito": "--",
+    "ataque": "Especial",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Air Cutter",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "11 s",
+    "area": "Target",
+    "efeito": "--",
+    "ataque": "Especial",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Gust",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "5 s",
+    "area": "1q",
+    "efeito": "Nenhum",
+    "ataque": "Especial",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Pluck",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "7.5 s",
+    "area": "2q",
+    "efeito": "--",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Dual Wingbeat",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "6 s",
+    "area": "target",
+    "efeito": "--",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Aerial Ace",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "9.5 s",
+    "area": "frente",
+    "efeito": "--",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Fly",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "7 s",
+    "area": "target",
+    "efeito": "Invulnerabilidade Temporaria",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Bounce",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "15 s",
+    "area": "3q",
+    "efeito": "--",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Brave Bird",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "15 s",
+    "area": "vai ate o poke/target",
+    "efeito": "Dano Recuo",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Drill Peck",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "9.5 s",
+    "area": "2q",
+    "efeito": "Nenhum",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Peck",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "2.5 s",
+    "area": "target",
+    "efeito": "Nenhum",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Sky Attack",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "15 s",
+    "area": "4q",
+    "efeito": "--",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Wing Attack",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "5 s",
+    "area": "frontal 2q",
+    "efeito": "Nenhum",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
+  },
+  {
+    "nome": "Sky Drop",
+    "tipo": "Voador",
+    "dano": "--",
+    "recarga": "15 s",
+    "area": "3q",
+    "efeito": "--",
+    "ataque": "Fisico",
+    "custo": "100",
+    "gif": "https://link-do-gif.gif"
   }
+
 ]
