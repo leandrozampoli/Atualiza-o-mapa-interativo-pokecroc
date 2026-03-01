@@ -607,7 +607,8 @@
             { "map": "kanto", "x": 1088, "y": 760, "qtd": 1 },
             { "map": "kanto", "x": 1077, "y": 812, "qtd": 1 },
             { "map": "kanto", "x": 1096, "y": 806, "qtd": 1 },
-            { "map": "kanto", "x": 1110, "y": 793, "qtd": 2 }
+            { "map": "kanto", "x": 1110, "y": 793, "qtd": 2 },
+            { "map": "kanto", "x": 1108, "y": 764, "qtd": 1 }
         ]
     },
     "tentacruel": {
@@ -624,7 +625,8 @@
             { "map": "kanto", "x": 1077, "y": 812, "qtd": 1 },
             { "map": "kanto", "x": 1071, "y": 820, "qtd": 1 },
             { "map": "kanto", "x": 1096, "y": 806, "qtd": 1 },
-            { "map": "kanto", "x": 1110, "y": 793, "qtd": 1 }
+            { "map": "kanto", "x": 1110, "y": 793, "qtd": 1 },
+            { "map": "kanto", "x": 1108, "y": 764, "qtd": 1 }
         ]
     },
     "geodude": {
