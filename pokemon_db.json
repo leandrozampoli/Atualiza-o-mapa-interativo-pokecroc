@@ -240,7 +240,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoranf.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoran-f",
         "locais": [
-            { "map": "kanto", "x": 785, "y": 1010, "qtd": 2 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 2 },
+            { "map": "kanto", "x": 751, "y": 1035, "qtd": 12 }
         ]
     },
     "nidorina": {
@@ -264,7 +265,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/nidoranm.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/nidoran-m",
         "locais": [
-            { "map": "kanto", "x": 785, "y": 1010, "qtd": 2 }
+            { "map": "kanto", "x": 785, "y": 1010, "qtd": 2 },
+            { "map": "kanto", "x": 751, "y": 1035, "qtd": 19 }
         ]
     },
     "nidorino": {
