@@ -65,7 +65,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/wartortle.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/wartortle",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1022, "y": 783, "qtd": 2 }
         ]
     },
     "blastoise": {
@@ -823,7 +823,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kingler.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kingler",
         "locais": [
-            { "map": "kanto", "x": 635, "y": 721, "qtd": 5 }
+            { "map": "kanto", "x": 635, "y": 721, "qtd": 5 },
+            { "map": "kanto", "x": 1022, "y": 783, "qtd": 1 }
         ]
     },
     "voltorb": {
