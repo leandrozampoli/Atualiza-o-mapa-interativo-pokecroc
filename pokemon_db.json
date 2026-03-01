@@ -1002,7 +1002,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/horsea",
         "locais": [
             { "map": "kanto", "x": 991, "y": 842, "qtd": 8 },
-            { "map": "kanto", "x": 887, "y": 1149, "qtd": 4 }
+            { "map": "kanto", "x": 887, "y": 1149, "qtd": 4 },
+            { "map": "kanto", "x": 1233, "y": 1307, "qtd": 7 }
         ]
     },
     "seadra": {
