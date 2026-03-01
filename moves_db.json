@@ -29,8 +29,8 @@
     "area": "2q",
     "efeito": "Cura",
     "ataque": "Especial",
-    "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "custo": "75",
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/OblivionWing.gif"
   },
   {
     "nome": "Bleakwind Storm",
@@ -199,3 +199,4 @@
   }
 
 ]
+
