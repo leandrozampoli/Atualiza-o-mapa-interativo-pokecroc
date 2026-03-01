@@ -983,7 +983,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/goldeen.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/goldeen",
         "locais": [
-            { "map": "kanto", "x": 848, "y": 1098, "qtd": 5 }
+            { "map": "kanto", "x": 848, "y": 1098, "qtd": 5 },
+            { "map": "kanto", "x": 1083, "y": 865, "qtd": 1 }
         ]
     },
     "seaking": {
@@ -1076,7 +1077,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magikarp.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magikarp",
         "locais": [
-            { "map": "kanto", "x": 740, "y": 1281, "qtd": 10 }
+            { "map": "kanto", "x": 740, "y": 1281, "qtd": 10 },
+            { "map": "kanto", "x": 1083, "y": 865, "qtd": 12 }
         ]
     },
     "gyarados": {
