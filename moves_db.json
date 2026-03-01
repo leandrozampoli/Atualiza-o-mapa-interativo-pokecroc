@@ -41,7 +41,7 @@
     "efeito": "--",
     "ataque": "Especial",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/BreakwindStorm.gif"
   },
   {
     "nome": "Hurricane",
@@ -52,7 +52,7 @@
     "efeito": "--",
     "ataque": "Especial",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/Hurricane.gif"
   },
   {
     "nome": "Air Cutter",
@@ -63,7 +63,7 @@
     "efeito": "--",
     "ataque": "Especial",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/AirCutter.gif"
   },
   {
     "nome": "Gust",
@@ -74,7 +74,7 @@
     "efeito": "Nenhum",
     "ataque": "Especial",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/Gust.gif"
   },
   {
     "nome": "Pluck",
@@ -85,7 +85,7 @@
     "efeito": "--",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/Pluck.gif"
   },
   {
     "nome": "Dual Wingbeat",
@@ -96,7 +96,7 @@
     "efeito": "--",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/DualWingbeat.gif"
   },
   {
     "nome": "Aerial Ace",
@@ -107,7 +107,7 @@
     "efeito": "--",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/ArialAce.gif"
   },
   {
     "nome": "Fly",
@@ -118,7 +118,7 @@
     "efeito": "Invulnerabilidade Temporaria",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/Fly.gif"
   },
   {
     "nome": "Bounce",
@@ -129,7 +129,7 @@
     "efeito": "--",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/Bounce.gif"
   },
   {
     "nome": "Brave Bird",
@@ -140,7 +140,7 @@
     "efeito": "Dano Recuo",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/braveBird.gif"
   },
   {
     "nome": "Drill Peck",
@@ -151,7 +151,7 @@
     "efeito": "Nenhum",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/DrillPeck.gif"
   },
   {
     "nome": "Peck",
@@ -162,7 +162,7 @@
     "efeito": "Nenhum",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/Peck.gif"
   },
   {
     "nome": "Sky Attack",
@@ -173,7 +173,7 @@
     "efeito": "--",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/SkyAttack.gif"
   },
   {
     "nome": "Wing Attack",
@@ -184,7 +184,7 @@
     "efeito": "Nenhum",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/WingAttack.gif"
   },
   {
     "nome": "Sky Drop",
@@ -195,8 +195,9 @@
     "efeito": "--",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://link-do-gif.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/SkyDrop.gif"
   }
 
 ]
+
 
