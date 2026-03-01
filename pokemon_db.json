@@ -288,7 +288,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/clefairy.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/clefairy",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1149, "y": 1268, "qtd": 10 }
         ]
     },
     "clefable": {
@@ -296,7 +296,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/clefable.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/clefable",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1149, "y": 1268, "qtd": 8 }
         ]
     },
     "vulpix": {
@@ -329,7 +329,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/wigglytuff.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/wigglytuff",
         "locais": [
-            { "map": "aldia", "x": 1193, "y": 2087, "qtd": 28 }
+            { "map": "aldia", "x": 1193, "y": 2087, "qtd": 28 },
+            { "map": "kanto", "x": 1149, "y": 1268, "qtd": 13 }
         ]
     },
     "zubat": {
@@ -975,7 +976,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/chansey.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/chansey",
         "locais": [
-            { "map": "aldia", "x": 1193, "y": 2087, "qtd": 14 }
+            { "map": "aldia", "x": 1193, "y": 2087, "qtd": 14 },
+            { "map": "kanto", "x": 1149, "y": 1268, "qtd": 20 }
         ]
     },
     "tangela": {
