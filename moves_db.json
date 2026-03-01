@@ -140,7 +140,7 @@
     "efeito": "Dano Recuo",
     "ataque": "Fisico",
     "custo": "100",
-    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/braveBird.gif"
+    "gif": "https://raw.githubusercontent.com/leandrozampoli/Imagens-Mapa-Interativo/main/BraveBird.gif"
   },
   {
     "nome": "Drill Peck",
@@ -199,6 +199,7 @@
   }
 
 ]
+
 
 
 
