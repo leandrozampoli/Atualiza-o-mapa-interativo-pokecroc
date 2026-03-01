@@ -1274,7 +1274,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/dratini.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/dratini",
         "locais": [
-            { "map": "kanto", "x": 1420, "y": 1009, "qtd": 31 }
+             { "map": "kanto", "x": 1342, "y": 1017, "qtd": 31 }
         ]
     },
     "dragonair": {
@@ -1284,7 +1284,7 @@
         "locais": [
             { "map": "kanto", "x": 1275, "y": 1216, "qtd": 13 },
             { "map": "kanto", "x": 1315, "y": 864, "qtd": 23 },
-            { "map": "kanto", "x": 1420, "y": 1009, "qtd": 1 }
+             { "map": "kanto", "x": 1342, "y": 1017, "qtd": 1 }
         ]
     },
     "dragonite": {
@@ -5718,7 +5718,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/sylveon.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/sylveon",
         "locais": [
-            { "map": "kanto", "x": 1420, "y": 1009, "qtd": 20 }
+             { "map": "kanto", "x": 1342, "y": 1017, "qtd": 20 }
         ]
     },
     "hawlucha": {
