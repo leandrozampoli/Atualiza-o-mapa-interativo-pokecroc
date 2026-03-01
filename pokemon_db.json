@@ -65,7 +65,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/wartortle.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/wartortle",
         "locais": [
-            { "map": "kanto", "x": 1022, "y": 783, "qtd": 2 }
+            { "map": "kanto", "x": 1022, "y": 783, "qtd": 2 },
+            { "map": "kanto", "x": 1054, "y": 801, "qtd": 8 }
         ]
     },
     "blastoise": {
@@ -73,7 +74,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/blastoise.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/blastoise",
         "locais": [
-            { "map": "kanto", "x": 1184, "y": 1189, "qtd": 14 }
+            { "map": "kanto", "x": 1184, "y": 1189, "qtd": 14 },
+            { "map": "kanto", "x": 1054, "y": 801, "qtd": 5 }
         ]
     },
     "caterpie": {
@@ -826,7 +828,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kingler",
         "locais": [
             { "map": "kanto", "x": 635, "y": 721, "qtd": 5 },
-            { "map": "kanto", "x": 1022, "y": 783, "qtd": 1 }
+            { "map": "kanto", "x": 1022, "y": 783, "qtd": 1 },
+            { "map": "kanto", "x": 1054, "y": 801, "qtd": 5 }
         ]
     },
     "voltorb": {
