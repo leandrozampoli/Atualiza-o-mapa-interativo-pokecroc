@@ -564,7 +564,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/machoke.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/machoke",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 759, "y": 1020, "qtd": 34 }
         ]
     },
     "machamp": {
@@ -572,7 +572,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/machamp.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/machamp",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 759, "y": 1020, "qtd": 4 }
         ]
     },
     "bellsprout": {
@@ -920,7 +920,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hitmonlee.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/hitmonlee",
         "locais": [
-            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 14 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 14 },
+            { "map": "kanto", "x": 759, "y": 1020, "qtd": 17 }
         ]
     },
     "hitmonchan": {
@@ -928,7 +929,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/hitmonchan.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/hitmonchan",
         "locais": [
-            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 19 }
+            { "map": "kanto", "x": 1277, "y": 1416, "qtd": 19 },
+            { "map": "kanto", "x": 759, "y": 1020, "qtd": 10 }
         ]
     },
     "lickitung": {
