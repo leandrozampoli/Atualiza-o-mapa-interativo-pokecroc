@@ -48,7 +48,8 @@
         "locais": [
             { "map": "kanto", "x": 843, "y": 1556, "qtd": 30 },
             { "map": "kanto", "x": 1377, "y": 956, "qtd": 22 },
-            { "map": "johto", "x": 3352, "y": 1434, "qtd": 20 }
+            { "map": "johto", "x": 3352, "y": 1434, "qtd": 20 },
+            { "map": "kanto", "x": 1216, "y": 725, "qtd": 12 }
         ]
     },
     "squirtle": {
@@ -316,7 +317,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/ninetales.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/ninetales",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1216, "y": 725, "qtd": 13 }
         ]
     },
     "jigglypuff": {
@@ -497,7 +498,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/arcanine.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/arcanine",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1216, "y": 725, "qtd": 14 }
         ]
     },
     "poliwag": {
@@ -1101,7 +1102,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magmar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magmar",
         "locais": [
-            { "map": "kanto", "x": 835, "y": 1561, "qtd": 88 }
+            { "map": "kanto", "x": 835, "y": 1561, "qtd": 88 },
+            { "map": "kanto", "x": 1216, "y": 725, "qtd": 12 }
         ]
     },
     "pinsir": {
