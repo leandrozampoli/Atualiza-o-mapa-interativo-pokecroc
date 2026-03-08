@@ -656,7 +656,8 @@
             { "map": "kanto", "x": 1000, "y": 772, "qtd": 1 },
             { "map": "kanto", "x": 995, "y": 790, "qtd": 1 },
             { "map": "kanto", "x": 1000, "y": 807, "qtd": 1 },
-            { "map": "kanto", "x": 1012, "y": 824, "qtd": 1 }
+            { "map": "kanto", "x": 1012, "y": 824, "qtd": 1 },
+            { "map": "kanto", "x": 973, "y": 1437, "qtd": 72 }
         ]
     },
     "geodude": {
