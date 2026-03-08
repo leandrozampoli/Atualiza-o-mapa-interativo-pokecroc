@@ -804,7 +804,10 @@
             { "map": "kanto", "x": 852, "y": 949, "qtd": 9 },
             { "map": "kanto", "x": 1350, "y": 774, "qtd": 8 },
             { "map": "kanto", "x": 1314, "y": 783, "qtd": 1 },
-            { "map": "kanto", "x": 1323, "y": 784, "qtd": 1 }
+            { "map": "kanto", "x": 1323, "y": 784, "qtd": 1 },
+            { "map": "kanto", "x": 1339, "y": 782, "qtd": 2 },
+            { "map": "kanto", "x": 1340, "y": 791, "qtd": 1 },
+            { "map": "kanto", "x": 1313, "y": 801, "qtd": 3 }
         ]
     },
     "haunter": {
@@ -815,7 +818,10 @@
             { "map": "kanto", "x": 852, "y": 949, "qtd": 5 },
             { "map": "kanto", "x": 1350, "y": 774, "qtd": 9 },
             { "map": "kanto", "x": 1314, "y": 783, "qtd": 2 },
-            { "map": "kanto", "x": 1323, "y": 784, "qtd": 2 }
+            { "map": "kanto", "x": 1323, "y": 784, "qtd": 2 },
+            { "map": "kanto", "x": 1339, "y": 782, "qtd": 2 },
+            { "map": "kanto", "x": 1340, "y": 791, "qtd": 2 },
+            { "map": "kanto", "x": 1313, "y": 801, "qtd": 2 }
         ]
     },
     "gengar": {
