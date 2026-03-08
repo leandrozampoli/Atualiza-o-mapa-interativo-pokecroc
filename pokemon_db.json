@@ -117,7 +117,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/kakuna.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/kakuna",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1067, "y": 1424, "qtd": 3 },
+            { "map": "kanto", "x": 1063, "y": 1459, "qtd": 4 }
         ]
     },
     "beedrill": {
@@ -126,7 +127,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/beedrill",
         "locais": [
             { "map": "kanto", "x": 1277, "y": 1416, "qtd": 25 },
-            { "map": "kanto", "x": 747, "y": 1159, "qtd": 4 }
+            { "map": "kanto", "x": 747, "y": 1159, "qtd": 4 },
+            { "map": "kanto", "x": 1073, "y": 1459, "qtd": 9 }
         ]
     },
     "pidgey": {
@@ -451,7 +453,9 @@
         "locais": [
             { "map": "aldia", "x": 1132, "y": 2294, "qtd": 10 },
             { "map": "kanto", "x": 1192, "y": 1283, "qtd": 5 },
-            { "map": "kanto", "x": 1142, "y": 1326, "qtd": 6 }
+            { "map": "kanto", "x": 1142, "y": 1326, "qtd": 6 },
+            { "map": "kanto", "x": 1067, "y": 1424, "qtd": 5 },
+            { "map": "kanto", "x": 1063, "y": 1459, "qtd": 11 }
         ]
     },
     "psyduck": {
@@ -732,7 +736,9 @@
         "locais": [
             { "map": "kanto", "x": 1032, "y": 967, "qtd": 20 },
             { "map": "kanto", "x": 864, "y": 1014, "qtd": 2 },
-            { "map": "kanto", "x": 1329, "y": 1360, "qtd": 22 }
+            { "map": "kanto", "x": 1329, "y": 1360, "qtd": 22 },
+            { "map": "kanto", "x": 1067, "y": 1424, "qtd": 8 },
+            { "map": "kanto", "x": 1063, "y": 1459, "qtd": 9 }
         ]
     },
     "doduo": {
