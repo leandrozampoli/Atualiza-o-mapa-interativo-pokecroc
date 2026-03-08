@@ -143,7 +143,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pidgeotto",
         "locais": [
             { "map": "kanto", "x": 1012, "y": 1148, "qtd": 10 },
-            { "map": "kanto", "x": 689, "y": 1160, "qtd": 4 }
+            { "map": "kanto", "x": 689, "y": 1160, "qtd": 4 },
+            { "map": "kanto", "x": 1192, "y": 1283, "qtd": 3 }
         ]
     },
     "pidgeot": {
@@ -436,7 +437,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/meowth",
         "locais": [
             { "map": "aldia", "x": 1132, "y": 2294, "qtd": 2 },
-            { "map": "kanto", "x": 864, "y": 1014, "qtd": 2 }
+            { "map": "kanto", "x": 864, "y": 1014, "qtd": 2 },
+            { "map": "kanto", "x": 1192, "y": 1283, "qtd": 8 }
         ]
     },
     "persian": {
@@ -444,7 +446,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/persian.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/persian",
         "locais": [
-            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 10 }
+            { "map": "aldia", "x": 1132, "y": 2294, "qtd": 10 },
+            { "map": "kanto", "x": 1192, "y": 1283, "qtd": 5 }
         ]
     },
     "psyduck": {
@@ -963,7 +966,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/koffing.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/koffing",
         "locais": [
-            { "map": "kanto", "x": 737, "y": 988, "qtd": 15 }
+            { "map": "kanto", "x": 737, "y": 988, "qtd": 15 },
+            { "map": "kanto", "x": 1192, "y": 1283, "qtd": 8 }
         ]
     },
     "weezing": {
@@ -1132,7 +1136,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/tauros.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/tauros",
         "locais": [
-            { "map": "kanto", "x": 712, "y": 1209, "qtd": 4 }
+            { "map": "kanto", "x": 712, "y": 1209, "qtd": 4 },
+            { "map": "kanto", "x": 1192, "y": 1283, "qtd": 6 }
         ]
     },
     "magikarp": {
