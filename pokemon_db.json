@@ -801,7 +801,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gastly.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gastly",
         "locais": [
-            { "map": "kanto", "x": 852, "y": 949, "qtd": 9 }
+            { "map": "kanto", "x": 852, "y": 949, "qtd": 9 },
+            { "map": "kanto", "x": 1350, "y": 774, "qtd": 8 }
         ]
     },
     "haunter": {
@@ -809,7 +810,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/haunter.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/haunter",
         "locais": [
-            { "map": "kanto", "x": 852, "y": 949, "qtd": 5 }
+            { "map": "kanto", "x": 852, "y": 949, "qtd": 5 },
+            { "map": "kanto", "x": 1350, "y": 774, "qtd": 9 }
         ]
     },
     "gengar": {
