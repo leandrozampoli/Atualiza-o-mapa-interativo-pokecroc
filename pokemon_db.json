@@ -657,7 +657,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/graveler.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/graveler",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 575, "y": 1201, "qtd": 8 }
         ]
     },
     "golem": {
@@ -665,7 +665,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/golem.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/golem",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 575, "y": 1201, "qtd": 8 }
         ]
     },
     "ponyta": {
@@ -862,7 +862,8 @@
             { "map": "kanto", "x": 635, "y": 721, "qtd": 5 },
             { "map": "kanto", "x": 1022, "y": 783, "qtd": 1 },
             { "map": "kanto", "x": 1054, "y": 801, "qtd": 5 },
-            { "map": "kanto", "x": 1021, "y": 804, "qtd": 5 }
+            { "map": "kanto", "x": 1021, "y": 804, "qtd": 5 },
+            { "map": "kanto", "x": 536, "y": 1224, "qtd": 2 }
         ]
     },
     "voltorb": {
@@ -886,7 +887,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/exeggcute.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/exeggcute",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 570, "y": 1217, "qtd": 26 }
         ]
     },
     "exeggutor": {
@@ -895,7 +896,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/exeggutor",
         "locais": [
             { "map": "kanto", "x": 635, "y": 721, "qtd": 1 },
-            { "map": "kanto", "x": 1316, "y": 1329, "qtd": 8 }
+            { "map": "kanto", "x": 1316, "y": 1329, "qtd": 8 },
+            { "map": "kanto", "x": 570, "y": 1217, "qtd": 19 }
         ]
     },
     "cubone": {
