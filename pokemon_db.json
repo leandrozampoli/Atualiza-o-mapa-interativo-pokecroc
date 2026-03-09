@@ -215,7 +215,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/pikachu.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pikachu",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1083, "y": 1319, "qtd": 2 },
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 2 }
         ]
     },
     "raichu": {
@@ -726,7 +727,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magnemite.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magnemite",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 1 }
         ]
     },
     "magneton": {
@@ -734,7 +735,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magneton.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magneton",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1083, "y": 1319, "qtd": 4 },
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 4 }
         ]
     },
     "farfetchd": {
@@ -915,7 +917,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/electrode.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/electrode",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1083, "y": 1319, "qtd": 6 },
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 5 }
         ]
     },
     "exeggcute": {
@@ -1132,7 +1135,9 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/electabuzz.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/electabuzz",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1083, "y": 1319, "qtd": 5 },
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 5 },
+            { "map": "kanto", "x": 1088, "y": 1359, "qtd": 4 }
         ]
     },
     "magmar": {
