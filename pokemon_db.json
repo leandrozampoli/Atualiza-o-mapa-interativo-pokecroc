@@ -216,7 +216,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/pikachu",
         "locais": [
             { "map": "kanto", "x": 1083, "y": 1319, "qtd": 2 },
-            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 2 }
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 2 },
+            { "map": "kanto", "x": 1062, "y": 1359, "qtd": 16 }
         ]
     },
     "raichu": {
@@ -224,7 +225,7 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/raichu.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/raichu",
         "locais": [
-            { "map": "kanto", "x": 1000, "y": 1000, "qtd": 10 }
+            { "map": "kanto", "x": 1062, "y": 1359, "qtd": 15 }
         ]
     },
     "sandshrew": {
@@ -727,7 +728,8 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/magnemite.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magnemite",
         "locais": [
-            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 1 }
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 1 },
+            { "map": "kanto", "x": 1062, "y": 1359, "qtd": 11 }
         ]
     },
     "magneton": {
@@ -736,7 +738,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/magneton",
         "locais": [
             { "map": "kanto", "x": 1083, "y": 1319, "qtd": 4 },
-            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 4 }
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 4 },
+            { "map": "kanto", "x": 1062, "y": 1359, "qtd": 12 }
         ]
     },
     "farfetchd": {
@@ -918,7 +921,8 @@
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/electrode",
         "locais": [
             { "map": "kanto", "x": 1083, "y": 1319, "qtd": 6 },
-            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 5 }
+            { "map": "kanto", "x": 1041, "y": 1319, "qtd": 5 },
+            { "map": "kanto", "x": 1062, "y": 1359, "qtd": 9 }
         ]
     },
     "exeggcute": {
@@ -1137,7 +1141,8 @@
         "locais": [
             { "map": "kanto", "x": 1083, "y": 1319, "qtd": 5 },
             { "map": "kanto", "x": 1041, "y": 1319, "qtd": 5 },
-            { "map": "kanto", "x": 1088, "y": 1359, "qtd": 4 }
+            { "map": "kanto", "x": 1088, "y": 1359, "qtd": 4 },
+            { "map": "kanto", "x": 1062, "y": 1359, "qtd": 16 }
         ]
     },
     "magmar": {
