@@ -635,7 +635,8 @@
             { "map": "kanto", "x": 1096, "y": 806, "qtd": 1 },
             { "map": "kanto", "x": 1110, "y": 793, "qtd": 2 },
             { "map": "kanto", "x": 1108, "y": 764, "qtd": 1 },
-            { "map": "kanto", "x": 1027, "y": 764, "qtd": 1 }
+            { "map": "kanto", "x": 1027, "y": 764, "qtd": 1 },
+            { "map": "kanto", "x": 973, "y": 1437, "qtd": 49 }
         ]
     },
     "tentacruel": {
