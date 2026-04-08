@@ -50,7 +50,8 @@
       { "name": "Mew (Templo do Mew)", "x": 1275, "y": 1216, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/mew.gif" },
       { "name": "Moltres (Ilha de Fogo)", "x": 1206, "y": 738, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/moltres.gif" },
       { "name": "Articuno (Covil dos Dragões)", "x": 966, "y": 705, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/articuno.gif" },
-      { "name": "Zapdos (Monte do Trovão)", "x": 1043, "y": 1241, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/zapdos.gif" }
+      { "name": "Zapdos (Monte do Trovão)", "x": 1043, "y": 1241, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/zapdos.gif" },
+      { "name": "Arceus", "x": 1415, "y": 1208, "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/arceus.gif" }
     ],
     "carnaval": [
       { "name": "Toten Carnaval (744, 1126)", "x": 744, "y": 1126 },
