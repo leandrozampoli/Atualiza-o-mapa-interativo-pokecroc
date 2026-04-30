@@ -782,5 +782,45 @@
         "locais": [
             { "map": "kanto", "x": 1117, "y": 941, "requisito": "Nenhum" }
         ]
+    },
+    "Senhora do Espelho": {
+        "desc": "Localização de Senhora do Espelho",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "hoenn", "x": 1952, "y": 2556, "requisito": "Nenhum" }
+        ]
+    },
+    "Ancião Orin": {
+        "desc": "Localização de Ancião Orin",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "hoenn", "x": 1852, "y": 2712, "requisito": "Nenhum" }
+        ]
+    },
+    "Kael Drakenhart": {
+        "desc": "Localização de Kael Drakenhart",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "hoenn", "x": 2356, "y": 2286, "requisito": "Nenhum" }
+        ]
+    },
+    "Lilith Blackthorn": {
+        "desc": "Localização de Lilith Blackthorn",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "hoenn", "x": 1909, "y": 2566, "requisito": "Nenhum" }
+        ]
+    },
+    "Rex Darkbane": {
+        "desc": "Localização de Rex Darkbane",
+        "sprite": "https://img.pokemondb.net/sprites/black-white/anim/normal/darkrai.gif",
+        "quest": "https://pokecrocmapads.discloud.app/Quests/manutencao.html",
+        "locais": [
+            { "map": "hoenn", "x": 2204, "y": 2884, "requisito": "Nenhum" }
+        ]
     }
 }
