@@ -857,10 +857,10 @@
         "sprite": "https://play.pokemonshowdown.com/sprites/gen5ani/gengar.gif",
         "wiki": "https://pokecroc.fandom.com/pt-br/wiki/gengar",
         "locais": [
-            { "map": "kanto", "x": 852, "y": 949, "qtd": 5 }
-            { "map": "aldia", "x": 1160, "y": 2183, "qtd": 76 }
-            { "map": "aldia", "x": 824, "y": 2526, "qtd": 65 }
-            { "map": "johto", "x": 2810, "y": 1025, "qtd": 29 }
+            { "map": "kanto", "x": 852, "y": 949, "qtd": 5 },
+            { "map": "aldia", "x": 1160, "y": 2183, "qtd": 76 },
+            { "map": "aldia", "x": 824, "y": 2526, "qtd": 65 },
+            { "map": "johto", "x": 2810, "y": 1025, "qtd": 29 },
             { "map": "kanto", "x": 1339, "y": 781, "qtd": 83 }
         ]
     },
