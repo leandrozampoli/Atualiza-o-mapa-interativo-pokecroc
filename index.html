@@ -52,6 +52,20 @@
         button:hover { filter: brightness(1.1); }
         button:active { transform: translateY(2px); }
 
+        /* Limita o tamanho da caixinha de filtros e adiciona rolagem se passar de 180px */
+        #layer-controls {
+            max-height: 180px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+
+        /* Deixa a barra de rolagem estilizada com o tema do site */
+        #layer-controls::-webkit-scrollbar { width: 6px; }
+        #layer-controls::-webkit-scrollbar-track { background: var(--panel-bg); }
+        #layer-controls::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
+        #layer-controls::-webkit-scrollbar-thumb:hover { background: var(--neon-green); }
+        /* =================================== */
+
         /* MENU SUPERIOR */
         #top-menu-panel {
             position: absolute; top: -150px; left: 0; width: 100%; height: 100px;
@@ -204,13 +218,7 @@
         // =========================================================
         // CONFIGURAÇÕES GERAIS
         // =========================================================
-        const layerConfig = {
-            'cidades': { label: "Cidades", type: "text", color: "#f1c40f" },
-            //'rocket': { label: "Balão Rocket", type: "pin", cssClass: "pin-white" },
-            'lendarios': { label: "Lendários", type: "sprite", size: [50, 50] },
-            //'carnaval': { label: "Carnaval", type: "pin", cssClass: "pin-red" }
-            'Copa': { label: "Copa", type: "pin", cssClass: "pin-red" }
-        };
+        
 
         const mapsConfig = {
             'kanto': { name: 'Kanto', image: 'mapa_kanto.jpg', width: 4858, height: 5221, minX: 322, maxX: 1536, minY: 568, maxY: 1873 },
@@ -226,6 +234,7 @@
         let pokemonDB = {};
         let npcDB = {};
         let mapFeatures = {};
+        let layerConfig = {};
 
         // Carregamento com Cache Buster para GitHub
         function loadJSON(url, callback, errorMsgId) {
@@ -253,8 +262,11 @@
             document.getElementById('msg-npc').innerHTML = "<span style='color:#00ff9d'>DB NPC OK.</span>";
         }, 'msg-npc');
 
+        // ADICIONE ESTE NO LUGAR:
         loadJSON(MAP_FEATURES_URL, (data) => {
             mapFeatures = data;
+            // Carrega as configurações dos filtros direto do JSON
+            layerConfig = data.filtros_config || {};
             loadMap('kanto');
         }, 'layer-controls');
 
@@ -447,13 +459,20 @@
         function setupStaticLayers(mapId) {
             const controlsDiv = document.getElementById('layer-controls');
             controlsDiv.innerHTML = '';
+            
             for (let key in layerGroups) {
                 if (mapInstance.hasLayer(layerGroups[key])) mapInstance.removeLayer(layerGroups[key]);
             }
+            
             if (!mapFeatures || !mapFeatures[mapId]) return;
             const features = mapFeatures[mapId];
+            
             for (let layerKey in layerConfig) {
                 const config = layerConfig[layerKey];
+                
+                // Se no JSON estiver "ativo": false, ele ignora e não mostra no menu
+                if (config.ativo === false) continue;
+
                 const items = features[layerKey];
                 if (items && items.length > 0) {
                     const layer = L.layerGroup(items.map(item => 
@@ -463,6 +482,7 @@
                         }).bindPopup(`<b>${item.name}</b><br>X:${item.x}, Y:${item.y}`)
                     ));
                     layerGroups[layerKey] = layer;
+                    
                     if (layerKey === 'cidades') mapInstance.addLayer(layer);
                     createCheckbox(config.label, layerKey, (layerKey === 'cidades'));
                 }
@@ -477,13 +497,32 @@
             if (layerKey === 'cidades') color = '#f1c40f';
             if (layerKey === 'lendarios') color = '#ff00ff';
             labelEl.style.color = color;
-            labelEl.innerHTML = `<input type="checkbox" onchange="toggleLayer('${layerKey}')" ${isChecked ? 'checked' : ''}> ${label}`;
+            // ALTERADO: Agora passa 'this' (o input) para a função toggleLayer
+            labelEl.innerHTML = `<input type="checkbox" onchange="toggleLayer('${layerKey}', this)" ${isChecked ? 'checked' : ''}> ${label}`;
             div.appendChild(labelEl);
         }
 
-        function toggleLayer(name) {
-            if (mapInstance.hasLayer(layerGroups[name])) { mapInstance.removeLayer(layerGroups[name]); } 
-            else { mapInstance.addLayer(layerGroups[name]); }
+        // Variável global para controle de acesso (muda para true se já estiver logado)
+        let usuarioLogado = false;
+
+        function toggleLayer(name, checkboxElement) {
+            // Se NÃO estiver logado, bloqueia e pede a senha
+            if (!usuarioLogado) {
+                // Desfaz visualmente o clique no checkbox por enquanto
+                if (checkboxElement) {
+                    checkboxElement.checked = !checkboxElement.checked;
+                }
+                // Abre o modal para digitar a senha
+                abrirModalLogin();
+                return;
+            }
+
+            // Código original que liga/desliga a camada se estiver logado
+            if (mapInstance.hasLayer(layerGroups[name])) { 
+                mapInstance.removeLayer(layerGroups[name]); 
+            } else { 
+                mapInstance.addLayer(layerGroups[name]); 
+            }
         }
 
         function toggleTopMenu() {
@@ -510,6 +549,9 @@
         }
 
         function liberarFuncoesPremium() {
+            // DEFINE QUE O USUÁRIO ESTÁ AUTORIZADO
+            usuarioLogado = true;
+
             // Esconde a tela de login
             document.getElementById('login-overlay').style.display = 'none';
             // Esconde o ícone de login no canto da tela
