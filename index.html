@@ -65,7 +65,9 @@
         .menu-btn {
             width: 160px; height: 60px; font-size: 0.8rem; display: flex; 
             align-items: center; justify-content: center; text-align: center;
-            line-height: 1.2; text-decoration: none;
+            line-height: 1.2; text-decoration: none; color: white; border-radius: 8px;
+            background: linear-gradient(to bottom, var(--btn-top), var(--btn-bottom));
+            border: 2px solid var(--btn-border); font-family: 'Montserrat', sans-serif; font-weight: 800;
         }
         .menu-btn.disabled { filter: grayscale(1); opacity: 0.5; cursor: not-allowed; }
 
@@ -104,26 +106,51 @@
         .wiki-link { display: block; margin-top: 8px; padding: 5px; background: #2c3e50; color: #fff; text-decoration: none; border-radius: 4px; font-size: 11px; text-align: center; }
         .map-jump-btn { background: #d35400; border: 1px solid #e67e22; color: white; font-size: 11px; padding: 6px; margin-top: 5px; }
 
+        /* NOVAS CLASSES PARA O LOGIN */
+        .auth-required { display: none !important; } /* Esconde os botões por padrão */
+        
+        #login-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 65px;
+            height: 65px;
+            cursor: pointer;
+            z-index: 2500; /* Acima do menu superior */
+            border-radius: 50%;
+            border: 2px solid var(--neon-green);
+            box-shadow: 0 0 10px rgba(0, 255, 157, 0.8);
+            transition: transform 0.2s;
+            background-color: var(--panel-bg);
+        }
+        #login-icon:hover { transform: scale(1.1); }
+        
     </style>
 </head>
 <body>
 
+<!-- Ícone no canto superior direito -->
+    <img src="Dragon_Slayer.jpg" id="login-icon" onclick="abrirModalLogin()" title="Entrar com a Senha">
+
     <div id="top-menu-panel">
-        <button class="menu-btn" onclick="window.open('https://pokecrocut.discloud.app/', '_blank')">Pokecroc<br>Universal Tool</button>
+        <button class="menu-btn auth-required" onclick="window.open('https://pokecrocut.discloud.app/', '_blank')">Pokecroc<br>Universal Tool</button>
         <button class="menu-btn" onclick="window.location.href='quests.html'">Quests</button>
-        <button class="menu-btn disabled">Em Breve</button>
-        <button class="menu-btn disabled">Em Breve</button>
-        <button class="menu-btn disabled">Em Breve</button>
+        <button class="menu-btn auth-required" onclick="window.location.href='moves.html'">TMs</button>
+        <button class="menu-btn auth-required disabled">Em Breve</button>
+        <button class="menu-btn auth-required disabled">Em Breve</button>
     </div>
     <div id="top-menu-trigger" onclick="toggleTopMenu()">▼</div>
 
-    <div id="login-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #050b0c url('mapa_kanto.jpg') center/cover no-repeat; z-index: 99999; display: flex; justify-content: center; align-items: center;">
+    <!-- Ocultado por padrão (display: none) e fundo translúcido sem o mapa por trás -->
+    <div id="login-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(5, 11, 12, 0.85); z-index: 99999; display: none; justify-content: center; align-items: center;">
         <div style="background: rgba(9, 24, 25, 0.95); padding: 40px; border-radius: 15px; border: 2px solid #00ff9d; text-align: center; max-width: 400px; width: 90%; box-shadow: 0 0 20px rgba(0,255,157,0.3);">
             <h2 style="color: #00ff9d; font-family: sans-serif; margin-top: 0;">🔒 ACESSO RESTRITO</h2>
             <p style="color: #ccc; font-family: sans-serif;">Digite a senha do dia (pegue no Discord !senha)</p>
             <input type="text" id="sitePassword" placeholder="Senha..." style="width: 100%; padding: 15px; margin: 15px 0; background: #0f2b2d; border: 1px solid #1f4a42; color: #00ff9d; font-size: 1.2rem; text-align: center; border-radius: 8px; box-sizing: border-box;">
             <button onclick="tentarLogin()" id="btnLogin" style="width: 100%; padding: 15px; background: linear-gradient(to bottom, #6b8e23, #4b6b1a); border: none; color: white; font-weight: bold; cursor: pointer; border-radius: 8px;">LIBERAR ACESSO</button>
             <p id="loginMsg" style="color: #ff5555; margin-top: 10px; min-height: 20px;"></p>
+            <!-- Botão para fechar o modal caso desista -->
+            <button onclick="fecharModalLogin()" style="width: 100%; margin-top: 10px; padding: 10px; background: transparent; border: 1px solid #ff5555; color: #ff5555; font-weight: bold; cursor: pointer; border-radius: 8px;">FECHAR</button>
         </div>
     </div>
 
@@ -175,19 +202,19 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // =========================================================
-        // CONFIGURAÇÕES GERAIS E CARREGAMENTO
+        // CONFIGURAÇÕES GERAIS
         // =========================================================
         const layerConfig = {
             'cidades': { label: "Cidades", type: "text", color: "#f1c40f" },
             //'rocket': { label: "Balão Rocket", type: "pin", cssClass: "pin-white" },
             'lendarios': { label: "Lendários", type: "sprite", size: [50, 50] },
-            //'carnaval': { label: "Carnaval", type: "pin", cssClass: "pin-red" },
-            'copa': { label: "Copa", type: "pin", cssClass: "pin-red" }
+            //'carnaval': { label: "Carnaval", type: "pin", cssClass: "pin-red" }
+            'Copa': { label: "Copa", type: "pin", cssClass: "pin-red" }
         };
 
         const mapsConfig = {
             'kanto': { name: 'Kanto', image: 'mapa_kanto.jpg', width: 4858, height: 5221, minX: 322, maxX: 1536, minY: 568, maxY: 1873 },
-            'johto': { name: 'Johto', image: 'mapa_johto.png', width: 1639, height: 1388, minX: 1871, maxX: 3510, minY: 687, maxY: 2075 },
+            'johto': { name: 'Johto', image: 'mapa_johto.png', width: 1600, height: 1400, minX: 1871, maxX: 3471, minY: 686, maxY: 2086 },
             'hoenn': { name: 'Hoenn', image: 'mapa_hoenn.png', width: 1275, height: 977, minX: 1701, maxX: 2975, minY: 2198, maxY: 3174 },
             'aldia': { name: 'Aldia', image: 'mapa_aldia.png', width: 1294, height: 1064, minX: 225, maxX: 1516, minY: 1633, maxY: 2696 }
         };
@@ -200,7 +227,7 @@
         let npcDB = {};
         let mapFeatures = {};
 
-        // Força atualização ao carregar arquivos JSON
+        // Carregamento com Cache Buster para GitHub
         function loadJSON(url, callback, errorMsgId) {
             const freshUrl = `${url}?t=${new Date().getTime()}`;
             fetch(freshUrl).then(r => {
@@ -208,7 +235,7 @@
                 return r.json();
             }).then(data => {
                 callback(data);
-                console.log(`Carregado (Fresh): ${freshUrl}`);
+                console.log(`Carregado: ${freshUrl}`);
             }).catch(e => {
                 console.error(`Erro ao carregar ${url}:`, e);
                 const msg = document.getElementById(errorMsgId);
@@ -231,6 +258,7 @@
             loadMap('kanto');
         }, 'layer-controls');
 
+
         // =========================================================
         // LÓGICA DO MAPA
         // =========================================================
@@ -243,7 +271,7 @@
         let searchMarker = null;
         const layerGroups = {}; 
 
-        // Listener de Clique para coordenadas (Pop-up + preenchimento de input)
+        // Listener de Clique para Coordenadas
         mapInstance.on('click', function(e) {
             const coords = mapToGame(e.latlng.lat, e.latlng.lng);
             L.popup()
@@ -294,11 +322,13 @@
             msg.innerHTML = "";
             activeMarkers.forEach(m => mapInstance.removeLayer(m));
             activeMarkers = [];
+
             if (pokemonDB[nameInput]) {
                 let data = pokemonDB[nameInput];
                 let countCurrentMap = 0;
                 let otherMaps = new Set();
                 let wikiUrl = data.wiki || `https://pokecroc.fandom.com/pt-br/wiki/${nameInput}`;
+
                 data.locais.forEach((local) => {
                     if (local.map === currentMapId) {
                         countCurrentMap++;
@@ -314,6 +344,7 @@
                         if (countCurrentMap === 1) { mapInstance.setView(latlng, 2); marker.openPopup(); }
                     } else { otherMaps.add(local.map); }
                 });
+
                 updateSearchMsg(msg, countCurrentMap, otherMaps, 'buscarPokemon');
             } else { msg.innerText = "Pokémon não cadastrado."; msg.style.color = "#ff5555"; }
         }
@@ -325,7 +356,14 @@
             activeMarkers.forEach(m => mapInstance.removeLayer(m));
             activeMarkers = [];
             if (input === "") return;
-            let foundKey = Object.keys(npcDB).find(key => key.toLowerCase().includes(input));
+
+            // Busca exata primeiro
+            let foundKey = Object.keys(npcDB).find(key => key.toLowerCase() === input);
+            // Busca parcial se não encontrar
+            if (!foundKey) {
+                foundKey = Object.keys(npcDB).find(key => key.toLowerCase().includes(input));
+            }
+
             if (foundKey) {
                 let data = npcDB[foundKey];
                 let countCurrentMap = 0;
@@ -462,17 +500,42 @@
             }
         }
 
+        // Novas funções para o modal e liberação visual
+        function abrirModalLogin() {
+            document.getElementById('login-overlay').style.display = 'flex';
+        }
+
+        function fecharModalLogin() {
+            document.getElementById('login-overlay').style.display = 'none';
+        }
+
+        function liberarFuncoesPremium() {
+            // Esconde a tela de login
+            document.getElementById('login-overlay').style.display = 'none';
+            // Esconde o ícone de login no canto da tela
+            document.getElementById('login-icon').style.display = 'none';
+            // Mostra os botões ocultos removendo a marcação CSS 'display: none !important'
+            document.querySelectorAll('.auth-required').forEach(btn => {
+                btn.style.setProperty('display', 'flex', 'important');
+            });
+        }
+
         const overlay = document.getElementById('login-overlay');
+        
         async function verificarAcesso() {
             const tokenSalvo = localStorage.getItem('pokecroc_token');
             if (tokenSalvo) {
                 try {
                     const req = await fetch('/api/verify', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ token: tokenSalvo }) });
                     const res = await req.json();
-                    if (res.valid) { overlay.style.display = 'none'; return; }
+                    if (res.valid) { 
+                        liberarFuncoesPremium(); 
+                        return; 
+                    }
                 } catch (e) { console.log("Erro verif token"); }
             }
         }
+
         async function tentarLogin() {
             const pass = document.getElementById('sitePassword').value;
             const btn = document.getElementById('btnLogin');
@@ -481,11 +544,45 @@
             try {
                 const req = await fetch('/api/login', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ password: pass }) });
                 const res = await req.json();
-                if (res.success) { localStorage.setItem('pokecroc_token', res.token); overlay.style.display = 'none'; } 
-                else { msg.innerText = "Senha incorreta!"; btn.disabled = false; btn.innerText = "LIBERAR ACESSO"; }
-            } catch (e) { msg.innerText = "Erro de conexão."; btn.disabled = false; btn.innerText = "LIBERAR ACESSO"; }
+                if (res.success) { 
+                    localStorage.setItem('pokecroc_token', res.token); 
+                    liberarFuncoesPremium(); 
+                } 
+                else { 
+                    msg.innerText = "Senha incorreta ou inativa!"; 
+                    btn.disabled = false; 
+                    btn.innerText = "LIBERAR ACESSO"; 
+                }
+            } catch (e) { 
+                msg.innerText = "Erro de conexão."; 
+                btn.disabled = false; 
+                btn.innerText = "LIBERAR ACESSO"; 
+            }
         }
+        
         verificarAcesso();
+
+        // Leitura de Coordenadas E DO MAPA da URL (?x=...&y=...&map=...)
+        window.addEventListener('load', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlX = urlParams.get('x');
+            const urlY = urlParams.get('y');
+            const urlMap = urlParams.get('map'); // Pega o parametro do mapa
+
+            if (urlX && urlY) {
+                // Se veio um mapa válido na URL, usa ele. Se não, usa um padrão ou mantém.
+                if (urlMap && mapsConfig[urlMap]) {
+                    changeMap(urlMap);
+                } 
+                
+                setTimeout(() => {
+                    document.getElementById('inputX').value = urlX;
+                    document.getElementById('inputY').value = urlY;
+                    buscarCoordenada();
+                }, 500);
+            }
+        });
+
     </script>
 </body>
 </html>
