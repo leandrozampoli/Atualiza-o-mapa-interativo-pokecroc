@@ -118,6 +118,10 @@
       { "name": "Toten Carnaval (916, 1151)", "x": 916, "y": 1151 },
       { "name": "Toten Carnaval (851, 945)", "x": 851, "y": 945 },
       { "name": "Toten Carnaval (969, 1107)", "x": 969, "y": 1107 }
+    ],
+    "copa": [
+      { "name": "Bola da Copa (641, 2601)", "x": 641, "y": 2601 },
+      { "name": "Bola da Copa (1186, 2073)", "x": 1186, "y": 2073 }
     ]
   },
   "johto": {
@@ -250,10 +254,10 @@
       { "name": "Toten Carnaval (635, 2349)", "x": 635, "y": 2349 },
       { "name": "Toten Carnaval (641, 2601)", "x": 641, "y": 2601 },
       { "name": "Toten Carnaval (1186, 2073)", "x": 1186, "y": 2073 }
-    ]
+    ],
      "copa": [
       { "name": "Bola da Copa (641, 2601)", "x": 641, "y": 2601 },
       { "name": "Bola da Copa (1186, 2073)", "x": 1186, "y": 2073 }
-    ],
+    ]
   }
 }
