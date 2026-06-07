@@ -2,11 +2,11 @@
 
   
   "filtros_config": {
-    "cidades": { "label": "Cidades", "type": "text", "color": "#f1c40f", "ativo": true },
-    "rocket": { "label": "Balão Rocket", "type": "pin", "cssClass": "pin-white", "ativo": false },
-    "lendarios": { "label": "Lendários", "type": "sprite", "size": [50, 50], "ativo": true },
-    "carnaval": { "label": "Carnaval", "type": "pin", "cssClass": "pin-red", "ativo": false },
-    "copa": { "label": "Bola da Copa", "type": "pin", "cssClass": "pin-red", "ativo": true }
+    "cidades": { "label": "Cidades", "type": "text", "color": "#f1c40f", "ativo": true, "defaultOn": true },
+    "rocket": { "label": "Balão Rocket", "type": "pin", "cssClass": "pin-white", "color": "#ffffff", "ativo": false },
+    "lendarios": { "label": "Lendários", "type": "sprite", "size": [50, 50], "color": "#ff00ff", "ativo": true },
+    "carnaval": { "label": "Carnaval", "type": "pin", "cssClass": "pin-red", "color": "#ff4444", "ativo": false },
+    "copa": { "label": "Bola da Copa", "type": "pin", "cssClass": "pin-red", "color": "#ff8800", "ativo": true }
   },
 
   "kanto": {
@@ -118,10 +118,6 @@
       { "name": "Toten Carnaval (916, 1151)", "x": 916, "y": 1151 },
       { "name": "Toten Carnaval (851, 945)", "x": 851, "y": 945 },
       { "name": "Toten Carnaval (969, 1107)", "x": 969, "y": 1107 }
-    ],
-    "copa": [
-      { "name": "Bola da Copa (641, 2601)", "x": 641, "y": 2601 },
-      { "name": "Bola da Copa (1186, 2073)", "x": 1186, "y": 2073 }
     ]
   },
   "johto": {
