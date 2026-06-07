@@ -118,6 +118,10 @@
       { "name": "Toten Carnaval (916, 1151)", "x": 916, "y": 1151 },
       { "name": "Toten Carnaval (851, 945)", "x": 851, "y": 945 },
       { "name": "Toten Carnaval (969, 1107)", "x": 969, "y": 1107 }
+    ],
+    "copa": [
+      { "name": "Bola da Copa (969, 1107)", "x": 969, "y": 1107 },
+      { "name": "Bola da Copa (851, 945)", "x": 851, "y": 945 }
     ]
   },
   "johto": {
