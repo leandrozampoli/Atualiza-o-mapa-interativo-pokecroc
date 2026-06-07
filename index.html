@@ -222,7 +222,7 @@
 
         const mapsConfig = {
             'kanto': { name: 'Kanto', image: 'mapa_kanto.jpg', width: 4858, height: 5221, minX: 322, maxX: 1536, minY: 568, maxY: 1873 },
-            'johto': { name: 'Johto', image: 'mapa_johto.png', width: 1600, height: 1400, minX: 1871, maxX: 3471, minY: 686, maxY: 2086 },
+            'johto': { name: 'Johto', image: 'mapa_johto.png', width: 1600, height: 1400, minX: 1898, maxX: 3498, minY: 686, maxY: 2086 },
             'hoenn': { name: 'Hoenn', image: 'mapa_hoenn.png', width: 1275, height: 977, minX: 1701, maxX: 2975, minY: 2198, maxY: 3174 },
             'aldia': { name: 'Aldia', image: 'mapa_aldia.png', width: 1294, height: 1064, minX: 225, maxX: 1516, minY: 1633, maxY: 2696 }
         };
@@ -262,12 +262,13 @@
             document.getElementById('msg-npc').innerHTML = "<span style='color:#00ff9d'>DB NPC OK.</span>";
         }, 'msg-npc');
 
-        // ADICIONE ESTE NO LUGAR:
         loadJSON(MAP_FEATURES_URL, (data) => {
             mapFeatures = data;
-            // Carrega as configurações dos filtros direto do JSON
+
+            // Configuração dos filtros vinda do JSON
             layerConfig = data.filtros_config || {};
-            loadMap('kanto');
+
+            loadMap('kanto');   
         }, 'layer-controls');
 
 
@@ -438,7 +439,7 @@
             if (config.type === 'text') {
                 return L.divIcon({
                     className: 'city-label-icon',
-                    html: `<span class="city-label-text" style="color:${config.color}">${item.name}</span>`,
+                    html: `<span class="city-label-text" style="color:${config.color || '#f1c40f'}">${item.name}</span>`,
                     iconSize: [100, 20], iconAnchor: [50, 10]
                 });
             } else if (config.type === 'sprite') {
@@ -482,9 +483,10 @@
                         }).bindPopup(`<b>${item.name}</b><br>X:${item.x}, Y:${item.y}`)
                     ));
                     layerGroups[layerKey] = layer;
-                    
-                    if (layerKey === 'cidades') mapInstance.addLayer(layer);
-                    createCheckbox(config.label, layerKey, (layerKey === 'cidades'));
+
+                    const isDefault = config.defaultOn === true;
+                    if (isDefault) mapInstance.addLayer(layer);
+                    createCheckbox(config.label, layerKey, isDefault);
                 }
             }
         }
@@ -493,11 +495,12 @@
             const div = document.getElementById('layer-controls');
             const labelEl = document.createElement('label');
             labelEl.className = 'layer-item';
-            let color = '#fff';
-            if (layerKey === 'cidades') color = '#f1c40f';
-            if (layerKey === 'lendarios') color = '#ff00ff';
+            
+            // Pega a cor dinâmica definida direto no seu JSON!
+            let color = layerConfig[layerKey]?.color || '#fff';
             labelEl.style.color = color;
-            // ALTERADO: Agora passa 'this' (o input) para a função toggleLayer
+            
+            // Passa o 'this' no toggleLayer para controlar a marcação com a senha
             labelEl.innerHTML = `<input type="checkbox" onchange="toggleLayer('${layerKey}', this)" ${isChecked ? 'checked' : ''}> ${label}`;
             div.appendChild(labelEl);
         }
