@@ -6,7 +6,8 @@
     "rocket": { "label": "Balão Rocket", "type": "pin", "cssClass": "pin-white", "color": "#ffffff", "ativo": false },
     "lendarios": { "label": "Lendários", "type": "sprite", "size": [50, 50], "color": "#ff00ff", "ativo": true },
     "carnaval": { "label": "Carnaval", "type": "pin", "cssClass": "pin-red", "color": "#ff4444", "ativo": false },
-    "copa": { "label": "Bola da Copa", "type": "pin", "cssClass": "pin-red", "color": "#ff8800", "ativo": true }
+    "copa": { "label": "Bola da Copa", "type": "pin", "cssClass": "pin-red", "color": "#ff8800", "ativo": true },
+    "teste": { "label": "teste", "type": "pin", "cssClass": "pin-red", "color": "#ff8800", "ativo": true }
   },
 
   "kanto": {
@@ -190,6 +191,18 @@
       { "name": "Bola da Copa (2371, 1121)", "x": 2371, "y": 1121 },
       { "name": "Bola da Copa (2815, 1164)", "x": 2815, "y": 1164 },
       { "name": "Bola da Copa (3014, 1343)", "x": 3014, "y": 1343 }
+    ],
+    "teste": [
+      { "name": "Cianwood", "x": 2107, "y": 1008 },
+      { "name": "Olivine", "x": 2342, "y": 1143 },
+      { "name": "Goldenrod", "x": 2424, "y": 1209 },
+      { "name": "Azalea", "x": 2581, "y": 1448 },
+      { "name": "Cherrygrove", "x": 2969, "y": 1301 },
+      { "name": "Violet", "x": 2815, "y": 1170 },
+      { "name": "Ecruteak", "x": 2735, "y": 1017 },
+      { "name": "Mahogany", "x": 2766, "y": 842 },
+      { "name": "Blackthorn", "x": 3168, "y": 954 },
+      { "name": "Saffari", "x": 2347, "y": 1742 }
     ]
   },
   "hoenn": {
