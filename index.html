@@ -147,32 +147,7 @@
         // 1. CONFIGURAÇÃO FÁCIL DE CAMADAS (FILTROS)
         // =========================================================
         // Adicione aqui novos tipos de pins se precisar.
-        const layerConfig = {
-            'cidades': { 
-                label: "Cidades", 
-                type: "text",   // 'text' cria o nome neon
-                color: "#f1c40f" 
-            },
-            'rocket': { 
-                label: "Balão Rocket", 
-                type: "pin",    // 'pin' cria a bolinha colorida
-                cssClass: "pin-white" 
-            },
-            'lendarios': { 
-                label: "Lendários", 
-                type: "sprite", // 'sprite' usa a imagem do pokemon definida no banco de dados que peguei no github do pokemon showdown kkkkkk
-                size: [50, 50]  // Tamanho do sprite
-            },
-            'carnaval': { 
-                label: "Carnaval", 
-                type: "pin", 
-                cssClass: "pin-red"
-            },
-
-            
-            // EXEMPLO: Se quisesemos adicionar o pin questx no futuro, era só descomentar a linha abaixo:
-            // 'questx': { label: "Quest x", type: "pin", cssClass: "pin-blue" }
-        };
+        let layerConfig = {};
 
         // =========================================================
         // 2. CONFIGURAÇÃO DOS MAPAS
@@ -186,7 +161,7 @@
             'johto': {
                 name: 'Johto', image: 'mapa_johto.png',
                 width: 1639, height: 1388,
-                minX: 1871, maxX: 3510, minY: 687, maxY: 2075   
+                minX: 1898, maxX: 3537, minY: 687, maxY: 2075   
             },
             'hoenn': {
                 name: 'Hoenn', image: 'mapa_hoenn.png',
@@ -201,9 +176,9 @@
         };
 
         // =========================================================
-        // 3. BANCO DE DADOS DE LOCAIS (USANDO AS CHAVES DA CONFIG)
+        // 3. BANCO DE DADOS DE LOCAIS (carregado do GitHub)
         // =========================================================
-        const mapFeatures = {
+        let mapFeatures = {}; /*
             'kanto': {
                 cidades: [
                     { name: "Pallet", x: 658, y: 1195 },
@@ -440,7 +415,7 @@
                     {name: "Toten Carnaval (641, 2601)", x: 641, y: 2601}
                 ]
             }
-        };
+        }; */
 
 // =========================================================
         // 4. BANCO DE DADOS POKEMON (VIA JSON EXTERNO)
@@ -473,6 +448,21 @@
                     console.error("Erro ao carregar JSON:", err);
                     const msgDiv = document.getElementById('msg-poke');
                     if(msgDiv) msgDiv.innerHTML = "<span style='color:red'>Erro ao carregar dados.</span>";
+                });
+        })();
+
+        const MAP_FEATURES_URL = "https://raw.githubusercontent.com/leandrozampoli/Atualiza-o-mapa-interativo-pokecroc/refs/heads/main/map_features.json";
+        (function carregarMapFeatures() {
+            fetch(`${MAP_FEATURES_URL}?t=${new Date().getTime()}`)
+                .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+                .then(data => {
+                    mapFeatures = data;
+                    layerConfig = data.filtros_config || {};
+                    loadMap('kanto');
+                })
+                .catch(e => {
+                    console.error("Erro ao carregar map_features:", e);
+                    document.getElementById('layer-controls').innerHTML = "<span style='color:red'>Erro ao carregar filtros.</span>";
                 });
         })();
 
@@ -621,22 +611,20 @@
             // Isso garante que a ordem e os nomes sejam os que definimos no topo
             for (let layerKey in layerConfig) {
                 const config = layerConfig[layerKey];
+                if (config.ativo === false) continue;
                 const items = features[layerKey];
 
                 if (items && items.length > 0) {
-                    const layer = L.layerGroup(items.map(item => 
-                        L.marker(gameToMap(item.x, item.y, mapId), { 
+                    const layer = L.layerGroup(items.map(item =>
+                        L.marker(gameToMap(item.x, item.y, mapId), {
                             icon: createDynamicIcon(item, config),
-                            zIndexOffset: (config.type === 'text' ? 1000 : 0) // Texto sempre por cima
+                            zIndexOffset: (config.type === 'text' ? 1000 : 0)
                         }).bindPopup(`<b>${item.name}</b><br>X:${item.x}, Y:${item.y}`)
                     ));
 
                     layerGroups[layerKey] = layer;
-                    
-                    // Adiciona Cidades por padrão
-                    if (layerKey === 'cidades') mapInstance.addLayer(layer);
-                    
-                    createCheckbox(config.label, layerKey, (layerKey === 'cidades'));
+                    if (config.defaultOn === true) mapInstance.addLayer(layer);
+                    createCheckbox(config.label, layerKey, config.defaultOn === true);
                 }
             }
 
@@ -648,10 +636,7 @@
             const labelEl = document.createElement('label');
             labelEl.className = 'layer-item'; // Classe para alinhar flexbox
             
-            // Cor do texto baseada na config
-            let color = '#fff';
-            if (layerKey === 'cidades') color = '#f1c40f';
-            if (layerKey === 'lendarios') color = '#ff00ff';
+            let color = layerConfig[layerKey]?.color || '#fff';
             
             labelEl.style.color = color;
             labelEl.innerHTML = `<input type="checkbox" onchange="toggleLayer('${layerKey}')" ${isChecked ? 'checked' : ''}> ${label}`;
@@ -670,7 +655,6 @@
             L.popup().setLatLng(e.latlng).setContent(`X: ${g.x}, Y: ${g.y}`).openOn(mapInstance);
         });
 
-        loadMap('kanto'); 
 
     </script>
     <script>
