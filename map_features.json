@@ -6,7 +6,6 @@
     "rocket": { "label": "Balão Rocket", "type": "pin", "cssClass": "pin-white", "color": "#ffffff", "ativo": false },
     "lendarios": { "label": "Lendários", "type": "sprite", "size": [50, 50], "color": "#ff00ff", "ativo": true },
     "carnaval": { "label": "Carnaval", "type": "pin", "cssClass": "pin-red", "color": "#ff4444", "ativo": false },
-    "copa": { "label": "Bola da Copa", "type": "pin", "cssClass": "pin-red", "color": "#ff8800", "ativo": true }
     "copa": { "label": "Bola da Copa", "type": "pin", "cssClass": "pin-red", "color": "#ff8800", "ativo": true },
     "teste": { "label": "teste", "type": "pin", "cssClass": "pin-red", "color": "#ff8800", "ativo": true }
   },
