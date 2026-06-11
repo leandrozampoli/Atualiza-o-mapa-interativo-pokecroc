@@ -131,7 +131,10 @@
       { "name": "Bola da Copa (1083, 862)", "x": 1083, "y": 862 },
       { "name": "Bola da Copa (730, 809)", "x": 730, "y": 809 },
       { "name": "Bola da Copa (857, 1421)", "x": 857, "y": 1421 },
-      { "name": "Bola da Copa (1107, 1026)", "x": 1107, "y": 1026 }
+      { "name": "Bola da Copa (1107, 1026)", "x": 1107, "y": 1026 },
+      { "name": "Bola da Copa (1091, 1214)", "x": 1091, "y": 1214 },
+      { "name": "Bola da Copa (1105, 1249)", "x": 1105, "y": 1249 },
+      { "name": "Bola da Copa (1053, 1021)", "x": 1053, "y": 1021 }
     ]
   },
   "johto": {
@@ -200,7 +203,9 @@
       { "name": "Bola da Copa (3014, 1343)", "x": 3014, "y": 1343 },
       { "name": "Bola da Copa (2572, 1455)", "x": 2572, "y": 1455 },
       { "name": "Bola da Copa (2424, 1269)", "x": 2424, "y": 1269 },
-      { "name": "Bola da Copa (2307, 1129)", "x": 2307, "y": 1129 }
+      { "name": "Bola da Copa (2307, 1129)", "x": 2307, "y": 1129 },
+      { "name": "Bola da Copa (2741, 813)", "x": 2741, "y": 813 },
+      { "name": "Bola da Copa (2954, 1296)", "x": 2954, "y": 1296 }
     ]
     
   },
